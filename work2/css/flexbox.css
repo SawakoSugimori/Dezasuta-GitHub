@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+/* １、幅960pxの中に、300pxの青い四角形を3つ並べましょう。その際、隙間は等間隔に取りましょう。*/
+.blue-boxes {
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+    margin: 50px auto;
+}
+.blue-box {
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+}
+
+/* ２、幅960pxの中に、300pxの赤い四角形を6つ並べましょう。等間隔に並べて3つ目以降は折り返すように作成しましょう。 */
+.red-boxes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 960px;
+    margin: 0 auto;
+}
+.red-box {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    margin: 10px 0;
+}
+
+/* ３、「フレックスボックス練習画像.png」を実装してみよう。全体幅は960pxとする。
+初めにcssのリセットをかけること。今回はフレックスボックスの勉強であるため、font-sizeやpaddingなどは任意の値とする。
+ナビゲーションメニューは<ul><li>でマークアップすること。 */ 
+header {
+    padding: 10px;
+    /*全体を中央に配置*/
+    max-width: 960px;
+    margin: 0 auto;
+    /*タイトルとナビを横並びにする*/
+    display: flex;
+    /*タイトルとナビをそれぞれ両端に寄せる*/
+    justify-content: space-between;
+    /*縦方向中央揃え*/
+    align-items: center;
+}
+.nav-title {
+    font-weight: bold;
+    font-size: 1.75rem;
+}
+.global-nav {
+    display: flex;
+}
+.nav-item {
+    padding: 0 10px;
+
+}
+/*ナビの縦線の表示.隣接セレクタでは、+の後にくる要素に対してだけスタイルを適用できる*/
+.nav-item + .nav-item {
+    border-left: 1px solid #000;
+}
+
+/* 1,Work1　問題3で作ったメニューを767px以下の画面サイズで「レスポンシブ.png」のように要素を縦並びに変更してみよう。
+右のborderは消す。下にborderをつける。padding、marginなどは任意。 */
+@media screen and (max-width: 767px) {
+    header {
+        display: block;
+    }
+    .global-nav {
+        display: block;
+    }
+    .nav-title {
+        margin: 10px 0;
+    }
+    .nav-item {
+        border-bottom: 1px solid #000;
+        padding: 10px 0;
+    }
+    .nav-item + .nav-item {
+        border-left: 0;
+    }
+}
