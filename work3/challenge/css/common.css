@@ -1,0 +1,45 @@
+@charset "UTF-8";
+body {
+    margin: 45px 20px;
+    line-height: 1.8;
+    background-color: white;
+    color: #444;
+    font-size: 15px;
+}
+
+/* global navigation */
+.global-nav {
+    display: flex;
+    justify-content: center;
+}
+.main-menu {
+    position: relative;
+}
+.main-link {
+    display: block;
+    padding: 10px 20px
+}
+.main-link:hover {
+    color: lightblue;
+}
+/* Dropdown Menu, Hidden by default */
+.drop-menu {
+    position: absolute;
+    background-color: #f1f1f1;
+    /* 「:hover」などの擬似クラスと組み合わせて利用するとアニメーションが発生 */
+    transition: all .5s;
+}
+.drop-menu-link {
+    padding: 10px 5px;
+    display: block;
+    /* ドロップダウンメニューを消す。デフォルトの設定*/
+    display: none;
+    transition: all .3s;
+}
+.drop-menu-link:hover {
+    color: lightblue;
+}
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.drop-menu-link.open {
+    display: block;
+}
