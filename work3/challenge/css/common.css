@@ -5,19 +5,27 @@ body {
     background-color: white;
     color: #444;
     font-size: 15px;
+    font-family: Georgia, '游明朝', YuMincho, 'Hiragino Mincho ProN', Meiryo, serif;
 }
-
+h1, h2, ul li {
+    font-family: Georgia, '游明朝', YuMincho, 'Hiragino Mincho ProN', Meiryo, serif; 
+}
+.page {
+    margin: 0 60px;
+}
+.site-top {
+    margin-bottom: 70px;
+}
 /* global navigation */
 .global-nav {
     display: flex;
-    justify-content: center;
 }
 .main-menu {
     position: relative;
 }
 .main-link {
     display: block;
-    padding: 10px 20px
+    padding: 10px 30px 10px 0;
 }
 .main-link:hover {
     color: lightblue;
@@ -42,4 +50,97 @@ body {
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .drop-menu-link.open {
     display: block;
+}
+
+.pagenation {
+    margin-bottom: 30px;
+}
+
+
+/* footer */
+footer {
+    padding-top: 75px;
+    border-top: #999 solid 1px;
+}
+.footer-widget-side {
+    margin-bottom: 75px;
+}
+.footer-profile {
+    display: flex;
+}
+.fa-image {
+    margin-right: 18px;
+    margin-bottom: 20px;
+}
+/* icons */
+.fa-brands {
+    color: #999;
+    padding-right: 12px;
+}
+.table-cell {
+    margin-bottom: 75px;
+}
+.table-cell h2 {
+    margin-bottom: 30px;
+    font-size: 1.125rem;
+}
+.table-cell ul li {
+    line-height: 1.7;
+    margin-bottom: 14px;
+}
+.table-cell ul li a {
+    border-bottom: #ddd solid 1px;
+}
+.post-date {
+    display: block;
+    margin-top: 4px;
+    color: #ddd;
+}
+.footer-bottom {
+    padding-top: 45px;
+    color: #999;
+    border-top: #999 solid 1px;
+}
+.footer-bottom a {
+    color: #666;
+}
+.footer-social-links {
+    margin-bottom: 25px;
+}
+.site-info {
+    margin-bottom: 25px;
+}
+
+/*Responsive*/
+@media screen and (min-width: 979px) {
+    .footer-widget-main {
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-widget-side {
+        width: 32.36%;
+        margin-bottom: 75px;
+    }
+    .table-cell {
+        display: table-cell;
+    }
+}
+@media screen and (max-width: 767px) {
+    body {
+        /* Delete margin of the body */
+        margin: 45px 20px;
+    }
+    .page {
+        margin: 0;
+    }
+    .site-top {
+        margin-bottom: 50px;
+    }
+    .footer-widget-table {
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-widget-table {
+        flex-wrap: wrap;
+    }
 }

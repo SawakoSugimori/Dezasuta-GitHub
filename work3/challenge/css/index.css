@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+.header-img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 75px;
+}
+.home-text {
+    padding-bottom: 25px;
+    margin-bottom: 90px;
+    font-size: 27px;
+}
+article {
+    margin-bottom: 60px;
+}
+.article-header {
+    margin-bottom: 24px;
+}
+.article-header div {
+    margin-bottom: 8px;
+}
+.article-summery {
+    margin-bottom: 24px;
+}
+
+@media screen and (max-width: 768px) {
+    .header-img {
+        /* 画像を親要素に重ねて表示。参考：https://homemadegarbage.com/negative-margin-notwork*/
+        max-width: none;
+        margin: 0 -20px 60px -20px;
+    }
+    .home-text {
+        padding-bottom: 10px;
+        margin-bottom: 60px;
+        font-size: 23px;
+    }
+}
