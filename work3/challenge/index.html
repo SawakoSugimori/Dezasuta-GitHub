@@ -19,37 +19,46 @@
 <div class="page">
     <header>
         <div class="site-top">
-            <div class="site-branding">
-                <h1 class="site-title"><a href="./index.html">Write</a></h1>
-                <div class="site-desc">書くためのテーマ</div>
-            </div><!-- site-branding -->
-            <nav>
-                <ul class="global-nav">
-                    <li class="main-menu dropdown">
-                        <a href="" class="main-link">ホーム</a>
-                        <ul class="drop-menu">
-                            <li><a href="" class="drop-menu-link">カスタマイズ</a></li>
-                        </ul>
-                    </li><!-- main-menu -->
+            <div class="header-inner">
+                <div class="site-branding">
+                    <h1 class="site-title"><a href="./index.html">Write</a></h1>
+                    <div class="site-desc">書くためのテーマ</div>
+                </div><!-- site-branding -->
+                <nav class="header-nav" id="js-nav">
+                    <ul class="global-nav">
+                        <li class="main-menu dropdown">
+                            <a href="" class="main-link">ホーム<i class="fa-solid fa-chevron-down fa-sm"></i></a>
+                            <ul class="drop-menu">
+                                <li><a href="" class="drop-menu-link">カスタマイズ</a></li>
+                            </ul>
+                        </li><!-- main-menu -->
 
-                    <li class="main-menu dropdown">
-                        <a href="" class="main-link">ページ</a>
-                        <ul class="drop-menu">
-                            <li><a href="" class="drop-menu-link">アイキャッチ画像無しのページ</a></li>
-                            <li><a href="" class="drop-menu-link">ページ（全幅テンプレート）</a></li>
-                        </ul>
-                    </li><!-- main-menu -->
+                        <li class="main-menu dropdown">
+                            <a href="" class="main-link">ページ<i class="fa-solid fa-chevron-down fa-sm"></i></a>
+                            <ul class="drop-menu">
+                                <li><a href="" class="drop-menu-link">アイキャッチ画像無しのページ</a></li>
+                                <li><a href="" class="drop-menu-link">ページ（全幅テンプレート）</a></li>
+                            </ul>
+                        </li><!-- main-menu -->
 
-                    <li class="main-menu">
-                        <a href="" class="main-link">タイポグラフィー</a>
-                    </li><!-- nav-item -->
+                        <li class="main-menu">
+                            <a href="" class="main-link">タイポグラフィー</a>
+                        </li><!-- nav-item -->
 
-                    <li class="main-menu">
-                        <a href="" class="main-link">お問い合わせ</a>
-                    </li><!-- main-menu -->
-                </ul><!-- global-nav -->
-            </nav>
-        </div><!-- site-top -->
+                        <li class="main-menu">
+                            <a href="" class="main-link">お問い合わせ</a>
+                        </li><!-- main-menu -->
+                    </ul><!-- global-nav -->
+                </nav>
+                
+                <!-- hamburger button -->
+                <button class="header-hamburger hamburger" id="js-hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div><!-- header-inner -->
+        </div><!-- site-top-->
         <div class="header-img">
             <img src="http://demo.themegraphy.com/write-ja/wp-content/uploads/sites/14/2018/06/cropped-nicole-honeywill-730102-unsplash.jpg" alt="Home Image">
         </div><!-- header-img -->
@@ -71,7 +80,7 @@
 
         <article>
             <div class="article-header">
-                <div><a href="#">2018年3月5日<time datetime=""></time></a></div>
+                <div><a href="#"><time datetime="">2018年3月5日</time></a></div>
                 <h2><a href="">引用付きの投稿</a></h2>
             </div><!-- .article-header -->
             <div class="article-summery">
@@ -81,7 +90,7 @@
 
         <article>
             <div class="article-header">
-                <div><a href="#">2018年3月5日<time datetime=""></time></a></div>
+                <div><a href="#"><time datetime="">2018年3月5日</time></a></div>
                 <h2><a href="">コメント付きの投稿</a></h2>
             </div><!-- .article-header -->
             <div class="article-summery">
@@ -90,9 +99,9 @@
         </article>
         
         <nav class="pagination" >
-            <div class="nav-links">
+            <div class="page-link">
                 <a href="#" class="next">次へ ≫</a>
-            </div><!-- .nav-links-->
+            </div><!-- .page-link-->
         </nav>
     </div><!-- .site-content -->
 

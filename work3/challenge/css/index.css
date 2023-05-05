@@ -3,7 +3,7 @@
 .header-img {
     max-width: 100%;
     height: auto;
-    margin-bottom: 75px;
+    margin: 75px 0;
 }
 .home-text {
     padding-bottom: 25px;
@@ -21,6 +21,9 @@ article {
 }
 .article-summery {
     margin-bottom: 24px;
+}
+.article-header time {
+    color: #999;
 }
 
 @media screen and (max-width: 768px) {
