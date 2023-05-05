@@ -165,11 +165,6 @@ footer {
         margin-bottom: 50px;
         width: 100%;
         height: 50px;
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        z-index: 999;
     }
 
     .header-inner {
@@ -180,18 +175,20 @@ footer {
         position: relative;
         /* background-color: #f1f1f1; ハンバーガーメニュークリック時のナビメニュー背景色 */
         transition: ease .4s; /* ハンバーガーメニュークリック時のナビゲーションメニュー出現を遅らせる*/
-        transform: translateY(-20%); 
     }
     .header-hamburger {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 5;
+        z-index: 9999;
         width: 48px;
-        height: 100%;
     }
     .hamburger {
-        display: block;
+        display: inline-block;
         padding-top: 10px;
         background-color: transparent; /* Delete the default settiing of a bottun*/
         border-color: transparent;
-        z-index: 9999;
     }
     .hamburger span {
         width: 100%;
@@ -237,7 +234,7 @@ footer {
         right: 0;
         left: 0;
         top: 0;
-        width: 100%;
+        margin: -45px -20px;
         height: 100vh;
         display: block;
         background-color: rgba(255, 255, 255, 0.9);

@@ -31,6 +31,8 @@ article {
         /* 画像を親要素に重ねて表示。参考：https://homemadegarbage.com/negative-margin-notwork*/
         max-width: none;
         margin: 0 -20px 60px -20px;
+
+        margin: 50px 0;
     }
     .home-text {
         padding-bottom: 10px;
