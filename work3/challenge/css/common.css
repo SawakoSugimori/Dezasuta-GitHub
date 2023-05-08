@@ -52,7 +52,7 @@ p {
     /* 「:hover」などの擬似クラスと組み合わせて利用するとアニメーションが発生 */
 }
 .drop-menu-link {
-    border: lightgray solid 1px;
+    border: 1px silid lightgray;
     background-color: white;
     padding: 10px 5px;
     display: block;
@@ -73,7 +73,7 @@ p {
     margin-bottom: 60px;
 }
 .page-link a {
-    border: lightgray solid 1px;
+    border: 1px solid lightgray;
     border-radius: 2px;
     padding: 8px;
 }
@@ -81,7 +81,7 @@ p {
 /* footer */
 footer {
     padding-top: 75px;
-    border-top: solid 1px #e6e6e6;
+    border-top: 1px solid #e6e6e6;
 }
 .footer-widget-side {
     margin-bottom: 75px;
@@ -113,7 +113,7 @@ footer {
     margin-bottom: 14px;
 }
 .table-cell ul li a {
-    border-bottom: #ddd solid 1px;
+    border-bottom: 1px solid #ddd;
 }
 .post-date {
     display: block;
@@ -123,7 +123,7 @@ footer {
 .footer-bottom {
     padding-top: 45px;
     color: #999;
-    border-top: solid 1px #e6e6e6;
+    border-top: 1px solid #e6e6e6;
 }
 .footer-bottom a {
     color: #666;
@@ -136,7 +136,7 @@ footer {
 }
 
 .search input {
-    border: #ddd solid 1px;
+    border: 1px solid #ddd;
     padding: 8px;
     width: 300px;
     margin-top: 60px;
