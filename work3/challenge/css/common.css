@@ -264,7 +264,12 @@ footer {
         padding-right: 0;
         display: inline;
         line-height: 1.7;
-
+    }
+    .drop-menu {
+        position: static;
+        visibility: visible;
+        opacity: 1;
+        transition: none;
     }
     /* footer */
     .footer-widget-table {
