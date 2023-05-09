@@ -1,5 +1,5 @@
 @charset "UTF-8";
-.service {
+body {
     margin: 45px 20px;
     line-height: 1.8;
     background-color: white;
@@ -35,6 +35,10 @@ p {
     padding: 0 4px;
     margin: 0 4px;
 }
+.main-menu:hover .drop-menu {
+    visibility: visible;
+    opacity: 1;
+}
 .main-link {
     color: #666;
     display: block;
@@ -48,16 +52,16 @@ p {
 /* Dropdown Menu, Hidden by default */
 .drop-menu {
     position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    /* ホバー時の動きを遅くする */
     transition: ease .4s;
-    /* 「:hover」などの擬似クラスと組み合わせて利用するとアニメーションが発生 */
 }
 .drop-menu-link {
     border: 1px silid lightgray;
     background-color: white;
     padding: 10px 5px;
     display: block;
-    /* ドロップダウンメニューを消す。デフォルトの設定*/
-    display: none;
 
 }
 .drop-menu-link:hover {
@@ -65,9 +69,9 @@ p {
     transition: ease .4s;
 }
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.drop-menu-link.open {
+/* .drop-menu-link.open {
     display: block;
-}
+} */
 
 .pagination {
     margin-bottom: 60px;
