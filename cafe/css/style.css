@@ -70,6 +70,7 @@ header {
 /* About us */
 .about {
     display: flex;
+    margin-bottom: 95px;
 }
 .about_pic {
     margin-right: 80px;
@@ -96,4 +97,36 @@ header {
     width: 410px;
     font-size: 16px;
     line-height: 1.6;
+}
+
+/* Menu */
+.menu {
+    margin-bottom: 80px;
+}
+.menu h2 {
+    width: 151px;
+    margin: 0 auto;
+    margin-bottom: 38px;
+}
+.menus {
+    display: flex;
+    justify-content: space-between;
+}
+.menu_item + .menu_item {
+    margin-right: 5px;
+}
+.menu_item {
+    width: 30%;
+}
+.menu_item img {
+    border-top-right-radius: 30px;
+}
+.menu_item h3 {
+    font-size: 38px;
+    color: #d30202;
+    margin: -10px 0 10px 5px;
+}
+.menu_item p {
+    font-size: 17px;
+    line-height: 1.4;
 }
