@@ -3,7 +3,10 @@ body {
     background-color: #e8d9bf;
 }
 
-section, .home_intro {
+.home_intro,
+.about,
+.menu,
+.event {
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -129,4 +132,17 @@ header {
 .menu_item p {
     font-size: 17px;
     line-height: 1.4;
+}
+
+/* Gallery */
+.gallery {
+    margin-bottom: 60px;
+}
+.gallery h2 {
+    width: 245px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.gallery_items {
+    display: flex;
 }
