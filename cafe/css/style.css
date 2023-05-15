@@ -1,5 +1,16 @@
 @charset "UTF-8";
+body {
+    background-color: #e8d9bf;
+}
+
+section, .home_intro {
+    max-width: 1000px;
+    margin: 0 auto;
+}
 /* header */
+header {
+    margin-bottom: 105px;
+}
 .header_wrap {
     position: absolute;
     top: 0;
@@ -28,3 +39,32 @@
     font-size: 18px;
     font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;    text-align: center;
 }
+
+/* home_intro */
+ .home_intro {
+    text-align: center;
+    margin-bottom: 100px;
+ }
+
+ .home_intro .sub {
+    font-size: 30px;
+    margin-bottom: 60px;
+ }
+
+ .home_intro .main {
+    font-size: 82px;
+
+    max-width: 883px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    line-height: 1.1;
+ }
+
+ .home_intro p {
+    font-size: 23px;
+    max-width: 852px;
+    margin: 0 auto;
+    line-height: 1.6;
+ }
+
+/* About us */
