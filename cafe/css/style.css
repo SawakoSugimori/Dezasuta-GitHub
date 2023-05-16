@@ -13,6 +13,7 @@ body {
     padding-left: 10px;
     padding-right: 10px;
 }
+
 /* header */
 header {
     margin-bottom: 105px;
@@ -60,7 +61,7 @@ header {
  .home_intro .main {
     font-size: 82px;
 
-    max-width: 883px;
+    max-width: 90%;
     margin: 0 auto;
     margin-bottom: 50px;
     line-height: 1.1;
@@ -68,7 +69,7 @@ header {
 
  .home_intro p {
     font-size: 23px;
-    max-width: 852px;
+    max-width: 85%;
     margin: 0 auto;
     line-height: 1.6;
  }
