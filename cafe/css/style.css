@@ -29,15 +29,12 @@ header {
     align-items: center;
     padding: 10px 7% 0 3%;
 }
-
 .header_logo {
     width: 226px;
 }
-
 .pc_nav ul {
     display: flex;
 }
-
 .pc_nav ul li {
     width: 105px;
     margin-left: 55px;
@@ -54,12 +51,10 @@ header {
     text-align: center;
     margin-bottom: 100px;
 }
-
 .home_intro .sub {
     font-size: 30px;
     margin-bottom: 60px;
 }
-
 .home_intro .main {
     font-size: 82px;
 
@@ -68,7 +63,6 @@ header {
     margin-bottom: 50px;
     line-height: 1.1;
 }
-
 .home_intro p {
     font-size: 23px;
     max-width: 85%;
