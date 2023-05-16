@@ -231,3 +231,11 @@ footer h3 {
 .footer_credit p {
     text-align: center;
 }
+
+/* PAGE TOP */
+.pagetop {
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    width: 125px;
+}
