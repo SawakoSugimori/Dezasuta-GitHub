@@ -44,35 +44,37 @@ header {
     color: #fff;
     font-weight: bold;
     font-size: 18px;
-    font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;    text-align: center;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ",
+        "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
+    text-align: center;
 }
 
 /* home_intro */
- .home_intro {
+.home_intro {
     text-align: center;
     margin-bottom: 100px;
- }
+}
 
- .home_intro .sub {
+.home_intro .sub {
     font-size: 30px;
     margin-bottom: 60px;
- }
+}
 
- .home_intro .main {
+.home_intro .main {
     font-size: 82px;
 
     max-width: 90%;
     margin: 0 auto;
     margin-bottom: 50px;
     line-height: 1.1;
- }
+}
 
- .home_intro p {
+.home_intro p {
     font-size: 23px;
     max-width: 85%;
     margin: 0 auto;
     line-height: 1.6;
- }
+}
 
 /* About us */
 .about {
@@ -184,7 +186,7 @@ header {
 .event_date {
     margin-right: 50px;
 }
-.event_info a{
+.event_info a {
     text-decoration: underline;
 }
 
@@ -233,7 +235,7 @@ footer h3 {
     margin-top: 5px;
     margin-bottom: 20px;
 }
-.footer_credit { 
+.footer_credit {
     color: #000000;
     font-size: 16px;
 }
