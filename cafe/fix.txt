@@ -1,0 +1,25 @@
+＜cafeサイトの修正点＞
+- html 111行目にaltタグを追加する
+- html, cssのフォーマッターを有効化する
+- cssの改行を修正
+- imgタグ（インライン要素）にdivを追加し、ブロック要素にし、flexで横並びにする
+- font-feature-settings: "palt"を追加
+
+home_introについて
+- marginの調整
+- letter-spacing: 0.1em を入れる
+- line-height: 1.2を入れる
+- .main, .subのmax-widthを削除し、brで改行を入れる
+
+ABOUT USについて
+- .about_picにwidth: 50%を追加。縮めても比率が崩れないようにする
+- .about_contentの幅を43%にする
+- クラス名変更
+- マージン変更
+- 横幅変更
+- .about_copyのletter-spacing削除
+‐ 写真変更
+
+MENUについて
+- font-weight:normal
+- 写真の角の値を直す
