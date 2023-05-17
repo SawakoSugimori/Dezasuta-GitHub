@@ -53,21 +53,20 @@ header {
 }
 .home_intro .sub {
     font-size: 30px;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 .home_intro .main {
     font-size: 82px;
-
-    max-width: 90%;
     margin: 0 auto;
-    margin-bottom: 50px;
-    line-height: 1.1;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.1em;
 }
 .home_intro p {
     font-size: 23px;
-    max-width: 85%;
     margin: 0 auto;
     line-height: 1.6;
+    letter-spacing: 0.1em;
 }
 
 /* About us */
