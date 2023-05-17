@@ -213,7 +213,7 @@ footer {
 }
 .footer_flex {
     display: flex;
-    margin-bottom: 70px;
+    margin-bottom: 60px;
 }
 footer h3 {
     width: 226px;
@@ -223,15 +223,13 @@ footer h3 {
     color: #000000;
     font-size: 20px;
 }
-.footer_content div {
+.footer_content p {
     margin-top: 5px;
     margin-bottom: 20px;
 }
 .footer_credit {
     color: #000000;
     font-size: 16px;
-}
-.footer_credit p {
     text-align: center;
 }
 
