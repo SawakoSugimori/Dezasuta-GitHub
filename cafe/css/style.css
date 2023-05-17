@@ -62,7 +62,7 @@ header {
     line-height: 1.2;
     letter-spacing: 0.1em;
 }
-.home_intro p {
+.home_intro .intro_desc {
     font-size: 23px;
     margin: 0 auto;
     line-height: 1.6;
@@ -100,7 +100,6 @@ header {
     margin-bottom: 19px;
 }
 .about_desc {
-    width: 100%;
     font-size: 16px;
     line-height: 1.6;
 }
@@ -191,18 +190,22 @@ header {
     margin: 0 auto;
     margin-bottom: 37px;
 }
-.access_map {
-    position: relative;
+/* .access_map {
+    position: relative; 
     width: 100%;
     height: 0;
-    padding-top: 471px;
-}
+    padding-top: 471px; 
+} */
 .access iframe {
-    position: absolute;
+    /* position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 100%; */
+    width: 100%;
+    height: 471px;
+    /* mapの下の余白削除 */
+    display: block;
 }
 
 /* Footer */
