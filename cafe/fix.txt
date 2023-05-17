@@ -1,11 +1,17 @@
 ＜cafeサイトの修正点＞
+*divはレイアウト用なので、文章にはpタグを使う
+*marginを細かく調整する
+
+全体について
 - html 111行目にaltタグを追加する
 - html, cssのフォーマッターを有効化する
 - cssの改行を修正
 - imgタグ（インライン要素）にdivを追加し、ブロック要素にし、flexで横並びにする
 - font-feature-settings: "palt"を追加
+- scroll-behavior:smooth;を追加
 
 home_introについて
+- divタグをpタグに変更
 - marginの調整
 - letter-spacing: 0.1em を入れる
 - line-height: 1.2を入れる
@@ -20,6 +26,15 @@ ABOUT USについて
 - .about_copyのletter-spacing削除
 ‐ 写真変更
 
+MAPについて
+- 違う方法でcssを書く
+
 MENUについて
 - font-weight:normal
 - 写真の角の値を直す
+
+Eventについて
+- height削除
+
+footerについて
+- divタグをpタグに変更
