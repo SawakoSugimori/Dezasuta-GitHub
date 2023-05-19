@@ -253,6 +253,32 @@ footer h3 {
         display: none;
     }
     /* hamburger */
+    .sp_nav {
+        /* 位置指定 */
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        /* 100%にすると、親要素に対して100%の表示になる */
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    .sp_nav ul {
+        display: flex;
+        /* 縦方向に並べる。デフォルトではrow*/
+        flex-direction: column;
+        /* flex-direction: column;によってjustify-contentが縦方向の指定に変わる*/
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    .sp_nav ul li {
+        padding: 20px 0;
+        color: #fff;
+        font-size: 18px;
+        font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic",
+            "メイリオ", "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
+    }
     .sp_btn {
         display: block;
         position: absolute;
