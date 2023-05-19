@@ -269,6 +269,8 @@ footer h3 {
         height: 3px;
         border-radius: 2px;
         background-color: #fff;
+        /* ボタンを押したときの変化速度 */
+        transition: 0.3s;
     }
     .sp_btn span::before,
     .sp_btn span::after {
@@ -279,6 +281,8 @@ footer h3 {
         height: 3px;
         border-radius: 2px;
         background-color: #fff;
+        /* ボタンを押したときの変化速度 */
+        transition: 0.3s;
     }
     .sp_btn span::before {
         /* 真ん中の線から上に10px移動させる */
