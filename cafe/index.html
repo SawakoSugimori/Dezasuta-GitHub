@@ -19,7 +19,10 @@
     <!-- header -->
     <header id="header">
         <div class="header_slider">
-            <div><img src="images/pc_first-100.jpg" alt="店内の様子"></div>
+            <picture>
+                <source srcset="images/sp_main_vs@2x-100.jpg" media="(max-width: 767px)">
+                <img src="images/pc_first-100.jpg" alt="店内の様子">
+            </picture>
         </div>
         <div class="header_wrap">
             <h1 class="header_logo"><img src="images/design_cafe_logo_header@2x.png" alt="DESIGNCAFE"></h1>
@@ -54,7 +57,11 @@
     <!-- About Us -->
     <section id="about" class="about">
         <div class="about_pic">
-            <img src="./images/pc_about-100.jpg" alt="コーヒーの写真">
+            <picture>
+                <!-- スマホ版の写真 -->
+                <source srcset="">
+                <img src="./images/pc_about-100.jpg" alt="コーヒーの写真">
+            </picture>
         </div><!-- .about_pic -->
         <div class="about_content">
             <h2><img src="./images/about_us@2x.png" alt="ABOUT US"></h2>
