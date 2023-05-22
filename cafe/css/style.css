@@ -64,6 +64,9 @@ header {
     header {
         margin-bottom: 80px;
     }
+    .header_logo {
+        width: 188px;
+    }
 }
 
 /* home_intro */
