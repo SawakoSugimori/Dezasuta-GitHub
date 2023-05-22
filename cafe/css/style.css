@@ -162,6 +162,7 @@ header {
 @media screen and (max-width: 767px) {
     .about {
         flex-direction: column;
+        margin-bottom: 40px;
     }
     .about .sp_about {
         display: block;
@@ -172,7 +173,7 @@ header {
     .about_pic {
         width: initial;
         margin: 0 -20px;
-        margin-bottom: 30px;
+        margin-bottom: 33px;
     }
     .about_pic img {
         border-bottom-right-radius: 0;
@@ -183,6 +184,12 @@ header {
     }
     .about_copy {
         font-size: 36px;
+        line-height: 1.25;
+        margin-bottom: 17px;
+    }
+    .about_desc {
+        line-height: 1.75;
+        text-align: justify;
     }
 }
 
