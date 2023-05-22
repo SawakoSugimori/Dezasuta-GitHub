@@ -14,6 +14,17 @@ body {
     padding-right: 10px;
 }
 
+@media screen and (max-width: 767px) {
+    .home_intro,
+    .about,
+    .menu,
+    .event,
+    .footer_container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
 /* header */
 header {
     margin-bottom: 105px;
