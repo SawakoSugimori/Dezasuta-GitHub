@@ -62,7 +62,7 @@ header {
 }
 @media screen and (max-width: 767px) {
     header {
-        margin-bottom: 80px;
+        margin-bottom: 43px;
     }
     .header_logo {
         width: 188px;
@@ -100,6 +100,25 @@ header {
     }
     .pc_only {
         display: none;
+    }
+    .home_intro {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .home_intro .sub {
+        font-size: 17px;
+        margin-bottom: 23px;
+    }
+    .home_intro .main {
+        font-size: 38px;
+        margin: 0 -20px 13px -20px;
+        line-height: 1.2;
+        letter-spacing: -0.1px;
+    }
+    .home_intro .intro_desc {
+        font-size: 16px;
+        margin: 0 -10px;
+        line-height: 1.8;
     }
 }
 
