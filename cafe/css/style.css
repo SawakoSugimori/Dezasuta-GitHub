@@ -49,6 +49,11 @@ header {
 .sp_btn {
     display: none;
 }
+@media screen and (max-width: 767px) {
+    header {
+        margin-bottom: 80px;
+    }
+}
 
 /* home_intro */
 .home_intro {
@@ -83,6 +88,7 @@ header {
         display: none;
     }
 }
+
 /* About us */
 .about {
     display: flex;
@@ -116,6 +122,35 @@ header {
 .about_desc {
     font-size: 16px;
     line-height: 1.6;
+}
+.sp_about {
+    display: none;
+}
+@media screen and (max-width: 767px) {
+    .about {
+        flex-direction: column;
+    }
+    .about .sp_about {
+        display: block;
+        width: 160px;
+        margin: 0 auto;
+        margin-bottom: 12px;
+    }
+    .about_pic {
+        width: initial;
+        margin: 0 -10px;
+        margin-bottom: 30px;
+    }
+    .about_pic img {
+        border-bottom-right-radius: 0;
+    }
+    .about_content {
+        width: 100%;
+        padding: 0;
+    }
+    .about_copy {
+        font-size: 36px;
+    }
 }
 
 /* Menu */
