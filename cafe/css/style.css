@@ -13,7 +13,6 @@ body {
     padding-left: 10px;
     padding-right: 10px;
 }
-
 @media screen and (max-width: 767px) {
     .home_intro,
     .about,
@@ -143,9 +142,9 @@ header {
     padding-left: 9%;
 }
 .about h2 {
-    margin-top: 60px;
-    margin-bottom: 40px;
     width: 272px;
+    margin: 0 auto;
+    margin-bottom: 40px;
 }
 .about_copy {
     font-size: 44px;
