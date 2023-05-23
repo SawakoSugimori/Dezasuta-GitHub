@@ -162,7 +162,7 @@ header {
 @media screen and (max-width: 767px) {
     .about {
         flex-direction: column;
-        margin-bottom: 40px;
+        margin-bottom: 43px;
     }
     .about .sp_about {
         display: block;
@@ -224,6 +224,35 @@ header {
 .menu_item p {
     font-size: 17px;
     line-height: 1.4;
+}
+@media screen and (max-width: 767px) {
+    .menu {
+        margin-bottom: 80px;
+    }
+    .menu h2 {
+        width: 88px;
+        margin: 0 auto;
+        margin-bottom: 17px;
+    }
+    .menus {
+        display: block;
+        padding: 0 5%;
+    }
+    .menu_item {
+        width: 100%;
+    }
+    .menu_item h3 {
+        font-weight: normal;
+        font-size: 40px;
+        color: #d30202;
+        margin: -12px 0 13px 10px;
+    }
+    .menu_item p {
+        font-size: 17px;
+        line-height: 1.6;
+        margin-bottom: 55px;
+        text-align: justify;
+    }
 }
 
 /* Gallery */
