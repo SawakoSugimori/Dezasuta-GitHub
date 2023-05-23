@@ -427,6 +427,13 @@ footer h3 {
     bottom: 40px;
     width: 125px;
 }
+@media screen and (max-width: 767px) {
+    .pagetop {
+        width: 100px;
+        right: 10px;
+        bottom: 190px;
+    }
+}
 
 @media screen and (max-width: 1100px) {
     /* nav */
