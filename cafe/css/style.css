@@ -360,6 +360,16 @@ header {
     display: block;
 }
 
+@media screen and (max-width: 767px) {
+    .access h2 {
+        width: 124px;
+        margin-bottom: 5px;
+    }
+    .access iframe {
+        height: 191px;
+    }
+}
+
 /* Footer */
 footer {
     background-color: #fff;
