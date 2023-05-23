@@ -93,6 +93,14 @@ header {
 .sp_only {
     display: none;
 }
+@media screen and (max-width: 1100px) {
+    .home_intro .main {
+        font-size: 65px;
+    }
+    .home_intro .intro_desc {
+        font-size: 20px;
+    }
+}
 @media screen and (max-width: 767px) {
     .sp_only {
         display: block;
@@ -143,7 +151,6 @@ header {
 }
 .about h2 {
     width: 272px;
-    margin: 0 auto;
     margin-bottom: 40px;
 }
 .about_copy {
@@ -154,6 +161,7 @@ header {
 .about_desc {
     font-size: 16px;
     line-height: 1.6;
+    text-align: justify;
 }
 .sp_about {
     display: none;
@@ -167,6 +175,7 @@ header {
         display: block;
         width: 160px;
         margin-bottom: 12px;
+        margin: 0 auto;
     }
     .about_pic {
         width: initial;
@@ -187,7 +196,6 @@ header {
     }
     .about_desc {
         line-height: 1.75;
-        text-align: justify;
     }
 }
 
