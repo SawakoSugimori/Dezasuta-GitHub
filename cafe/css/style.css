@@ -167,7 +167,6 @@ header {
     .about .sp_about {
         display: block;
         width: 160px;
-        margin: 0 auto;
         margin-bottom: 12px;
     }
     .about_pic {
@@ -226,9 +225,6 @@ header {
     line-height: 1.4;
 }
 @media screen and (max-width: 767px) {
-    .menu {
-        margin-bottom: 80px;
-    }
     .menu h2 {
         width: 88px;
         margin: 0 auto;
@@ -242,14 +238,9 @@ header {
         width: 100%;
     }
     .menu_item h3 {
-        font-weight: normal;
-        font-size: 40px;
-        color: #d30202;
-        margin: -12px 0 13px 10px;
+        margin-bottom: 13px;
     }
     .menu_item p {
-        font-size: 17px;
-        line-height: 1.6;
         margin-bottom: 55px;
         text-align: justify;
     }
@@ -269,12 +260,10 @@ header {
 }
 @media screen and (max-width: 767px) {
     .gallery {
-        margin-bottom: 60px;
+        margin-bottom: 28px;
     }
     .gallery h2 {
         width: 142px;
-        margin: 0 auto;
-        margin-bottom: 15px;
     }
     .slide_pic {
         display: none;
@@ -314,7 +303,36 @@ header {
 .event_info {
     text-decoration: underline;
 }
-
+@media screen and (max-width: 767px) {
+    .event {
+        margin-bottom: 28px;
+    }
+    .event h2 {
+        width: 100px;
+        margin-bottom: 15px;
+    }
+    .event_center {
+        padding: 13px 7% 0 8%;
+        max-width: 100%;
+        min-width: 0;
+    }
+    .event_item {
+        flex-direction: column;
+        font-size: 16px;
+        margin: 0;
+    }
+    .event_date {
+        margin-bottom: -12px;
+        margin-right: 0;
+    }
+    .event_info {
+        margin-bottom: 10px;
+        width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+}
 /* Access */
 .access {
     max-width: 100%;
