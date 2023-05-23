@@ -267,6 +267,22 @@ header {
 .gallery_items {
     display: flex;
 }
+@media screen and (max-width: 767px) {
+    .gallery {
+        margin-bottom: 60px;
+    }
+    .gallery h2 {
+        width: 142px;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+    .slide_pic {
+        display: none;
+    }
+    .slide_top {
+        margin: 0 -20px;
+    }
+}
 
 /* Event */
 .event {
@@ -297,22 +313,6 @@ header {
 }
 .event_info {
     text-decoration: underline;
-}
-@media screen and (max-width: 767px) {
-    .gallery {
-        margin-bottom: 60px;
-    }
-    .gallery h2 {
-        width: 142px;
-        margin: 0 auto;
-        margin-bottom: 15px;
-    }
-    .slide_pic {
-        display: none;
-    }
-    .slide_top {
-        margin: 0 -20px;
-    }
 }
 
 /* Access */
