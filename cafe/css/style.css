@@ -390,6 +390,8 @@ footer h3 {
 .footer_content p {
     margin-top: 5px;
     margin-bottom: 20px;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ",
+        "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
 }
 .footer_credit {
     color: #000000;
