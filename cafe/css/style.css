@@ -359,7 +359,6 @@ header {
     /* mapの下の余白削除 */
     display: block;
 }
-
 @media screen and (max-width: 767px) {
     .access h2 {
         width: 124px;
@@ -396,6 +395,27 @@ footer h3 {
     color: #000000;
     font-size: 16px;
     text-align: center;
+}
+@media screen and (max-width: 767px) {
+    footer {
+        background-color: #fff;
+        padding-top: 45px;
+        padding-bottom: 25px;
+    }
+
+    .footer_flex {
+        display: block;
+        margin-bottom: 45px;
+    }
+    footer h3 {
+        width: 227px;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    .footer_content p {
+        font-size: 18px;
+        margin-bottom: 13px;
+    }
 }
 
 /* PAGE TOP */
