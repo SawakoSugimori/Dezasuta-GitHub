@@ -151,6 +151,7 @@ header {
 }
 .about h2 {
     width: 272px;
+    margin-top: 60px;
     margin-bottom: 40px;
 }
 .about_copy {
@@ -166,6 +167,15 @@ header {
 .sp_about {
     display: none;
 }
+@media screen and (max-width: 1100px) {
+    .about h2 {
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+    .about_copy {
+        font-size: 38px;
+    }
+}
 @media screen and (max-width: 767px) {
     .about {
         flex-direction: column;
@@ -174,11 +184,12 @@ header {
     .about .sp_about {
         display: block;
         width: 160px;
-        margin-bottom: 12px;
+        margin-bottom: 206px;
         margin: 0 auto;
     }
     .about_pic {
         width: initial;
+        max-width: initial;
         margin: 0 -20px;
         margin-bottom: 33px;
     }
@@ -271,6 +282,9 @@ header {
     .gallery {
         margin-bottom: 28px;
     }
+    .gallery_items {
+        display: block;
+    }
     .gallery h2 {
         width: 142px;
     }
@@ -278,7 +292,7 @@ header {
         display: none;
     }
     .slide_top {
-        margin: 0 -20px;
+        width: 100%;
     }
 }
 
