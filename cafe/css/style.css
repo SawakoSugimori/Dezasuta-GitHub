@@ -184,8 +184,8 @@ header {
     .about .sp_about {
         display: block;
         width: 160px;
-        margin-bottom: 206px;
         margin: 0 auto;
+        margin-bottom: 12px;
     }
     .about_pic {
         width: initial;
