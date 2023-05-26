@@ -196,7 +196,17 @@
                 arrows: false,
             });
 
-            $('.gallery_items').slick()
+            $('.gallery_items').slick({
+                slidesToShow: 5,
+                responsive: [
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 1
+                        },
+                    },
+                ],
+            });
         });
     </script>
 </body>
