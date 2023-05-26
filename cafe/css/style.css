@@ -302,9 +302,6 @@ header {
         width: 142px;
     }
     .slide_pic {
-        display: none;
-    }
-    .slide_top {
         width: 100%;
     }
 }
