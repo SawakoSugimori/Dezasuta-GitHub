@@ -291,6 +291,38 @@ header {
 .gallery_items {
     display: flex;
 }
+/* Slider in the gallery */
+/* 矢印の位置指定 */
+.slick-prev {
+    left: 20px;
+    z-index: 99;
+}
+.slick-next {
+    right: 20px;
+}
+/* 矢印の装飾 */
+.slick-arrow::before,
+.slick-arrow::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: auto;
+    content: "";
+    opacity: 1;
+}
+.slick-prev::before,
+.slick-next::before {
+    width: 15px;
+    height: 15px;
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+}
+.slick-prev::before {
+    transform: rotate(-135deg);
+}
+.slick-next::before {
+    transform: rotate(45deg);
+}
 @media screen and (max-width: 767px) {
     .gallery {
         margin-bottom: 28px;
