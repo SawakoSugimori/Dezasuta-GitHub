@@ -59,6 +59,16 @@ header {
 .sp_btn {
     display: none;
 }
+/* Slick */
+.slick-dots {
+    bottom: 20px;
+}
+.slick-dots li.slick-active button:before {
+    color: #fff;
+}
+.slick-dots li button:before {
+    color: #fff;
+}
 @media screen and (max-width: 767px) {
     header {
         margin-bottom: 43px;
