@@ -24,14 +24,19 @@
     <!-- header -->
     <header id="header">
         <div class="header_slider">
-            <picture>
-                <source srcset="images/sp_main_vs_2@2x-100.jpg" media="(max-width: 767px)">
-                <img src="images/slider-2.jpg" alt="店内の様子">
-            </picture>
-            <picture>
-                <source srcset="images/sp_main_vs@2x-100.jpg" media="(max-width: 767px)">
-                <img src="images/pc_first-100.jpg" alt="店内の様子">
-            </picture>
+            <div> <!-- pictureタグはdivで囲む -->
+                <picture>
+                    <source srcset="images/sp_main_vs_2@2x-100.jpg" media="(max-width: 767px)">
+                    <img src="images/slider_2.jpg" alt="店内の様子">
+                </picture>
+            </div>
+            <div>
+                <picture>
+                    <source srcset="images/sp_main_vs@2x-100.jpg" media="(max-width: 767px)">
+                    <img src="images/pc_first-100.jpg" alt="店内の様子">
+                </picture>
+            </div>
+
         </div>
 
         <div class="header_wrap">
@@ -182,7 +187,10 @@
             $('.header_slider').slick({
                 // autoplay: true,
                 autoplaySpeed: 2000,
+                // 写真下部にドットを追加する
                 dots: true,
+                // 脇の矢印を消す
+                arrows: false,
             });
         });
     </script>
