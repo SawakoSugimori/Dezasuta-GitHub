@@ -291,6 +291,10 @@ header {
 .gallery_items {
     display: flex;
 }
+.slide_pic:hover {
+    opacity: 0.9;
+    transition: 0.4s;
+}
 /* Slider in the gallery */
 /* 矢印の位置指定 */
 .slick-prev {
