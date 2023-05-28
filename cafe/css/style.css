@@ -294,11 +294,11 @@ header {
 /* Slider in the gallery */
 /* 矢印の位置指定 */
 .slick-prev {
-    left: 420px;
+    left: 21%;
     z-index: 99;
 }
 .slick-next {
-    right: 420px;
+    right: 21%;
 }
 /* 矢印の装飾 */
 .slick-arrow::before,
