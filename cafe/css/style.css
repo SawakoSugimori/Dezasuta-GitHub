@@ -356,6 +356,10 @@ header {
         width: 15px;
         height: 15px;
     }
+    /* modal popupsを無効にする */
+    .popup_link {
+        pointer-events: none;
+    }
 }
 
 /* Event */
