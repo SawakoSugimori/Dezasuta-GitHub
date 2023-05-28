@@ -7,10 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cafe</title>
     <meta name="description" content="カフェのホームぺージです。">
-    <!-- CSS Slick -->
+    <!-- Slick CSS-->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
     <link rel="stylesheet" type="text/css"
         href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+    <!-- Lightbox CSS-->
+    <link rel="stylesheet" href="css/lightbox.min.css">
     <!-- CSS -->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
@@ -18,6 +20,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
     <!-- Slick -->
     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- Lightbox-->
+    <script src="js/lightbox.min.js"></script>
 </head>
 
 <body>
@@ -116,13 +120,37 @@
         <h2><img src="./images/gallery@2x.png" alt="GALLERY"></h2>
         <div class="gallery_items">
             <!-- spで最初に表示される画像-->
-            <div><img class="slide_pic" src="./images/pc_gallary_03-100.jpg" alt="店内の様子"></div>
+            <div>
+                <a href="./images/pc_gallary_03-100.jpg" data-lightbox="image1" data-title="店内の様子">
+                    <img class="slide_pic" src="./images/pc_gallary_03-100.jpg" alt="店内の様子">
+                </a>
+            </div>
             <!-- pc,sp共通-->
-            <div><img class="slide_pic" src="./images/pc_gallary_05-100.jpg" alt="店内の様子"></div>
-            <div><img class="slide_pic" src="./images/pc_gallary_04-100.jpg" alt="コーヒー豆の写真"></div>
-            <div><img class="slide_pic" src="./images/pc_gallary_03-100.jpg" alt="店内の様子"></div>
-            <div><img class="slide_pic" src="./images/pc_gallary_02-100.jpg" alt="店内の様子"></div>
-            <div><img class="slide_pic" src="./images/pc_gallary_01-100.jpg" alt="コーヒーの写真"></div>
+            <div>
+                <a href="./images/pc_gallary_05-100.jpg" data-lightbox="image2" data-title="店内の様子">
+                    <img class="slide_pic" src="./images/pc_gallary_05-100.jpg" alt="店内の様子">
+                </a>
+            </div>
+            <div>
+                <a href="./images/pc_gallary_04-100.jpg" data-lightbox="image3" data-title="コーヒー豆の写真">
+                    <img class="slide_pic" src="./images/pc_gallary_04-100.jpg" alt="コーヒー豆の写真">
+                </a>
+            </div>
+            <div>
+                <a href="./images/pc_gallary_03-100.jpg" data-lightbox="image4" data-title="店内の様子">
+                    <img class="slide_pic" src="./images/pc_gallary_03-100.jpg" alt="店内の様子">
+                </a>
+            </div>
+            <div>
+                <a href="./images/pc_gallary_02-100.jpg" data-lightbox="image5" data-title="店内の様子">
+                    <img class="slide_pic" src="./images/pc_gallary_02-100.jpg" alt="店内の様子">
+                </a>
+            </div>
+            <div>
+                <a href="./images/pc_gallary_01-100.jpg" data-lightbox="image6" data-title="コーヒーの写真">
+                    <img class="slide_pic" src="./images/pc_gallary_01-100.jpg" alt="コーヒーの写真">
+                </a>
+            </div>
         </div><!-- gallery_items -->
     </section>
 
