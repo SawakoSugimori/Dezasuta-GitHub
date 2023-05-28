@@ -323,6 +323,13 @@ header {
 .slick-next::before {
     transform: rotate(45deg);
 }
+/* Modal Popups */
+.lb-data .lb-number {
+    display: none !important;
+}
+.lb-data .lb-caption {
+    line-height: 2.5em;
+}
 @media screen and (max-width: 767px) {
     .gallery {
         margin-bottom: 28px;
