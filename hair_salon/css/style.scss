@@ -1,0 +1,16 @@
+@import "_var.scss";
+
+// Header
+.global-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+
+    li {
+        text-transform: uppercase;
+    }
+    li + li {
+        margin-right: 30px;
+    }
+}

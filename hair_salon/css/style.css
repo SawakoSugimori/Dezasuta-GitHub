@@ -1,1 +1,12 @@
-@charset "UTF-8";
+.global-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+.global-nav li {
+  text-transform: uppercase;
+}
+.global-nav li + li {
+  margin-right: 30px;
+}/*# sourceMappingURL=style.css.map */
