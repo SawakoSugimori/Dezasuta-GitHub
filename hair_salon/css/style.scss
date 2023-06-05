@@ -1,5 +1,8 @@
 @import "_var.scss";
 
+body {
+    background-color: $base-color;
+}
 // Header
 .global-nav {
     display: flex;
