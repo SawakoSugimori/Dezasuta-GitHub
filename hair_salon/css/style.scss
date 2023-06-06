@@ -50,3 +50,41 @@ body {
     fill: #CFC9CA;
     width: 90%;
 }
+
+// Top-wrapper
+.top-wrapper {
+    .main-img {
+        max-width: 820px;
+        position: relative;
+    }
+    .sq-1, 
+    .sq-2 {
+        width: 820px;
+        height: 500px;
+    }
+    .sq-1 {
+        color: #ecb3b7;
+        opacity: 4;
+        transform: rotate(7deg);
+        position: absolute;
+        z-index: 0;
+    }
+    .sq-2 {
+        color: #ffa8a4;
+        transform: rotate(4deg);
+        position: absolute;
+        z-index: 1;
+    }
+    img {
+        max-width: 820px;
+        margin: 0 auto;
+        position: absolute;
+        z-index: 2;
+    }
+}
+.sq-main {
+    width: 820px;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 2;
+}
