@@ -11,9 +11,10 @@ body {
 }
 .global-nav li {
   text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 .global-nav li + li {
-  margin-right: 30px;
+  margin-left: 30px;
 }
 
 .links {
@@ -46,7 +47,6 @@ body {
 .icons {
   display: inline;
   background: none;
-  fill: #CFC9CA;
   width: 90%;
 }
 
