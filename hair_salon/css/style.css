@@ -42,6 +42,9 @@ body {
 .reserve p {
   writing-mode: vertical-rl;
   margin: auto auto;
+  color: #fefefe;
+  letter-spacing: 0.13em;
+  font-size: 18px;
 }
 
 .icons {

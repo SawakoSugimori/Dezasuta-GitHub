@@ -44,6 +44,9 @@ body {
     p {
         writing-mode: vertical-rl;
         margin: auto auto;
+        color: $base-color;
+        letter-spacing: 0.13em;
+        font-size: 18px;
     }
 }
 .icons {
