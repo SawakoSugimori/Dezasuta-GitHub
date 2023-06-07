@@ -1,8 +1,13 @@
+body {
+  background-color: #fefefe;
+}
+
 .global-nav {
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 20px;
+  height: 60px;
 }
 .global-nav li {
   text-transform: uppercase;
@@ -43,4 +48,45 @@
   background: none;
   fill: #CFC9CA;
   width: 90%;
+}
+
+.main-img {
+  max-width: 820px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.sq-1,
+.sq-2,
+.sq-img img {
+  border-radius: 1px;
+}
+
+.sq-1,
+.sq-2 {
+  width: 820px;
+  height: 500px;
+  margin: 0 auto;
+  position: absolute;
+  top: 15px;
+}
+
+.sq-1 {
+  background-color: #ecb3b7;
+  opacity: 0.4;
+  transform: rotate(-7deg);
+  z-index: 0;
+}
+
+.sq-2 {
+  background-color: #ffa8a4;
+  transform: rotate(-4deg);
+  z-index: 1;
+}
+
+.sq-img {
+  max-width: 820px;
+  margin: 0 auto;
+  position: absolute;
+  z-index: 2;
 }/*# sourceMappingURL=style.css.map */
