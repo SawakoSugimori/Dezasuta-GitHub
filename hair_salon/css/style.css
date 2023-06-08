@@ -102,11 +102,14 @@ body {
 }
 
 .concept {
-  font-size: 72px;
+  font-size: 70px;
+  text-align: right;
+  text-shadow: 1px 1px 2px #ece1da;
 }
 
 .concept-lead {
-  font-size: 18px;
+  font-size: 17px;
   letter-spacing: 0.05em;
   line-height: 2;
+  text-align: right;
 }/*# sourceMappingURL=style.css.map */
