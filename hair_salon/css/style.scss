@@ -4,12 +4,15 @@ body {
     background-color: $base-color;
 }
 // Header
+.header-logo {
+    width: 160px;
+    margin: 20px auto 0 auto;
+}
 .global-nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 20px;
-    height: 60px;
+    height: 70px;
 
     li {
         text-transform: uppercase;
