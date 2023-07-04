@@ -45,5 +45,8 @@
     }
 }
 .top_circle {
-    width: 30%;
+    padding-top: 10%;
+    .inner div img {
+        max-width: 85%;
+    }
 }

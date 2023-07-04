@@ -37,5 +37,8 @@
 }
 
 .top_circle {
-  width: 30%;
+  padding-top: 10%;
+}
+.top_circle .inner div img {
+  max-width: 85%;
 }/*# sourceMappingURL=style.css.map */
