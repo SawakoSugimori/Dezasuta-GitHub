@@ -5,6 +5,10 @@
     height: 100vh;
     .top_bg {
         height: 95%;
+        display: flex;
+        justify-content: space-between;
+        padding: 20% 16% 0 11%;
+
         background: linear-gradient(
             90deg,
             $secondary-color 0%,
@@ -13,4 +17,7 @@
             $accent-color 100%
         );
     }
+}
+.top_circle {
+    width: 30%;
 }
