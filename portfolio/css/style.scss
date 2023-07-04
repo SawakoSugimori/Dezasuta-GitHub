@@ -1,1 +1,16 @@
 @import "_var.scss";
+
+/* top_wrapper */
+.top_wrapper {
+    height: 100vh;
+    .top_bg {
+        height: 95%;
+        background: linear-gradient(
+            90deg,
+            $secondary-color 0%,
+            $secondary-color 67%,
+            $accent-color 33%,
+            $accent-color 100%
+        );
+    }
+}
