@@ -41,6 +41,7 @@ a:hover {
 ul {
     /*左の「・」を消す*/
     list-style: none;
+    box-sizing: border-box;
 }
 
 img {
@@ -50,4 +51,36 @@ img {
     vertical-align: bottom;
     /*イメージタグの枠線を消す*/
     border: none;
+}
+
+/* Global-nav */
+.global_nav {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* nav left */
+.nav_left,
+.nav_right,
+.social_links {
+    display: flex;
+    justify-content: space-between;
+}
+.nav_left li {
+    margin-left: 5%;
+    padding: 4px 16px;
+}
+.nav_left:hover {
+    background-color: rgba($dominant-color, 0.6);
+}
+.lang_switcher {
+    margin-right: 10%;
+}
+.lang {
+    display: inline;
+}
+.social_icon {
+    width: 30px;
+    margin-left: 8%;
 }
