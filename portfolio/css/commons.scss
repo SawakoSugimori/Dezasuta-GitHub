@@ -30,6 +30,9 @@ h2 {
     text-shadow: 1px 2px 4px rgba($text-main-color, $alpha: 0.3);
     font-size: 90px;
     font-weight: normal;
+    span {
+        color: $accent-color;
+    }
 }
 
 a {
