@@ -58,6 +58,13 @@ img {
   justify-content: space-between;
   align-items: center;
   padding: 0 3%;
+  box-sizing: border-box;
+  /* Fix global_nav */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
   /* nav left */
   /* nav right */
 }
