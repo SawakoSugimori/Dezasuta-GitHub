@@ -18,9 +18,9 @@ li {
   padding: 0;
   line-height: 1;
   /*デフォルトの文字色、font-familyを予め当てておく*/
-  color: #2E3A5C;
+  color: #2e3a5c;
   /*フォントをゴシック体にする*/
-  font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  font-family: "Poppins", sans-serif, "Noto Sans JP", sans-serif;
   font-feature-settings: "palt";
 }
 
@@ -29,7 +29,7 @@ a {
   text-decoration: none;
   /*色を消す。デフォルトでカラーが黒色なので、それを継承し、黒になる*/
   color: inherit;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 a:hover {

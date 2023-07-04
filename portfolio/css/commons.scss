@@ -20,9 +20,7 @@ li {
     /*デフォルトの文字色、font-familyを予め当てておく*/
     color: $text-main-color;
     /*フォントをゴシック体にする*/
-    font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3",
-        "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝",
-        "ＭＳ 明朝", serif;
+    font-family: $roman-font, $japanese-font;
     font-feature-settings: "palt";
 }
 
@@ -31,7 +29,7 @@ a {
     text-decoration: none;
     /*色を消す。デフォルトでカラーが黒色なので、それを継承し、黒になる*/
     color: inherit;
-    transition: 0.3s;
+    transition: 0.2s;
 }
 
 a:hover {
