@@ -68,8 +68,10 @@ img {
     justify-content: space-between;
 }
 .nav_left li {
-    margin-left: 5%;
     padding: 4px 16px;
+}
+.nav_left li + .nav_left li {
+    margin-left: 5%;
 }
 .nav_left:hover {
     background-color: rgba($dominant-color, 0.6);
