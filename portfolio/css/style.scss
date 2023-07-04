@@ -17,6 +17,20 @@
             $accent-color 100%
         );
     }
+    .copy {
+        h1,
+        p {
+            color: $section-bg;
+        }
+        h1 {
+            font-size: 88px;
+            text-transform: uppercase;
+            font-weight: normal;
+        }
+        p {
+            font-size: 18px;
+        }
+    }
 }
 .top_circle {
     width: 30%;

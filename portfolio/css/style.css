@@ -9,6 +9,18 @@
   padding: 20% 16% 0 11%;
   background: linear-gradient(90deg, #80d9d4 0%, #80d9d4 67%, #f0e189 33%, #f0e189 100%);
 }
+.top_wrapper .copy h1,
+.top_wrapper .copy p {
+  color: #f0f5f5;
+}
+.top_wrapper .copy h1 {
+  font-size: 88px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+.top_wrapper .copy p {
+  font-size: 18px;
+}
 
 .top_circle {
   width: 30%;
