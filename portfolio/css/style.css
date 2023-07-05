@@ -157,10 +157,14 @@
   display: flex;
   justify-content: space-around;
 }
+.service .content .left .text {
+  margin-left: -40px;
+}
 .service .content .left h3 {
   font-weight: normal;
   font-size: 40px;
   text-shadow: 1px 1px 1px rgba(46, 58, 92, 0.3);
+  margin-top: -40px;
 }
 .service .content .left .design h3 {
   color: #f0e189;

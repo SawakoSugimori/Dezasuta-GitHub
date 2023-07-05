@@ -167,10 +167,14 @@
         display: flex;
         justify-content: space-around;
     }
+    .text {
+        margin-left: -40px;
+    }
     h3 {
         font-weight: normal;
         font-size: 40px;
         text-shadow: 1px 1px 1px rgba($text-main-color, $alpha: 0.3);
+        margin-top: -40px;
     }
     .design h3 {
         color: $accent-color;
