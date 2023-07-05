@@ -147,6 +147,7 @@ footer .footer_right p {
 }
 footer .footer_nav {
   display: flex;
+  margin-bottom: 18px;
 }
 footer .footer_nav li + li {
   margin-left: 30px;
