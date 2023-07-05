@@ -74,14 +74,18 @@
     }
 }
 .profile_left {
-    margin-right: 70px;
+    margin-right: 30px;
+    .relative {
+        position: relative;
+        width: 210px;
+    }
     .circle {
         height: 170px;
         width: 170px;
         background-color: $accent-color;
         border-radius: 50%;
         display: inline-block;
-        position: relative;
+        position: absolute;
     }
     .my_pic {
         width: 160px;
