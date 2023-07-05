@@ -57,6 +57,8 @@
 /* About */
 .about {
   max-width: 1000px;
+  width: 100%;
+  margin: 100px auto;
 }
 .about .flex {
   display: flex;
