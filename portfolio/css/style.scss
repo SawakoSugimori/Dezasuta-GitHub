@@ -1,6 +1,6 @@
 @import "_var.scss";
 
-/* top_wrapper */
+/* SECTION: top_wrapper */
 .top_wrapper {
     height: 100vh;
     /* Split a background into 2 colors */
@@ -62,7 +62,7 @@
     }
 }
 
-/* About */
+/* SECTION: About */
 .about {
     max-width: 900px;
     width: 100%;
@@ -106,7 +106,7 @@
     }
 }
 
-/* Selected Work */
+/* SECTION: Selected Work */
 .work {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -136,5 +136,28 @@
     .role {
         text-align: right;
         margin-top: 4px;
+    }
+}
+
+/* SECTION: What I do? */
+.service {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    max-width: 1000px;
+    margin: 0 auto;
+    h2 {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .content {
+        display: flex;
+    }
+}
+.service .content {
+    .left {
+        width: 20%;
+    }
+    .right {
+        width: 80%;
     }
 }
