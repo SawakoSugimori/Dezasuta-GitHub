@@ -68,6 +68,18 @@ img {
   border: none;
 }
 
+/* Button style */
+button {
+  padding: 0 24px;
+  border: none;
+  background-color: #80d9d4;
+  box-shadow: 1px 4px 4px rgba(128, 217, 212, 0.3);
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: #fafdf8;
+  height: 44px;
+}
+
 /* Global-nav */
 .global_nav {
   height: 70px;
