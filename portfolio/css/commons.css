@@ -123,4 +123,11 @@ button {
 .global_nav .social_icon {
   width: 40px;
   margin-left: 12%;
+}
+
+/* Footer */
+footer .footer_bg {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: linear-gradient(90deg, #f0e189 0%, #f0e189 13%, #80d9d4 13%, #80d9d4 100%);
 }/*# sourceMappingURL=commons.css.map */

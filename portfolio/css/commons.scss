@@ -122,3 +122,18 @@ button {
         margin-left: 12%;
     }
 }
+
+/* Footer */
+footer {
+    .footer_bg {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background: linear-gradient(
+            90deg,
+            $accent-color 0%,
+            $accent-color 13%,
+            $secondary-color 13%,
+            $secondary-color 100%
+        );
+    }
+}
