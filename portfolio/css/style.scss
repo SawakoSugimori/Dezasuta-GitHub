@@ -162,6 +162,12 @@
         width: 70%;
     }
 }
+.service .content .left {
+    .skills {
+        display: flex;
+        justify-content: space-around;
+    }
+}
 .service .content .right .card {
     margin-bottom: 50px;
     .relative {
