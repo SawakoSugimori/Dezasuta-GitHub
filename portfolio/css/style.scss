@@ -60,3 +60,30 @@
         max-width: 85%;
     }
 }
+
+/* About */
+.about {
+    max-width: 1000px;
+    .flex {
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+.profile_left {
+    margin-right: 70px;
+    .circle {
+        height: 170px;
+        width: 170px;
+        background-color: $accent-color;
+        border-radius: 50%;
+        display: inline-block;
+        position: relative;
+    }
+    .my_pic {
+        width: 160px;
+        position: absolute;
+        bottom: -100px;
+        left: 40px;
+    }
+}

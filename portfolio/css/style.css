@@ -51,4 +51,32 @@
 }
 .top_circle .inner div img {
   max-width: 85%;
+}
+
+/* About */
+.about {
+  max-width: 1000px;
+}
+.about .flex {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.profile_left {
+  margin-right: 70px;
+}
+.profile_left .circle {
+  height: 170px;
+  width: 170px;
+  background-color: #f0e189;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+}
+.profile_left .my_pic {
+  width: 160px;
+  position: absolute;
+  bottom: -100px;
+  left: 40px;
 }/*# sourceMappingURL=style.css.map */
