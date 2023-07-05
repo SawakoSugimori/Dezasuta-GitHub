@@ -215,3 +215,21 @@
         margin-bottom: 10px;
     }
 }
+
+/* SECTION: Contact */
+.contact {
+    h2,
+    p {
+        text-align: center;
+    }
+    .social_links {
+        display: flex;
+        justify-content: center;
+        .social_icon + .social_icon {
+            margin-left: 30px;
+        }
+        .social_icon {
+            width: 58px;
+        }
+    }
+}
