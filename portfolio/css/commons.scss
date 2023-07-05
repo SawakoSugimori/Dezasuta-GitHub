@@ -126,8 +126,7 @@ button {
 /* Footer */
 footer {
     .footer_bg {
-        padding-top: 30px;
-        padding-bottom: 30px;
+        padding: 40px 3% 10px 20px;
         background: linear-gradient(
             90deg,
             $accent-color 0%,
@@ -135,5 +134,24 @@ footer {
             $secondary-color 13%,
             $secondary-color 100%
         );
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer_right {
+        p,
+        li {
+            color: $dominant-color;
+            font-size: 14px;
+        }
+        p {
+            text-align: right;
+            font-size: 12px;
+        }
+    }
+    .footer_nav {
+        display: flex;
+        li + li {
+            margin-left: 30px;
+        }
     }
 }
