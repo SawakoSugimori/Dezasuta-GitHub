@@ -100,8 +100,7 @@
 
 /* SECTION: Selected Work */
 .work {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding: 100px 1%;
   background-color: #f0f5f5;
   display: flex;
   justify-content: center;
@@ -116,7 +115,7 @@
   margin-bottom: 50px;
 }
 .work .works .item {
-  width: 31%;
+  width: 32%;
 }
 .work .btn {
   text-align: center;

@@ -108,8 +108,7 @@
 
 /* SECTION: Selected Work */
 .work {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 100px 1%;
     background-color: $section-bg;
     display: flex;
     justify-content: center;
@@ -122,7 +121,7 @@
         justify-content: space-between;
         margin-bottom: 50px;
         .item {
-            width: 31%;
+            width: 32%;
         }
     }
     .btn {
