@@ -96,4 +96,36 @@
 }
 .about .content .btn {
   text-align: right;
+}
+
+/* Selected Work */
+.work {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #f0f5f5;
+  display: flex;
+  justify-content: center;
+}
+.work h2 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.work .works {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.work .works .item {
+  width: 31%;
+}
+.work .btn {
+  text-align: center;
+}
+
+.work .item div {
+  box-shadow: 1px 2px 3px rgba(46, 58, 92, 0.3);
+}
+.work .item .role {
+  text-align: right;
+  margin-top: 4px;
 }/*# sourceMappingURL=style.css.map */
