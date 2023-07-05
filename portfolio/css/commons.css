@@ -114,8 +114,7 @@ button {
   background-color: rgba(250, 253, 248, 0.6);
 }
 .global_nav .lang_switcher {
-  margin-right: 5%;
-  margin-left: -5%;
+  margin-right: 20px;
 }
 .global_nav .lang {
   display: inline;
