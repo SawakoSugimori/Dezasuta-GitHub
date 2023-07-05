@@ -132,6 +132,10 @@ footer .footer_bg {
   display: flex;
   justify-content: space-between;
 }
+footer .footer_left button {
+  background-color: transparent;
+  box-shadow: none;
+}
 footer .footer_right p,
 footer .footer_right li {
   color: #fafdf8;

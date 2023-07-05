@@ -137,6 +137,12 @@ footer {
         display: flex;
         justify-content: space-between;
     }
+    .footer_left {
+        button {
+            background-color: transparent;
+            box-shadow: none;
+        }
+    }
     .footer_right {
         p,
         li {
