@@ -16,17 +16,18 @@
   display: flex;
 }
 .top_wrapper .layout .copy {
-  width: 51%;
+  width: 59%;
+  margin-right: 3%;
 }
 .top_wrapper .layout .top_circle {
-  width: 49%;
+  width: 38%;
 }
 .top_wrapper .copy h1,
 .top_wrapper .copy p {
   color: #fafdf8;
 }
 .top_wrapper .copy h1 {
-  font-size: 80px;
+  font-size: clamp(3rem, 5vw + 1rem, 5rem);
   text-transform: uppercase;
   font-weight: normal;
   text-shadow: 0px 2px 2px rgba(46, 58, 92, 0.5);
@@ -48,7 +49,6 @@
 
 .top_circle {
   padding-top: 5%;
-  padding-left: 7%;
 }
 .top_circle .inner div img {
   max-width: 86%;
