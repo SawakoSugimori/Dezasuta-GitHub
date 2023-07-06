@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* font color*/
 /* SECTION: top_wrapper */
 .top_wrapper {
@@ -107,7 +108,10 @@
   margin-bottom: 75px;
 }
 .about .content .btn {
-  text-align: right;
+  /*　できなかった。なぜ
+  text-align: right;*/
+  display: flex;
+  justify-content: flex-end;
 }
 
 /* SECTION: Selected Work */
@@ -133,7 +137,10 @@
   content: "Role: ";
 }
 .work .btn {
-  text-align: center;
+  /* なぜかできない。
+  text-align: center;*/
+  display: flex;
+  justify-content: center;
 }
 
 .work .item div {

@@ -115,7 +115,10 @@
         margin-bottom: 75px;
     }
     .btn {
-        text-align: right;
+        /*　できなかった。なぜ
+        text-align: right;*/
+        display: flex;
+        justify-content: flex-end;
     }
 }
 
@@ -141,7 +144,10 @@
         }
     }
     .btn {
-        text-align: center;
+        /* なぜかできない。
+        text-align: center;*/
+        display: flex;
+        justify-content: center;
     }
 }
 .work .item {
