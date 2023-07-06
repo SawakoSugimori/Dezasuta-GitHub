@@ -21,11 +21,12 @@
         margin: 0 auto;
         display: flex;
         .copy {
-            width: 59%;
+            width: 56%;
         }
         .top_circle {
             position: relative;
             margin-top: 40px;
+            width: 40%;
             .absolute {
                 position: absolute;
                 top: 50%;
@@ -36,6 +37,7 @@
             /* Circular text effect */
             .circular {
                 animation: circular 35s linear infinite;
+                width: 100%;
             }
             @keyframes circular {
                 0% {
@@ -136,12 +138,6 @@
         display: flex;
         justify-content: space-between;
         margin-bottom: 50px;
-        .item {
-            width: 32%;
-        }
-        .role::before {
-            content: "Role: ";
-        }
     }
     .btn {
         /* なぜかできない。
@@ -151,12 +147,16 @@
     }
 }
 .work .item {
+    width: 32%;
     div {
         box-shadow: 1px 2px 3px rgba($text-main-color, $alpha: 0.3);
     }
     .role {
         text-align: right;
         margin-top: 4px;
+    }
+    .role::before {
+        content: "Role: ";
     }
 }
 
