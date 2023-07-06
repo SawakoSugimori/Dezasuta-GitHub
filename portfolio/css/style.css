@@ -129,6 +129,9 @@
 .work .works .item {
   width: 32%;
 }
+.work .works .role::before {
+  content: "Role: ";
+}
 .work .btn {
   text-align: center;
 }

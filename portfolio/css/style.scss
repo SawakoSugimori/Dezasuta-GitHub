@@ -136,6 +136,9 @@
         .item {
             width: 32%;
         }
+        .role::before {
+            content: "Role: ";
+        }
     }
     .btn {
         text-align: center;

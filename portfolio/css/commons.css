@@ -70,7 +70,8 @@ img {
 
 /* Button style */
 button {
-  padding: 0 24px;
+  position: absolute;
+  padding: 0 37px 0 24px;
   border: none;
   background-color: #80d9d4;
   box-shadow: 1px 4px 4px rgba(128, 217, 212, 0.3);
@@ -78,6 +79,19 @@ button {
   text-transform: uppercase;
   color: #fafdf8;
   height: 44px;
+}
+
+button::after {
+  position: absolute;
+  margin: auto 4px;
+  top: 0;
+  bottom: 0;
+  content: "";
+  width: 9px;
+  height: 9px;
+  border-top: 2px solid #fafdf8;
+  border-right: 2px solid #fafdf8;
+  transform: rotate(45deg);
 }
 
 /* Global nav */
