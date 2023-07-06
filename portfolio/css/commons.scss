@@ -137,6 +137,9 @@ button::after {
 
 /* Footer */
 footer {
+    button::after {
+        content: none;
+    }
     .footer_bg {
         padding: 40px 3% 10px 20px;
         background: linear-gradient(
@@ -153,6 +156,31 @@ footer {
         button {
             background-color: transparent;
             box-shadow: none;
+        }
+        .circle {
+            width: 30px;
+            height: 30px;
+            border: 1px solid $dominant-color;
+            border-radius: 50%;
+        }
+        .arrow {
+            position: relative;
+            content: "";
+            width: 30px;
+            height: 30px;
+            border: 1px solid $dominant-color;
+            border-radius: 50%;
+        }
+        .arrow::after {
+            position: absolute;
+            top: 11px;
+            left: 8px;
+            content: "";
+            width: 12px;
+            height: 12px;
+            border-top: 2px solid #fafdf8;
+            border-left: 2px solid #fafdf8;
+            transform: rotate(45deg);
         }
     }
     .footer_right {

@@ -139,6 +139,9 @@ button::after {
 }
 
 /* Footer */
+footer button::after {
+  content: none;
+}
 footer .footer_bg {
   padding: 40px 3% 10px 20px;
   background: linear-gradient(90deg, #f0e189 0%, #f0e189 13%, #80d9d4 13%, #80d9d4 100%);
@@ -148,6 +151,31 @@ footer .footer_bg {
 footer .footer_left button {
   background-color: transparent;
   box-shadow: none;
+}
+footer .footer_left .circle {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #fafdf8;
+  border-radius: 50%;
+}
+footer .footer_left .arrow {
+  position: relative;
+  content: "";
+  width: 30px;
+  height: 30px;
+  border: 1px solid #fafdf8;
+  border-radius: 50%;
+}
+footer .footer_left .arrow::after {
+  position: absolute;
+  top: 11px;
+  left: 8px;
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-top: 2px solid #fafdf8;
+  border-left: 2px solid #fafdf8;
+  transform: rotate(45deg);
 }
 footer .footer_right p,
 footer .footer_right li {
