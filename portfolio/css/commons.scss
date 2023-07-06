@@ -124,6 +124,9 @@ button::after {
         border-radius: 3px;
         transition: 0.2s;
     }
+    .current_page {
+        opacity: 0.5;
+    }
     /* nav right */
     .lang_switcher {
         margin-right: 20px;
