@@ -112,13 +112,13 @@
 
 /* SECTION: Selected Work */
 .work {
-  padding: 100px 1%;
+  padding: 110px 1%;
   background-color: #f0f5f5;
   display: flex;
   justify-content: center;
 }
 .work h2 {
-  margin-bottom: 30px;
+  margin-bottom: 70px;
   text-align: center;
 }
 .work .works {
