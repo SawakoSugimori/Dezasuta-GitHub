@@ -26,6 +26,13 @@
         }
         .top_circle {
             width: 38%;
+            position: relative;
+            .absolute {
+                position: absolute;
+                bottom: -2px;
+                left: 8px;
+                width: 95%;
+            }
         }
     }
     .copy {
