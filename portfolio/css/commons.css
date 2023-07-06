@@ -70,7 +70,7 @@ img {
 
 /* Button style */
 button {
-  position: absolute;
+  position: relative;
   padding: 0 37px 0 24px;
   border: none;
   background-color: #80d9d4;
