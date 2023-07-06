@@ -148,9 +148,11 @@ footer .footer_bg {
   display: flex;
   justify-content: space-between;
 }
-footer .footer_left button {
-  background-color: transparent;
-  box-shadow: none;
+footer .footer_left {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 footer .footer_left .circle {
   width: 30px;
@@ -176,6 +178,10 @@ footer .footer_left .arrow::after {
   border-top: 2px solid #fafdf8;
   border-left: 2px solid #fafdf8;
   transform: rotate(45deg);
+}
+footer .footer_left p {
+  color: #fafdf8;
+  text-shadow: 1px 1px 3px rgba(128, 217, 212, 0.3);
 }
 footer .footer_right p,
 footer .footer_right li {
