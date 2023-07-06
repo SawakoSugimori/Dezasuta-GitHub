@@ -25,12 +25,12 @@
             margin-right: 3%;
         }
         .top_circle {
-            width: 38%;
             position: relative;
             .absolute {
                 position: absolute;
-                bottom: -2px;
-                left: 8px;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
                 width: 96%;
             }
             /* Circular text effect */
@@ -74,12 +74,7 @@
         margin: -3px auto 0 auto;
     }
 }
-.top_circle {
-    padding-top: 5%;
-    .inner div img {
-        max-width: 86%;
-    }
-}
+
 /* SECTION: About */
 .about {
     max-width: 900px;

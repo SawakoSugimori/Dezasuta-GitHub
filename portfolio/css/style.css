@@ -20,14 +20,14 @@
   margin-right: 3%;
 }
 .top_wrapper .layout .top_circle {
-  width: 38%;
   position: relative;
   /* Circular text effect */
 }
 .top_wrapper .layout .top_circle .absolute {
   position: absolute;
-  bottom: -2px;
-  left: 8px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 96%;
 }
 .top_wrapper .layout .top_circle .circular {
@@ -64,13 +64,6 @@
   border-top: 25px solid #80d9d4;
   border-radius: 5px;
   margin: -3px auto 0 auto;
-}
-
-.top_circle {
-  padding-top: 5%;
-}
-.top_circle .inner div img {
-  max-width: 86%;
 }
 
 /* SECTION: About */
