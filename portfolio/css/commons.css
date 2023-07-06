@@ -28,7 +28,7 @@ li {
 /* A title in a section*/
 h2 {
   color: #80d9d4;
-  text-shadow: 1px 2px 4px rgba(46, 58, 92, 0.3);
+  text-shadow: 2px 2px 4px rgba(46, 58, 92, 0.4);
   font-size: 90px;
   font-weight: normal;
 }
