@@ -22,12 +22,24 @@
 .top_wrapper .layout .top_circle {
   width: 38%;
   position: relative;
+  /* Circular text effect */
 }
 .top_wrapper .layout .top_circle .absolute {
   position: absolute;
   bottom: -2px;
   left: 8px;
   width: 95%;
+}
+.top_wrapper .layout .top_circle .circular {
+  animation: circular 35s linear infinite;
+}
+@keyframes circular {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 .top_wrapper .copy h1,
 .top_wrapper .copy p {

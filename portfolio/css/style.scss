@@ -33,6 +33,18 @@
                 left: 8px;
                 width: 95%;
             }
+            /* Circular text effect */
+            .circular {
+                animation: circular 35s linear infinite;
+            }
+            @keyframes circular {
+                0% {
+                    transform: rotate(0);
+                }
+                100% {
+                    transform: rotate(360deg);
+                }
+            }
         }
     }
     .copy {
