@@ -141,7 +141,7 @@ footer {
         content: none;
     }
     .footer_bg {
-        padding: 40px 3% 10px 20px;
+        padding: 20px 3% 10px 20px;
         background: linear-gradient(
             90deg,
             $accent-color 0%,
@@ -157,6 +157,7 @@ footer {
         justify-content: center;
         flex-direction: column;
         align-items: center;
+        width: 10%;
         .circle {
             width: 30px;
             height: 30px;
@@ -188,6 +189,7 @@ footer {
         }
     }
     .footer_right {
+        margin-top: 3%;
         p,
         li {
             color: $dominant-color;
@@ -200,7 +202,7 @@ footer {
     }
     .footer_nav {
         display: flex;
-        margin-bottom: 18px;
+        margin-bottom: 30px;
         li + li {
             margin-left: 30px;
         }
