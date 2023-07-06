@@ -119,13 +119,15 @@ button::after {
   align-items: center;
 }
 .global_nav .nav_left li {
-  padding: 4px 16px;
+  padding: 8px 16px;
 }
 .global_nav .nav_left li + .nav_left li {
   margin-left: 5%;
 }
-.global_nav .nav_left:hover {
+.global_nav .nav_left li:hover {
   background-color: rgba(250, 253, 248, 0.6);
+  border-radius: 3px;
+  transition: 0.2s;
 }
 .global_nav .lang_switcher {
   margin-right: 20px;

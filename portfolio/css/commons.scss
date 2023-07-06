@@ -105,7 +105,6 @@ button::after {
     z-index: 999;
     width: 100%;
 
-    /* nav left */
     .nav_left,
     .nav_right,
     .social_links {
@@ -113,14 +112,17 @@ button::after {
         justify-content: space-between;
         align-items: center;
     }
+    /* nav left */
     .nav_left li {
-        padding: 4px 16px;
+        padding: 8px 16px;
     }
     .nav_left li + .nav_left li {
         margin-left: 5%;
     }
-    .nav_left:hover {
+    .nav_left li:hover {
         background-color: rgba($dominant-color, 0.6);
+        border-radius: 3px;
+        transition: 0.2s;
     }
     /* nav right */
     .lang_switcher {
