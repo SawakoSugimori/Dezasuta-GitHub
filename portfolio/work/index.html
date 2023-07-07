@@ -118,6 +118,7 @@
             console.log(count_works);
 
             $('.tab li').on('click', function () {
+                // Convert the doc to lower case and get first 3 letters
                 let selected = $(this).html().toLowerCase();
                 let converted = selected.slice(0, 3);
                 console.log(converted);
