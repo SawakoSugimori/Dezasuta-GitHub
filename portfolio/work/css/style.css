@@ -2,4 +2,27 @@
 .page_title {
   text-align: center;
   margin: 200px 0 100px 0;
+}
+
+.tab {
+  background-color: #f0f5f5;
+  display: flex;
+  justify-content: center;
+  height: 44px;
+  margin-bottom: 80px;
+}
+.tab li + li {
+  margin-left: 5px;
+}
+.tab li {
+  width: 190px;
+  text-align: center;
+  line-height: 44px;
+  background-color: #80d9d4;
+  color: #fafdf8;
+  font-size: 16px;
+  text-shadow: 1px 1px 1px rgba(46, 58, 92, 0.3);
+}
+.tab li:hover {
+  background-color: #5faaa6;
 }/*# sourceMappingURL=style.css.map */

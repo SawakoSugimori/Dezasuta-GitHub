@@ -4,3 +4,26 @@
     text-align: center;
     margin: 200px 0 100px 0;
 }
+
+.tab {
+    background-color: $section-bg;
+    display: flex;
+    justify-content: center;
+    height: 44px;
+    margin-bottom: 80px;
+    li + li {
+        margin-left: 5px;
+    }
+    li {
+        width: 190px;
+        text-align: center;
+        line-height: 44px;
+        background-color: $secondary-color;
+        color: $dominant-color;
+        font-size: 16px;
+        text-shadow: 1px 1px 1px rgba($text-main-color, $alpha: 0.3);
+    }
+    li:hover {
+        background-color: #5faaa6;
+    }
+}
