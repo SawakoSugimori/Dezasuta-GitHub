@@ -12,4 +12,22 @@
 }
 .about .intro h1 {
   margin-bottom: 40px;
+}
+
+/* Sticky */
+.flex {
+  padding: 0 7%;
+  display: flex;
+  justify-content: space-between;
+}
+.flex .sticky {
+  position: sticky;
+  top: 15%;
+}
+.flex .image {
+  width: 35%;
+  margin-right: 5%;
+}
+.flex .text {
+  width: 70%;
 }/*# sourceMappingURL=style.css.map */

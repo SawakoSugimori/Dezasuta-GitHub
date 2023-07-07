@@ -13,3 +13,20 @@
         }
     }
 }
+/* Sticky */
+.flex {
+    padding: 0 7%;
+    display: flex;
+    justify-content: space-between;
+    .sticky {
+        position: sticky;
+        top: 15%;
+    }
+    .image {
+        width: 35%;
+        margin-right: 5%;
+    }
+    .text {
+        width: 70%;
+    }
+}
