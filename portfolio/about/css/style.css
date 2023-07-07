@@ -30,4 +30,9 @@
 }
 .flex .text {
   width: 70%;
+}
+
+.ccl p,
+.ccl li {
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
