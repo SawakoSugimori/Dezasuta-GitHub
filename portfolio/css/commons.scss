@@ -24,8 +24,9 @@ li {
     font-feature-settings: "palt";
 }
 
-/* A title in a section*/
-h2 {
+/* section title and page title */
+h2,
+.page_title {
     color: $secondary-color;
     text-shadow: 2px 2px 4px rgba($text-main-color, $alpha: 0.4);
     font-size: 90px;

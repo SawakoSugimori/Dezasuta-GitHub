@@ -25,14 +25,16 @@ li {
   font-feature-settings: "palt";
 }
 
-/* A title in a section*/
-h2 {
+/* section title and page title */
+h2,
+.page_title {
   color: #80d9d4;
   text-shadow: 2px 2px 4px rgba(46, 58, 92, 0.4);
   font-size: 90px;
   font-weight: normal;
 }
-h2 span {
+h2 span,
+.page_title span {
   color: #f0e189;
 }
 
