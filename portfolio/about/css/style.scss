@@ -23,15 +23,20 @@
         top: 15%;
     }
     .image {
-        width: 35%;
-        margin-right: 5%;
+        width: 32%;
+        margin-right: 8%;
     }
     .text {
         width: 70%;
+        li + li {
+            margin-top: 15%;
+        }
         li {
-            margin-bottom: 20%;
             h3 {
-                margin-bottom: 20px;
+                font-size: 20px;
+                border-left: 8px solid $accent_color;
+                padding-left: 10px;
+                line-height: 2;
             }
         }
     }
