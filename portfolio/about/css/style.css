@@ -1,1 +1,12 @@
-/* font color*//*# sourceMappingURL=style.css.map */
+/* font color*/
+.about .intro {
+  margin-top: 15%;
+  margin-bottom: 10%;
+}
+.about .intro h1,
+.about .intro p {
+  text-align: center;
+}
+.about .intro h1 {
+  margin-bottom: 40px;
+}/*# sourceMappingURL=style.css.map */

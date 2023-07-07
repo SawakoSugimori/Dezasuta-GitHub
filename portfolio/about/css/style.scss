@@ -1,1 +1,12 @@
-@import "../../css/_var.scss";
+@import "../../css/var";
+.about .intro {
+    margin-top: 15%;
+    margin-bottom: 10%;
+    h1,
+    p {
+        text-align: center;
+    }
+    h1 {
+        margin-bottom: 40px;
+    }
+}
