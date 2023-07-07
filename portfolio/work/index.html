@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WORK :Sawako Sugimori's Portfolio</title>
     <meta name="description" content="制作実績の紹介ページです。">
-
     <!-- CSS -->
     <link rel="stylesheet" href="../css/commons.css">
     <link rel="stylesheet" href="./css/style.css">
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
     <!-- Google Fonts -->
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500&family=Poppins:wght@400;500&family=Ubuntu&display=swap');
@@ -52,9 +54,9 @@
     <section class="work">
         <h1 class="page_title">WORK</h1>
         <ul class="tab">
-            <li>All</li>
-            <li>Web Design</li>
-            <li>Banner Design</li>
+            <li id="all">All</li>
+            <li id="web">Web Design</li>
+            <li id="banner">Banner Design</li>
         </ul>
         <!-- a list of works -->
         <ul class="wrapper">
@@ -80,7 +82,7 @@
                 <p class="role">Designer</p>
             </li>
             <!-- item -->
-            <li class="item" data-cat="banner">
+            <li class="item" data-cat="ban">
                 <div>
                     <img src="../work/images/Artboard 26-80.jpg" alt="">
                 </div>
@@ -106,9 +108,40 @@
                 <p>@sawadesign</p>
             </div>
         </div>
-
-
     </footer>
+    <!-- jQuery -->
+    <script>
+        $(function () {
+            // tab
+            // Count the number of works
+            let count_works = $('.tab li').length;
+            console.log(count_works);
+
+            $('.tab li').on('click', function () {
+                let selected = $(this).html().toLowerCase();
+                let converted = selected.slice(0, 3);
+                console.log(converted);
+
+                $('.item').hide();
+
+                // If a user selects 'ALL'
+                if (converted == 'all') {
+                    $('.item').hide();
+                    $('.item').fadeIn();
+                } else {
+                    // If a user selects other
+                    $('.item').each(function () {
+                        console.log($(this).data('cat'), converted)
+                        if ($(this).data('cat') == converted) {
+                            $(this).fadeIn();
+                        }
+                    });
+                }
+
+            });
+        });
+
+    </script>
 </body>
 
 </html>
