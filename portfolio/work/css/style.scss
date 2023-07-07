@@ -47,3 +47,10 @@
         }
     }
 }
+@media screen and (max-width: 767px) {
+    .wrapper {
+        .item {
+            width: 100%;
+        }
+    }
+}

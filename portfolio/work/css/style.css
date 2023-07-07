@@ -47,4 +47,10 @@
 }
 .wrapper .item .role::before {
   content: "Role: ";
+}
+
+@media screen and (max-width: 767px) {
+  .wrapper .item {
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */
