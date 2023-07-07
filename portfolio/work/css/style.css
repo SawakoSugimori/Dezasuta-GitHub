@@ -4,6 +4,7 @@
   margin: 200px 0 100px 0;
 }
 
+/* buttons */
 .tab {
   background-color: #f0f5f5;
   display: flex;
@@ -25,4 +26,15 @@
 }
 .tab li:hover {
   background-color: #5faaa6;
+}
+
+/* works list */
+.wrapper {
+  padding: 1%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.wrapper .item {
+  width: calc((100% - 30px) / 3);
+  margin: 10px 5px;
 }/*# sourceMappingURL=style.css.map */
