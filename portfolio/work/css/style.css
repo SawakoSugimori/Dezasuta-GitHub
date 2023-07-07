@@ -30,12 +30,21 @@
 
 /* works list */
 .wrapper {
-  padding: 1%;
-  margin-bottom: 25%;
   display: flex;
   flex-wrap: wrap;
+  padding: 0 1%;
 }
 .wrapper .item {
-  width: calc((100% - 30px) / 3);
-  margin: 10px 5px;
+  width: calc((100% - 42px) / 3);
+  margin: 15px 7px;
+}
+.wrapper .item div {
+  box-shadow: 1px 2px 3px rgba(46, 58, 92, 0.3);
+}
+.wrapper .item .role {
+  text-align: right;
+  margin-top: 4px;
+}
+.wrapper .item .role::before {
+  content: "Role: ";
 }/*# sourceMappingURL=style.css.map */
