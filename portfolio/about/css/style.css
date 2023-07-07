@@ -42,7 +42,24 @@
   line-height: 2;
 }
 
+.ccl .title {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+.ccl .ccl_intro {
+  line-height: 2;
+  margin-bottom: 25px;
+}
 .ccl p,
 .ccl li {
   text-align: center;
+}
+.ccl .note li {
+  font-size: 14px;
+  margin: 10px 0;
+  text-decoration: underline;
+}
+.ccl .note li:hover {
+  color: #80d9d4;
 }/*# sourceMappingURL=style.css.map */

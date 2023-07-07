@@ -43,8 +43,27 @@
     }
 }
 .ccl {
+    .title {
+        font-weight: bold;
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+    .ccl_intro {
+        line-height: 2;
+        margin-bottom: 25px;
+    }
     p,
     li {
         text-align: center;
+    }
+    .note {
+        li {
+            font-size: 14px;
+            margin: 10px 0;
+            text-decoration: underline;
+        }
+        li:hover {
+            color: $secondary-color;
+        }
     }
 }
