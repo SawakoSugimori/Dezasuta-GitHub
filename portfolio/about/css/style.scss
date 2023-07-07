@@ -1,12 +1,15 @@
 @import "../../css/var";
-.about .intro {
-    margin-top: 15%;
-    margin-bottom: 10%;
-    h1,
-    p {
-        text-align: center;
-    }
-    h1 {
-        margin-bottom: 40px;
+.about {
+    padding-bottom: 20%;
+    .intro {
+        margin-top: 15%;
+        margin-bottom: 10%;
+        h1,
+        p {
+            text-align: center;
+        }
+        h1 {
+            margin-bottom: 40px;
+        }
     }
 }
