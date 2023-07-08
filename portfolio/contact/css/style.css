@@ -1,6 +1,6 @@
 /* font color*/
 .contact {
-  padding: 10% 0;
+  padding: 10% 0 20% 0;
 }
 .contact h1,
 .contact p,
@@ -23,4 +23,23 @@
 }
 .contact .social_links li + li {
   margin-left: 40px;
+}
+.contact form {
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.contact form label {
+  margin-bottom: 10px;
+}
+.contact form input {
+  margin-bottom: 60px;
+  height: 50px;
+  padding-left: 18px;
+}
+.contact form textarea {
+  height: 380px;
+  padding: 18px;
+  margin-bottom: 100px;
 }/*# sourceMappingURL=style.css.map */
