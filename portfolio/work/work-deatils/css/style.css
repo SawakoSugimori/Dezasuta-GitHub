@@ -2,9 +2,15 @@
 .work_details .mockup {
   margin-bottom: 5%;
 }
+.work_details .text {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
 .work_details .title {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   border-bottom: 1px solid #f0e189;
 }
 .work_details .title h1 {
