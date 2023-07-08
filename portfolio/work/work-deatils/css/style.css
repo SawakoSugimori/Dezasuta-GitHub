@@ -33,4 +33,13 @@
 }
 .work_details .details td {
   font-weight: bold;
+}
+.work_details .desc {
+  margin-bottom: 10%;
+}
+.work_details .desc h2 {
+  color: #2e3a5c;
+  font-size: 24px;
+  text-shadow: none;
+  margin-bottom: 20px;
 }/*# sourceMappingURL=style.css.map */
