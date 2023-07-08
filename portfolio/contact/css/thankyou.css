@@ -1,1 +1,11 @@
-/* font color*//*# sourceMappingURL=thankyou.css.map */
+/* font color*/
+.thankyou {
+  display: flex;
+  padding: 15% 2% 10% 10%;
+}
+.thankyou .left {
+  width: 45%;
+}
+.thankyou .right {
+  width: 55%;
+}/*# sourceMappingURL=thankyou.css.map */

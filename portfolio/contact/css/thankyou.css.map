@@ -1,1 +1,1 @@
-{"version":3,"sources":["../../css/_var.scss"],"names":[],"mappings":"AAKA,cAAA","file":"thankyou.css"}
+{"version":3,"sources":["../../css/_var.scss","thankyou.scss","thankyou.css"],"names":[],"mappings":"AAKA,cAAA;ACJA;EACI,aAAA;EACA,uBAAA;ACCJ;ADAI;EACI,UAAA;ACER;ADAI;EACI,UAAA;ACER","file":"thankyou.css"}

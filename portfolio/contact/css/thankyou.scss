@@ -1,1 +1,11 @@
 @import "../../css/_var.scss";
+.thankyou {
+    display: flex;
+    padding: 15% 2% 10% 10%;
+    .left {
+        width: 45%;
+    }
+    .right {
+        width: 55%;
+    }
+}
