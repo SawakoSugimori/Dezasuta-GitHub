@@ -6,6 +6,27 @@
 .thankyou .left {
   width: 45%;
 }
+.thankyou .left h1 {
+  text-transform: uppercase;
+  margin-bottom: 90px;
+}
+.thankyou .left p {
+  line-height: 2;
+  margin-bottom: 30px;
+}
+.thankyou .left .btn {
+  display: flex;
+  justify-content: right;
+}
+.thankyou .left button {
+  background-color: #fafdf8;
+  color: #80d9d4;
+  border: 1px solid #80d9d4;
+}
+.thankyou .left button::after {
+  border-top: 2px solid #80d9d4;
+  border-right: 2px solid #80d9d4;
+}
 .thankyou .right {
   width: 55%;
 }/*# sourceMappingURL=thankyou.css.map */
