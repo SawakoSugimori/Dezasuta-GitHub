@@ -1,1 +1,26 @@
-/* font color*//*# sourceMappingURL=style.css.map */
+/* font color*/
+.contact {
+  padding: 10% 0;
+}
+.contact h1,
+.contact p,
+.contact li {
+  text-align: center;
+}
+.contact h1 {
+  margin-bottom: 5%;
+}
+.contact p {
+  margin-bottom: 3%;
+}
+.contact .social_links {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+.contact .social_links li {
+  width: 60px;
+}
+.contact .social_links li + li {
+  margin-left: 40px;
+}/*# sourceMappingURL=style.css.map */

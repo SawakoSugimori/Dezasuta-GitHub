@@ -1,1 +1,26 @@
 @import "../../css/_var.scss";
+.contact {
+    padding: 10% 0;
+    h1,
+    p,
+    li {
+        text-align: center;
+    }
+    h1 {
+        margin-bottom: 5%;
+    }
+    p {
+        margin-bottom: 3%;
+    }
+    .social_links {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5%;
+        li {
+            width: 60px;
+        }
+        li + li {
+            margin-left: 40px;
+        }
+    }
+}
