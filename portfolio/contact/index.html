@@ -62,7 +62,8 @@
 
         </ul>
         <form
-            action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfW3Gw83pX6i_pLZpG5GUARikziPbYqu8m0Eiq6oGSUUvM6Yw/formResponse">
+            action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfW3Gw83pX6i_pLZpG5GUARikziPbYqu8m0Eiq6oGSUUvM6Yw/formResponse"
+            method="post" target="hidden_iframe" onsubmit="submitted=true">
             <label for="name">お名前</label>
             <input type="text" placeholder="山田 太郎" name="entry.1982888611" required>
             <label for="email">メールアドレス</label>
@@ -96,10 +97,14 @@
     </footer>
     <!-- jQuery -->
     <script>
+        var submitted = false;
         $(function () {
         });
 
     </script>
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display: none;"
+        onload="if(submitted) {window.location='thanks.html';}">
+    </iframe>
 </body>
 
 </html>
