@@ -29,7 +29,12 @@
         max-width: 700px;
         margin: 0 auto;
         label {
-            margin-bottom: 10px;
+            margin-bottom: 14px;
+        }
+        input,
+        textarea {
+            border: 1px solid $text-main-color;
+            border-radius: 5px;
         }
         input {
             margin-bottom: 60px;
