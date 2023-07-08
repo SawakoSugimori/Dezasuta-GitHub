@@ -34,8 +34,10 @@
   flex-wrap: wrap;
   padding: 0 1%;
   margin-bottom: 20%;
+  /* Show the mask while hovering*/
 }
 .wrapper .item {
+  position: relative;
   width: calc((100% - 42px) / 3);
   margin: 15px 7px;
 }
@@ -48,6 +50,35 @@
 }
 .wrapper .item .role::before {
   content: "Role: ";
+}
+.wrapper .mask {
+  width: 100%;
+  height: 93%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: all 0.2s ease;
+  background-color: rgba(46, 58, 92, 0.4);
+}
+.wrapper .mask .caption {
+  color: #fafdf8;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 47%;
+}
+.wrapper .mask .caption::after {
+  display: inline-block;
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-top: 2px solid #fafdf8;
+  border-right: 2px solid #fafdf8;
+  transform: rotate(45deg);
+  margin-left: 4px;
+}
+.wrapper .item:hover .mask {
+  opacity: 1;
 }
 
 @media screen and (max-width: 767px) {
