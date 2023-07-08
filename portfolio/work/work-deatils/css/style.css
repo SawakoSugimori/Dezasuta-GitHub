@@ -1,0 +1,14 @@
+/* font color*/
+.work_details .mockup {
+  margin-bottom: 5%;
+}
+.work_details .title {
+  display: inline-flex;
+  align-items: center;
+  border-bottom: 1px solid #f0e189;
+}
+.work_details .title h1 {
+  font-size: 48px;
+  margin-right: 20px;
+  font-weight: normal;
+}/*# sourceMappingURL=style.css.map */

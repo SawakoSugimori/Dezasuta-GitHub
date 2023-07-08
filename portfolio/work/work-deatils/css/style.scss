@@ -1,1 +1,16 @@
 @import "../../../css/_var.scss";
+.work_details {
+    .mockup {
+        margin-bottom: 5%;
+    }
+    .title {
+        display: inline-flex;
+        align-items: center;
+        border-bottom: 1px solid $accent-color;
+        h1 {
+            font-size: 48px;
+            margin-right: 20px;
+            font-weight: normal;
+        }
+    }
+}
