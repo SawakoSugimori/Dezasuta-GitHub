@@ -140,7 +140,48 @@ button::after {
         margin-left: 23px;
     }
 }
-
+/* hamburger menu */
+@media screen and (max-width: 1100px) {
+    .global_nav {
+        display: none;
+    }
+    .sp_nav {
+        text-align: center;
+        height: 360px;
+        padding-top: 20%;
+        background-color: rgba($color: #384464, $alpha: 0.95);
+        .nav_left {
+            li {
+                color: $dominant-color;
+                line-height: 50px;
+                font-size: 20px;
+            }
+        }
+        .nav_line {
+            border: none;
+            margin-bottom: 20px;
+            border-top: 1px solid $dominant-color;
+        }
+        p {
+            text-align: center;
+            color: $dominant-color;
+        }
+        .lang {
+            display: inline;
+        }
+        .social_links {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .social_icon {
+            width: 28px;
+        }
+        .social_icon + .social_icon {
+            margin-left: 23px;
+        }
+    }
+}
 /* Footer */
 footer {
     button::after {
