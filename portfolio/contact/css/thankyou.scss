@@ -1,7 +1,8 @@
 @import "../../css/_var.scss";
 .thankyou {
     display: flex;
-    padding: 15% 2% 10% 10%;
+    align-items: center;
+    padding: 15% 0 13% 10%;
     .left {
         width: 50%;
         h1 {
@@ -11,6 +12,10 @@
         p {
             line-height: 2;
             margin-bottom: 30px;
+        }
+        .caution {
+            font-size: 14px;
+            margin-bottom: 50px;
         }
         .btn {
             display: flex;
