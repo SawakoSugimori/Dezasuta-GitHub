@@ -3,7 +3,7 @@
     display: flex;
     padding: 15% 2% 10% 10%;
     .left {
-        width: 45%;
+        width: 50%;
         h1 {
             text-transform: uppercase;
             margin-bottom: 90px;
@@ -27,6 +27,8 @@
         }
     }
     .right {
-        width: 55%;
+        width: 37%;
+        margin-left: 8%;
+        transform: rotate(-10deg);
     }
 }
