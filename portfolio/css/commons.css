@@ -209,6 +209,7 @@ button::after {
     z-index: 1;
     text-align: center;
     height: 360px;
+    width: 100%;
     padding-top: 20%;
     background-color: rgba(56, 68, 100, 0.95);
     /* hide nav */
