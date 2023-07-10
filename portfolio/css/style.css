@@ -156,7 +156,7 @@
 .about .content p {
   margin-bottom: 75px;
 }
-.about .content .btn {
+.about .content .btn_block {
   /*　できなかった。なぜ
   text-align: right;*/
   display: flex;
@@ -169,6 +169,9 @@
   }
   .about .profile_left .relative {
     margin: 0 auto;
+  }
+  .about .content .btn {
+    justify-content: center;
   }
 }
 /* SECTION: Selected Work */
@@ -187,7 +190,7 @@
   justify-content: space-between;
   margin-bottom: 50px;
 }
-.work .btn {
+.work .btn_block {
   /* なぜかできない。
   text-align: center;*/
   display: flex;
@@ -277,7 +280,7 @@
     width: 100%;
     margin-bottom: 30px;
   }
-  .work button {
+  .work .btn {
     width: 100%;
     margin-top: 5%;
   }

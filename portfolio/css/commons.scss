@@ -86,7 +86,8 @@ button,
 }
 button::after,
 .btn::after {
-    margin-left: 12px;
+    position: absolute;
+    margin-left: 8px;
     margin-top: 16px;
     content: "";
     width: 9px;

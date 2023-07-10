@@ -164,7 +164,7 @@
     p {
         margin-bottom: 75px;
     }
-    .btn {
+    .btn_block {
         /*　できなかった。なぜ
         text-align: right;*/
         display: flex;
@@ -180,6 +180,9 @@
             .relative {
                 margin: 0 auto;
             }
+        }
+        .content .btn {
+            justify-content: center;
         }
     }
 }
@@ -199,7 +202,7 @@
         justify-content: space-between;
         margin-bottom: 50px;
     }
-    .btn {
+    .btn_block {
         /* なぜかできない。
         text-align: center;*/
         display: flex;
@@ -287,7 +290,7 @@
                 margin-bottom: 30px;
             }
         }
-        button {
+        .btn {
             width: 100%;
             margin-top: 5%;
         }
