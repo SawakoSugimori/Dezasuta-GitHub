@@ -192,7 +192,7 @@ button::after {
   }
   /* The close button */
   .close_btn {
-    margin: 10px 10px 0 auto;
+    margin: 10px 10px 30px auto;
     color: #fafdf8;
     position: relative;
     width: 50px;
@@ -223,9 +223,8 @@ button::after {
     display: block;
     z-index: 1;
     text-align: center;
-    height: 360px;
+    height: 450px;
     width: 100%;
-    padding-top: 20%;
     background-color: rgba(56, 68, 100, 0.95);
     /* hide nav */
     position: fixed;
@@ -239,7 +238,8 @@ button::after {
   }
   .sp_nav .nav_line {
     border: none;
-    margin-bottom: 20px;
+    margin-top: 1px;
+    margin-bottom: 25px;
     border-top: 1px solid #fafdf8;
   }
   .sp_nav p {
