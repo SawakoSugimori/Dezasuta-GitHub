@@ -49,7 +49,9 @@
                 </div>
             </nav><!-- global_nav -->
             <!-- hamburger menu-->
-            <div class="ham_btn"><span></span><span></span></div>
+            <div class="fixed">
+                <div class="ham_btn"><span></span><span></span></div>
+            </div>
             <nav class="sp_nav null">
                 <div class="close_btn"><span></span><span></span></div>
                 <ul class="nav_left">
@@ -283,13 +285,6 @@
     <script>
         $(function () {
             // hamburger menu
-            // $('.ham_btn').on('click', function () {
-            //     $('.sp_nav').addClass('active');
-            //     $('ham_btn').style('display: none');
-            // })
-            // $('close_btn').on('click', function () {
-            //     $('sp_nav').removeClass('active');
-            // })
             $('.ham_btn').on('click', function () {
                 if ($('.sp_nav').hasClass('null')) {
                     $('.sp_nav').removeClass('null');
