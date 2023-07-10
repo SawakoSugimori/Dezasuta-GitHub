@@ -300,7 +300,7 @@
         width: 25%;
     }
     .right {
-        width: 70%;
+        width: 68%;
     }
 }
 .service .content .left {
@@ -318,8 +318,11 @@
         margin-top: -40px;
         margin-bottom: 10px;
     }
-    .design h3 {
-        color: $accent-color;
+    .design {
+        margin-bottom: 30px;
+        h3 {
+            color: $accent-color;
+        }
     }
     .coding h3 {
         color: $secondary-color;
