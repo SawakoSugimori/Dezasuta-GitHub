@@ -50,7 +50,7 @@
             </nav><!-- global_nav -->
             <!-- hamburger menu-->
             <div class="ham_btn"><span></span><span></span></div>
-            <nav class="sp_nav active">
+            <nav class="sp_nav null">
                 <div class="close_btn"><span></span><span></span></div>
                 <ul class="nav_left">
                     <li class="current_page">TOP</li>
@@ -283,13 +283,24 @@
     <script>
         $(function () {
             // hamburger menu
+            // $('.ham_btn').on('click', function () {
+            //     $('.sp_nav').addClass('active');
+            //     $('ham_btn').style('display: none');
+            // })
+            // $('close_btn').on('click', function () {
+            //     $('sp_nav').removeClass('active');
+            // })
             $('.ham_btn').on('click', function () {
-                $('.sp_nav').addClass('active');
-                $('ham_btn').addClass('null');
-            })
-            $('close_btn').on('click', function () {
-                $('sp_nav').removeClass('active');
-            })
+                if ($('.sp_nav').hasClass('null')) {
+                    $('.sp_nav').removeClass('null');
+                    $('.sp_nav').animate({ 'bottom': '0' }).addClass('active');
+                }
+            });
+            $('.close_btn').on('click', function () {
+                $('.sp_nav').animate({ 'bottom': '-450px' });
+                $('.sp_nav').removeClass('active');
+                $('.sp_nav').addClass('null');
+            });
         });
     </script>
 </body>

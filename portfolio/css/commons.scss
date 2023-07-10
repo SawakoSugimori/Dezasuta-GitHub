@@ -225,7 +225,7 @@ button::after {
         border-top-right-radius: 8px;
         /* hide nav */
         position: fixed;
-        bottom: -400px;
+        bottom: -450px;
         transition: 0.3s;
         .nav_left {
             li {
@@ -247,6 +247,11 @@ button::after {
         .lang {
             display: inline;
         }
+        .lang_switcher {
+            span {
+                color: $dominant-color;
+            }
+        }
         .social_links {
             display: flex;
             justify-content: center;
@@ -260,12 +265,9 @@ button::after {
         }
     }
     /* When active */
-    .sp_nav.active {
-        bottom: 0;
-    }
-    .ham_btn.null {
-        display: none;
-    }
+    // .sp_nav.null {
+    //     display: none;
+    // }
 }
 /* Footer */
 footer {
