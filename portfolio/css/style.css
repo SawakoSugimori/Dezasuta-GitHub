@@ -35,6 +35,7 @@
 .top_wrapper .layout .top_circle .circular {
   animation: circular 35s linear infinite;
   width: 100%;
+  border-radius: 50%;
 }
 @keyframes circular {
   0% {
@@ -356,7 +357,7 @@
   .service .content .left {
     width: 80%;
     margin: 0 auto;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
   }
   .service .content .right {
     width: 90%;
