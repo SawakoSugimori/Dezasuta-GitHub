@@ -181,8 +181,11 @@
                 margin: 0 auto;
             }
         }
-        .content .btn {
-            justify-content: center;
+        .content .btn_block {
+            display: block;
+            .btn {
+                text-align: center;
+            }
         }
     }
 }
@@ -290,9 +293,11 @@
                 margin-bottom: 30px;
             }
         }
-        .btn {
-            width: 100%;
-            margin-top: 5%;
+        .btn_block {
+            display: block;
+            .btn {
+                text-align: center;
+            }
         }
     }
 }

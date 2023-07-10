@@ -170,8 +170,11 @@
   .about .profile_left .relative {
     margin: 0 auto;
   }
-  .about .content .btn {
-    justify-content: center;
+  .about .content .btn_block {
+    display: block;
+  }
+  .about .content .btn_block .btn {
+    text-align: center;
   }
 }
 /* SECTION: Selected Work */
@@ -280,9 +283,11 @@
     width: 100%;
     margin-bottom: 30px;
   }
-  .work .btn {
-    width: 100%;
-    margin-top: 5%;
+  .work .btn_block {
+    display: block;
+  }
+  .work .btn_block .btn {
+    text-align: center;
   }
 }
 /* SECTION: What I do? */
