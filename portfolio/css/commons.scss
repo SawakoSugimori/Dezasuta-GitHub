@@ -221,6 +221,8 @@ button::after {
         height: 450px;
         width: 100%;
         background-color: rgba($color: #384464, $alpha: 0.95);
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
         /* hide nav */
         position: fixed;
         bottom: -400px;
@@ -234,7 +236,7 @@ button::after {
         }
         .nav_line {
             border: none;
-            margin-top: 1px;
+            margin-top: 10px;
             margin-bottom: 25px;
             border-top: 1px solid $dominant-color;
         }
@@ -261,7 +263,7 @@ button::after {
     .sp_nav.active {
         bottom: 0;
     }
-    .sp_nav.active .ham_btn {
+    .ham_btn.null {
         display: none;
     }
 }
