@@ -161,7 +161,7 @@
 }
 /* SECTION: Selected Work */
 .work {
-  padding: 110px 1%;
+  padding: 110px 2%;
   background-color: #f0f5f5;
   display: flex;
   justify-content: center;
@@ -186,7 +186,7 @@
   width: 32%;
 }
 .work .item div {
-  box-shadow: 1px 2px 3px rgba(46, 58, 92, 0.3);
+  box-shadow: 2px 3px 4px rgba(46, 58, 92, 0.3);
 }
 .work .item .role {
   text-align: right;
@@ -257,6 +257,19 @@
   opacity: 1;
 }
 
+@media (max-width: 776px) {
+  .work .works {
+    flex-direction: column;
+  }
+  .work .works .item {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .work button {
+    width: 100%;
+    margin-top: 5%;
+  }
+}
 /* SECTION: What I do? */
 .service {
   padding-top: 100px;

@@ -173,7 +173,7 @@
 
 /* SECTION: Selected Work */
 .work {
-    padding: 110px 1%;
+    padding: 110px 2%;
     background-color: $section-bg;
     display: flex;
     justify-content: center;
@@ -196,7 +196,7 @@
 .work .item {
     width: 32%;
     div {
-        box-shadow: 1px 2px 3px rgba($text-main-color, $alpha: 0.3);
+        box-shadow: 2px 3px 4px rgba($text-main-color, $alpha: 0.3);
     }
     .role {
         text-align: right;
@@ -265,6 +265,22 @@
 .item:hover .mask {
     opacity: 1;
 }
+@media (max-width: 776px) {
+    .work {
+        .works {
+            flex-direction: column;
+            .item {
+                width: 100%;
+                margin-bottom: 30px;
+            }
+        }
+        button {
+            width: 100%;
+            margin-top: 5%;
+        }
+    }
+}
+
 /* SECTION: What I do? */
 .service {
     padding-top: 100px;
