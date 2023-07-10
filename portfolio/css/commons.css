@@ -75,7 +75,10 @@ img {
 }
 
 /* Button style */
-button {
+button,
+.btn {
+  line-height: 44px;
+  display: block;
   position: relative;
   padding: 0 37px 0 24px;
   border: none;
@@ -87,11 +90,10 @@ button {
   height: 44px;
 }
 
-button::after {
-  position: absolute;
-  margin: auto 4px;
-  top: 0;
-  bottom: 0;
+button::after,
+.btn::after {
+  margin-left: 12px;
+  margin-top: 16px;
   content: "";
   width: 9px;
   height: 9px;
