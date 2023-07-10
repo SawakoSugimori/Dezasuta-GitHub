@@ -380,8 +380,7 @@
 
 /* SECTION: Contact */
 .contact {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 100px 3%;
     background-color: $section-bg;
     h2,
     p {
@@ -397,5 +396,13 @@
         .social_icon {
             width: 58px;
         }
+    }
+    .sp_only {
+        display: none;
+    }
+}
+@media (max-width: 776px) {
+    .contact .sp_only {
+        display: block;
     }
 }
