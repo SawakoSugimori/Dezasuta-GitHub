@@ -272,8 +272,7 @@
 }
 /* SECTION: What I do? */
 .service {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding: 100px 5%;
   max-width: 1000px;
   margin: 0 auto;
 }
@@ -305,6 +304,7 @@
   font-size: 40px;
   text-shadow: 1px 1px 1px rgba(46, 58, 92, 0.3);
   margin-top: -40px;
+  margin-bottom: 10px;
 }
 .service .content .left .design h3 {
   color: #f0e189;
@@ -346,6 +346,20 @@
   margin-bottom: 10px;
 }
 
+@media (max-width: 776px) {
+  .service .content {
+    display: block;
+  }
+  .service .content .left {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 60px;
+  }
+  .service .content .right {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
 /* SECTION: Contact */
 .contact {
   padding-top: 100px;
