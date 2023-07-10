@@ -35,7 +35,9 @@ h2,
         color: $accent-color;
     }
 }
-
+h2 {
+    font-size: clamp(3rem, 5vw + 2rem, 5.5rem);
+}
 a {
     /*下線を消す*/
     text-decoration: none;
