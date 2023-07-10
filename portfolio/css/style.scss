@@ -75,6 +75,28 @@
         border-radius: 5px;
         margin: -3px auto 0 auto;
     }
+    @media (max-width: 776px) {
+        .layout {
+            height: 85vh;
+            width: 83%;
+            display: block;
+            .top_circle {
+                max-width: 500px;
+                width: 100%;
+                margin: 5% auto;
+            }
+            .copy {
+                width: 100%;
+                h1,
+                p {
+                    text-align: center;
+                }
+                p {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
 }
 
 /* SECTION: About */

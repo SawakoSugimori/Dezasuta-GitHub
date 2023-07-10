@@ -68,6 +68,28 @@
   border-radius: 5px;
   margin: -3px auto 0 auto;
 }
+@media (max-width: 776px) {
+  .top_wrapper .layout {
+    height: 85vh;
+    width: 83%;
+    display: block;
+  }
+  .top_wrapper .layout .top_circle {
+    max-width: 500px;
+    width: 100%;
+    margin: 5% auto;
+  }
+  .top_wrapper .layout .copy {
+    width: 100%;
+  }
+  .top_wrapper .layout .copy h1,
+  .top_wrapper .layout .copy p {
+    text-align: center;
+  }
+  .top_wrapper .layout .copy p {
+    font-size: 16px;
+  }
+}
 
 /* SECTION: About */
 .about {
