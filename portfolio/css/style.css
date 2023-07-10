@@ -106,7 +106,7 @@
 /* SECTION: About */
 .about {
   max-width: 900px;
-  margin: 100px auto;
+  margin: 110px auto;
   padding-left: 3%;
   padding-right: 3%;
 }
@@ -157,8 +157,6 @@
   margin-bottom: 75px;
 }
 .about .content .btn_block {
-  /*　できなかった。なぜ
-  text-align: right;*/
   display: flex;
   justify-content: flex-end;
 }
@@ -385,7 +383,7 @@
 }
 /* SECTION: Contact */
 .contact {
-  padding: 100px 3%;
+  padding: 110px 3%;
   background-color: #f0f5f5;
 }
 .contact h2,
