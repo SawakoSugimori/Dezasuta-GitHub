@@ -94,7 +94,7 @@
 @media screen and (max-width: 767px) {
   .thankyou {
     display: block;
-    padding: 60px 20px 150px 20px;
+    padding: 60px 5% 150px 5%;
   }
   .thankyou .bouquet {
     width: 66%;
@@ -112,5 +112,9 @@
   }
   .thankyou .left h1 {
     margin: 40px 0;
+  }
+  .thankyou .left .btn_block {
+    display: block;
+    text-align: center;
   }
 }/*# sourceMappingURL=style.css.map */
