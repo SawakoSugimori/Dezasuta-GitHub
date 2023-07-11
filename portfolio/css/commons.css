@@ -30,7 +30,7 @@ h2,
 .page_title {
   color: #80d9d4;
   text-shadow: 2px 2px 4px rgba(46, 58, 92, 0.4);
-  font-size: 90px;
+  font-size: clamp(4rem, 5vw + 2rem, 5.5rem);
   font-weight: normal;
 }
 h2 span,
@@ -103,6 +103,22 @@ button::after,
   transform: rotate(45deg);
 }
 
+.pc_only {
+  display: block;
+}
+
+.sp_only {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .pc_only {
+    display: none;
+  }
+  .sp_only {
+    display: block;
+  }
+}
 /* Global nav */
 .global_nav {
   height: 80px;
@@ -279,7 +295,6 @@ button::after,
   .sp_nav .social_icon + .social_icon {
     margin-left: 23px;
   }
-  /* When active */
 }
 /* Footer */
 footer button::after {

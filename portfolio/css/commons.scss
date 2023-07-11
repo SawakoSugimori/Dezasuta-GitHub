@@ -96,6 +96,21 @@ button::after,
     border-right: 2px solid $dominant-color;
     transform: rotate(45deg);
 }
+.pc_only {
+    display: block;
+}
+.sp_only {
+    display: none;
+}
+@media screen and (max-width: 767px) {
+    .pc_only {
+        display: none;
+    }
+    .sp_only {
+        display: block;
+    }
+}
+
 /* Global nav */
 .global_nav {
     height: 80px;
@@ -276,10 +291,6 @@ button::after,
             margin-left: 23px;
         }
     }
-    /* When active */
-    // .sp_nav.null {
-    //     display: none;
-    // }
 }
 /* Footer */
 footer {
