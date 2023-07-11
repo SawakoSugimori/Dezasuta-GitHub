@@ -47,6 +47,38 @@
                     </ul>
                 </div>
             </nav>
+            <!-- hamburger menu-->
+            <div class="fixed">
+                <div class="ham_btn"><span></span><span></span></div>
+            </div>
+            <nav class="sp_nav null">
+                <div class="close_btn"><span></span><span></span></div>
+                <ul class="nav_left">
+                    <li class="current_page">TOP</li>
+                    <li><a href="./work/index.html">WORK</a></li>
+                    <li><a href="./about/index.html">ABOUT</a></li>
+                    <li><a href="./contact/index.html">CONTACT</a></li>
+                </ul>
+                <hr class="nav_line">
+                <div class="nav_right">
+                    <ul class="social_links">
+                        <li class="social_icon"><a href="#"><img src="./images/icons/github-icon-min.png"
+                                    alt="Github"></a>
+                        </li>
+                        <li class="social_icon"><a href="#"><img src="./images/icons/ig-icon-min.png"
+                                    alt="Instagram"></a>
+                        </li>
+                        <li class="social_icon"><a href="#"><img src="./images/icons/twitter-icon-min.png"
+                                    alt="Twitter"></a>
+                        </li>
+                    </ul>
+                    <div class="lang_switcher">
+                        <p class="lang"><a href="#">日本語</a></p>
+                        <span>/</span>
+                        <p class="lang"><a href="#">English</a></p>
+                    </div>
+                </div>
+            </nav>
         </div>
     </header>
     <section class="thankyou">
@@ -89,7 +121,22 @@
             </div>
         </div>
     </footer>
-
+    <script>
+        $(function () {
+            // hamburger menu
+            $('.ham_btn').on('click', function () {
+                if ($('.sp_nav').hasClass('null')) {
+                    $('.sp_nav').removeClass('null');
+                    $('.sp_nav').animate({ 'bottom': '0' }).addClass('active');
+                }
+            });
+            $('.close_btn').on('click', function () {
+                $('.sp_nav').animate({ 'bottom': '-450px' });
+                $('.sp_nav').removeClass('active');
+                $('.sp_nav').addClass('null');
+            });
+        });
+    </script>
 </body>
 
 </html>
