@@ -1,6 +1,6 @@
 @import "../../css/_var.scss";
 .contact {
-    padding: 10% 0 20% 0;
+    padding: 180px 3% 150px 3%;
     h1,
     p,
     li {
@@ -48,7 +48,16 @@
         }
     }
 }
-
+@media screen and (max-width: 767px) {
+    .contact {
+        padding-top: 60px;
+        .social_links {
+            li {
+                width: 40px;
+            }
+        }
+    }
+}
 .thankyou {
     display: flex;
     align-items: center;

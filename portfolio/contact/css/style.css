@@ -1,6 +1,6 @@
 /* font color*/
 .contact {
-  padding: 10% 0 20% 0;
+  padding: 180px 3% 150px 3%;
 }
 .contact h1,
 .contact p,
@@ -49,6 +49,14 @@
   margin-bottom: 100px;
 }
 
+@media screen and (max-width: 767px) {
+  .contact {
+    padding-top: 60px;
+  }
+  .contact .social_links li {
+    width: 40px;
+  }
+}
 .thankyou {
   display: flex;
   align-items: center;
