@@ -5,6 +5,10 @@
 .work_details .mockup img {
   width: 100%;
 }
+.work_details .banner_mockup {
+  margin: 50px 3%;
+  box-shadow: 2px 3px 4px rgba(46, 58, 92, 0.3);
+}
 .work_details .text {
   max-width: 1000px;
   width: 100%;
