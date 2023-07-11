@@ -32,7 +32,7 @@
     display: flex;
     flex-wrap: wrap;
     padding: 0 1%;
-    margin-bottom: 20%;
+    margin-bottom: 130px;
     .item {
         position: relative;
         width: calc((100% - 42px) / 3);
@@ -80,6 +80,9 @@
     }
 }
 @media screen and (max-width: 767px) {
+    .page_title {
+        margin: 60px 2%;
+    }
     .wrapper {
         .item {
             width: 100%;
