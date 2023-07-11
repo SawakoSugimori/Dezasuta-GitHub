@@ -1,9 +1,9 @@
 @import "../../css/var";
 .about {
-    padding-bottom: 20%;
+    padding-bottom: 180px;
     .intro {
-        margin-top: 15%;
-        margin-bottom: 10%;
+        margin-top: 200px;
+        margin-bottom: 120px;
         h1,
         p {
             text-align: center;
@@ -15,21 +15,21 @@
 }
 /* Sticky */
 .flex {
-    padding: 0 7% 15% 7%;
+    padding: 0 3% 150px 3%;
     display: flex;
-    justify-content: space-between;
     .sticky {
         position: sticky;
-        top: 15%;
+        top: 120px;
     }
     .image {
-        width: 32%;
-        margin-right: 8%;
+        width: 35%;
+        margin-right: 3%;
     }
     .text {
-        width: 60%;
+        max-width: 700px;
+        width: 62%;
         li + li {
-            margin-top: 15%;
+            margin-top: 80px;
         }
         li {
             h3 {
