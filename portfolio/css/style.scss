@@ -156,6 +156,12 @@
         bottom: 90px;
         left: 40px;
     }
+    /* Hello for sp*/
+    .sp_only {
+        position: absolute;
+        left: 160px;
+        top: 10px;
+    }
 }
 .about .content {
     h2 {
@@ -171,12 +177,22 @@
 }
 @media (max-width: 776px) {
     .about {
+        margin-top: 90px;
         .flex {
             display: block;
         }
         .profile_left {
             .relative {
-                margin: 0 auto;
+                margin-left: 8%;
+            }
+            .circle {
+                height: 140px;
+                width: 140px;
+            }
+            .my_pic {
+                width: 130px;
+                bottom: 110px;
+                left: 28px;
             }
         }
         .content .btn_block {
