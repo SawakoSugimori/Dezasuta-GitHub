@@ -51,9 +51,12 @@
 .wrapper .item .role::before {
   content: "Role: ";
 }
+.wrapper .mask_area {
+  position: relative;
+}
 .wrapper .mask {
   width: 100%;
-  height: 93%;
+  height: 100%;
   position: absolute;
   top: 0;
   left: 0;
