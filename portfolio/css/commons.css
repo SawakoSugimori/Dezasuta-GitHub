@@ -59,6 +59,10 @@ a:hover {
   opacity: 0.5;
 }
 
+.hover_null:hover {
+  opacity: 1;
+}
+
 ul {
   /*左の「・」を消す*/
   list-style: none;
