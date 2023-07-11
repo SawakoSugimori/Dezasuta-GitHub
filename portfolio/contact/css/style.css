@@ -70,18 +70,18 @@
 }
 .thankyou .left .caution {
   font-size: 14px;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 .thankyou .left .btn_block {
   display: flex;
   justify-content: right;
 }
-.thankyou .left button {
+.thankyou .left .btn {
   background-color: #fafdf8;
   color: #80d9d4;
   border: 1px solid #80d9d4;
 }
-.thankyou .left button::after {
+.thankyou .left .btn::after {
   border-top: 2px solid #80d9d4;
   border-right: 2px solid #80d9d4;
 }

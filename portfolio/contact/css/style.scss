@@ -70,18 +70,18 @@
         }
         .caution {
             font-size: 14px;
-            margin-bottom: 50px;
+            margin-bottom: 70px;
         }
         .btn_block {
             display: flex;
             justify-content: right;
         }
-        button {
+        .btn {
             background-color: $dominant-color;
             color: $secondary-color;
             border: 1px solid $secondary-color;
         }
-        button::after {
+        .btn::after {
             border-top: 2px solid $secondary-color;
             border-right: 2px solid $secondary-color;
         }
