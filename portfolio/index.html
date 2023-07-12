@@ -311,7 +311,7 @@
             const options = {
                 root: null,
                 rootMargin: '0px 0px',
-                threshold: .3
+                threshold: .4
             };
 
             const observer = new IntersectionObserver(callback, options)
@@ -331,34 +331,6 @@
                     }
                 });
             };
-
-            // break points
-            // const about_top = $('#about_bg').offset().top;
-            // const work_top = $('#work_bg').offset().top;
-            // const service_top = $('#service_bg').offset().top;
-            // const contact_top = $('#contact_bg').offset().top;
-            // // section 
-            // const blue_work = document.getElementsByClassName('work');
-            // const blue_contact = document.getElementsByClassName('contat');
-            // const white_service = document.getElementsByClassName('service');
-
-            // // console.log(about_top, work_top, service_top, contact_top);
-            // window.addEventListener("scroll", function () {
-            //     let scroll = window.pageYOffset;
-
-            //     if (scroll > contact_top) {
-            //         $('.service').removeClass('is-white');
-            //         $('.contact').addClass('is-blue');
-            //     } else if (scroll > service_top) {
-            //         $('.service').removeClass('is-blue');
-            //         $('.work').addClass('is-white');
-            //     } else if (scroll > work_top) {
-            //         $('.about').removeClass('is-white');
-            //         $('.work').addClass('is-blue');
-            //     } else if (scroll > about_top) {
-            //         $('.about').addClass('is-white');
-            //     };
-            // });
         });
     </script>
 </body>
