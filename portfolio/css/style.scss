@@ -9,8 +9,7 @@
 }
 .section_bg.work.is-active,
 .section_bg.contact.is-active {
-    background-color: #eaf0f0;
-    // background: #def0f0;
+    background-color: $section-bg;
 }
 /* SECTION: top_wrapper */
 .top_wrapper {
