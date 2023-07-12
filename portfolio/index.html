@@ -311,14 +311,14 @@
             const contact_top = $('.contact').offset().top;
             // console.log(about_top, work_top, service_top, contact_top);
             window.addEventListener("scroll", function () {
-                let scroll = window.pageYOffset;
+                let scroll = window.pageYOffset + 100;
 
-                if (scroll > contact_top) {
-                    document.body.style.backgroundColor = '#f0f5f5';
+                if (scroll + 100 > contact_top) {
+                    document.body.style.backgroundColor = '#CDEEEE';
                 } else if (scroll > service_top) {
                     document.body.style.backgroundColor = '#FAFDF8';
                 } else if (scroll > work_top) {
-                    document.body.style.backgroundColor = '#f0f5f5';
+                    document.body.style.backgroundColor = '#CDEEEE';
                 } else if (scroll > about_top) {
                     document.body.style.backgroundColor = '#FAFDF8';
                 };
