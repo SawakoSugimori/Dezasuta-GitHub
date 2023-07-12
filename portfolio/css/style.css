@@ -1,7 +1,22 @@
 @charset "UTF-8";
 /* font color*/
+.section_bg {
+  background-color: #fafdf8;
+  transition: 0.2s;
+}
+
+.section_bg.about.is-active,
+.section_bg.service.is-active {
+  background: #fafdf8;
+}
+
+.section_bg.work.is-active,
+.section_bg.contact.is-active {
+  background: #def0f0;
+}
+
 body {
-  transition: 0.8s;
+  transition: 0.3s;
 }
 
 /* SECTION: top_wrapper */
@@ -23,6 +38,7 @@ body {
   width: 54%;
 }
 .top_wrapper .layout .top_circle {
+  overflow: hidden;
   position: relative;
   margin-top: 40px;
   width: 40%;
@@ -349,7 +365,6 @@ body {
   left: -14px;
 }
 .service .content .right .card .center {
-  background-color: #f0f5f5;
   display: flex;
   justify-content: center;
   align-items: center;

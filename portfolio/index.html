@@ -96,11 +96,11 @@
                 </div>
             </div><!-- layout -->
         </div><!-- top_bg -->
-        <div class="pagedown_arrow"></div>
+        <div id="about_bg" class="pagedown_arrow"></div>
     </section><!-- top_wrapper-->
 
     <!-- About -->
-    <section class="about">
+    <section class="about section_bg">
         <div class="flex">
             <div class="profile_left">
                 <div class="relative"><!-- ::beforeで高さを与える -->
@@ -120,7 +120,7 @@
                     はじめまして。杉森佐和子と申します。現在ニュージーランドに住んでいます。<br><br
                         class="pc_only">人間の心理や生物の行動にとても興味があります。デザインを作成することも、人間の高度や思考について深く考えることができるので、とてもすきなひとときです。
                 </p>
-                <div class="btn_block">
+                <div id="work_bg" class="btn_block">
                     <a href="./about/index.html" class="btn">learn more about me</a>
                 </div>
             </div>
@@ -128,7 +128,7 @@
     </section>
 
     <!-- Work -->
-    <section class="work">
+    <section class="work section_bg">
         <div class="centered">
             <h2>Selected Work</h2>
             <ul class="works">
@@ -169,13 +169,13 @@
                     </a>
                 </li>
             </ul><!-- .works-->
-            <div class="btn_block">
+            <div id="service_bg" class="btn_block">
                 <a href="./work/index.html" class="btn">View all work</a>
             </div>
         </div><!-- .centered -->
     </section><!-- .works -->
 
-    <section class="service">
+    <section class="service section_bg">
         <div class="centered">
             <h2>What I do<span>?</span></h2>
             <div class="content">
@@ -242,7 +242,7 @@
                         </div>
                     </li><!-- .card -->
                     <!-- No.3 -->
-                    <li class="card">
+                    <li id="contact_bg" class="card">
                         <div class="relative">
                             <p class="sub">service</p>
                             <p class="num">03</p>
@@ -261,7 +261,7 @@
     </section>
 
     <!-- Contact -->
-    <section class="contact">
+    <section class="contact section_bg">
         <h2>Contact</h2>
         <p>ご依頼・ご質問等がありましたら、<br class="sp_only">お問い合わせページやSNSより、お気軽にお問い合わせください</p>
         <ul class="social_links">
@@ -305,24 +305,60 @@
             });
 
             // Change bg color smoothly when scrolling
-            const about_top = $('.about').offset().top;
-            const work_top = $('.work').offset().top;
-            const service_top = $('.service').offset().top;
-            const contact_top = $('.contact').offset().top;
-            // console.log(about_top, work_top, service_top, contact_top);
-            window.addEventListener("scroll", function () {
-                let scroll = window.pageYOffset + 100;
+            const target = document.querySelectorAll('.section_bg');
+            const targetArray = Array.prototype.slice.call(target);
 
-                if (scroll + 100 > contact_top) {
-                    document.body.style.backgroundColor = '#CDEEEE';
-                } else if (scroll > service_top) {
-                    document.body.style.backgroundColor = '#FAFDF8';
-                } else if (scroll > work_top) {
-                    document.body.style.backgroundColor = '#CDEEEE';
-                } else if (scroll > about_top) {
-                    document.body.style.backgroundColor = '#FAFDF8';
-                };
+            const options = {
+                root: null,
+                rootMargin: '0px 0px',
+                threshold: .3
+            };
+
+            const observer = new IntersectionObserver(callback, options)
+            targetArray.forEach((targets) => {
+                observer.observe(targets)
             });
+
+            function callback(active) {
+                active.forEach(function (entry, i) {
+                    const target = entry.target;
+                    if (entry.isIntersecting && !target.classList.contains('is-active')) {
+                        const delay = i * 100
+                        setTimeout(function () {
+                            target.classList.add('is-active');
+                        }, delay);
+                        observer.unobserve(target);
+                    }
+                });
+            };
+
+            // break points
+            // const about_top = $('#about_bg').offset().top;
+            // const work_top = $('#work_bg').offset().top;
+            // const service_top = $('#service_bg').offset().top;
+            // const contact_top = $('#contact_bg').offset().top;
+            // // section 
+            // const blue_work = document.getElementsByClassName('work');
+            // const blue_contact = document.getElementsByClassName('contat');
+            // const white_service = document.getElementsByClassName('service');
+
+            // // console.log(about_top, work_top, service_top, contact_top);
+            // window.addEventListener("scroll", function () {
+            //     let scroll = window.pageYOffset;
+
+            //     if (scroll > contact_top) {
+            //         $('.service').removeClass('is-white');
+            //         $('.contact').addClass('is-blue');
+            //     } else if (scroll > service_top) {
+            //         $('.service').removeClass('is-blue');
+            //         $('.work').addClass('is-white');
+            //     } else if (scroll > work_top) {
+            //         $('.about').removeClass('is-white');
+            //         $('.work').addClass('is-blue');
+            //     } else if (scroll > about_top) {
+            //         $('.about').addClass('is-white');
+            //     };
+            // });
         });
     </script>
 </body>

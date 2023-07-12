@@ -1,6 +1,18 @@
 @import "_var.scss";
+.section_bg {
+    background-color: $dominant-color;
+    transition: 0.2s;
+}
+.section_bg.about.is-active,
+.section_bg.service.is-active {
+    background: $dominant-color;
+}
+.section_bg.work.is-active,
+.section_bg.contact.is-active {
+    background: #def0f0;
+}
 body {
-    transition: 0.8s;
+    transition: 0.3s;
 }
 /* SECTION: top_wrapper */
 .top_wrapper {
@@ -361,7 +373,7 @@ body {
         }
     }
     .center {
-        background-color: $section-bg;
+        // background-color: $section-bg;
         display: flex;
         justify-content: center;
         align-items: center;
