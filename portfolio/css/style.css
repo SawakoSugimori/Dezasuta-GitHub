@@ -1,5 +1,9 @@
 @charset "UTF-8";
 /* font color*/
+body {
+  transition: 1s;
+}
+
 /* SECTION: top_wrapper */
 .top_wrapper {
   /* Split a background into 2 colors */
@@ -196,7 +200,6 @@
 /* SECTION: Selected Work */
 .work {
   padding: 110px 2%;
-  background-color: #f0f5f5;
   display: flex;
   justify-content: center;
 }
@@ -375,7 +378,6 @@
 /* SECTION: Contact */
 .contact {
   padding: 110px 3%;
-  background-color: #f0f5f5;
 }
 .contact h2,
 .contact p {

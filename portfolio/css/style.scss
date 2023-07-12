@@ -1,5 +1,7 @@
 @import "_var.scss";
-
+body {
+    transition: 1s;
+}
 /* SECTION: top_wrapper */
 .top_wrapper {
     /* Split a background into 2 colors */
@@ -207,7 +209,7 @@
 /* SECTION: Selected Work */
 .work {
     padding: 110px 2%;
-    background-color: $section-bg;
+    // background-color: $section-bg;
     display: flex;
     justify-content: center;
     h2 {
@@ -390,7 +392,7 @@
 /* SECTION: Contact */
 .contact {
     padding: 110px 3%;
-    background-color: $section-bg;
+    // background-color: $section-bg;
     h2,
     p {
         text-align: center;
