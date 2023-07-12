@@ -232,8 +232,6 @@
         margin-bottom: 50px;
     }
     .btn_block {
-        /* なぜかできない。
-        text-align: center;*/
         display: flex;
         justify-content: center;
     }
@@ -370,7 +368,7 @@
         }
     }
     .center {
-        // background-color: $section-bg;
+        background-color: $section-bg;
         display: flex;
         justify-content: center;
         align-items: center;

@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* font color*/
 .section_bg {
   background-color: #fafdf8;
@@ -225,8 +224,6 @@
   margin-bottom: 50px;
 }
 .work .btn_block {
-  /* なぜかできない。
-  text-align: center;*/
   display: flex;
   justify-content: center;
 }
@@ -361,6 +358,7 @@
   left: -14px;
 }
 .service .content .right .card .center {
+  background-color: #f0f5f5;
   display: flex;
   justify-content: center;
   align-items: center;
