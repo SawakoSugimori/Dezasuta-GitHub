@@ -21,7 +21,7 @@
 
 <body>
     <!-- Loading -->
-    <div class="loading">
+    <div id="loading">
         <div class="wrap">
             <div class="loading">
                 <div class="bounceball"></div>
@@ -300,6 +300,13 @@
     </footer>
     <script>
         $(function () {
+            // loading screen
+            const loading = document.getElementById('loading');
+            window.addEventListener('load', () => {
+                setTimeout(function () {
+                    loading.classList.add('loaded');
+                }, 1000);
+            });
             // hamburger menu
             $('.ham_btn').on('click', function () {
                 if ($('.sp_nav').hasClass('null')) {

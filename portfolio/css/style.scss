@@ -427,7 +427,13 @@
 }
 
 // Loading page
-.loading {
+.loaded {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 300ms;
+}
+#loading {
+    background-color: $dominant-color;
     width: 100%;
     height: 100vh;
     display: flex;
