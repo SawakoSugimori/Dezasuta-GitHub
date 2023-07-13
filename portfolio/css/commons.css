@@ -179,6 +179,9 @@ button::after,
 }
 
 @media screen and (max-width: 1100px) {
+  .current_page {
+    background-color: rgba(250, 253, 248, 0.6);
+  }
   .global_nav {
     display: none;
   }
@@ -267,14 +270,17 @@ button::after,
     bottom: -450px;
     transition: 0.3s;
   }
+  .sp_nav .nav_left {
+    border-bottom: 1px solid #fafdf8;
+    margin-bottom: 25px;
+  }
   .sp_nav .nav_left li {
     color: #fafdf8;
-    line-height: 50px;
+    line-height: 52px;
     font-size: 20px;
   }
   .sp_nav .nav_line {
     border: none;
-    margin-top: 10px;
     margin-bottom: 25px;
     border-top: 1px solid #fafdf8;
   }
@@ -291,7 +297,7 @@ button::after,
   .sp_nav .social_links {
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
   }
   .sp_nav .social_icon {
     width: 28px;
