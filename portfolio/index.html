@@ -302,8 +302,18 @@
                 $('.sp_nav').removeClass('active');
                 $('.sp_nav').addClass('null');
             });
+            // Show background when scrolling
+            $(window).scroll(function () {
+                var scroll = $(window).scrollTop();
+                if (scroll > 100) {
+                    $(".global_nav").addClass('scroll-nav');
+                }
+                else {
+                    $(".global_nav").removeClass('scroll-nav');
+                }
+            });
 
-            // Change bg color smoothly when scrolling
+            // Background Color: Change bg color smoothly when scrolling
             const target = document.querySelectorAll('.section_bg');
             const targetArray = Array.prototype.slice.call(target);
             // console.log(target, targetArray)

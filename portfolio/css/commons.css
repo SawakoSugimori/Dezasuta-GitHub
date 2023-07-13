@@ -172,6 +172,11 @@ button::after,
   margin-left: 23px;
 }
 
+.scroll-nav {
+  background-color: rgba(250, 253, 248, 0.9);
+  transition: 0.4s;
+}
+
 /* hamburger menu */
 .sp_nav,
 .ham_btn {

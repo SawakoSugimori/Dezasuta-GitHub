@@ -162,6 +162,11 @@ button::after,
         margin-left: 23px;
     }
 }
+// Show background when scrolling
+.scroll-nav {
+    background-color: rgba($dominant-color, 0.9);
+    transition: 0.4s;
+}
 /* hamburger menu */
 .sp_nav,
 .ham_btn {
