@@ -77,9 +77,27 @@
             margin-left: 4px;
         }
     }
-    /* Show the mask while hovering*/
-    .item:hover .mask {
-        opacity: 1;
+}
+/* Show the mask while hovering*/
+.item:hover .mask {
+    opacity: 1;
+}
+/* a button to go back to the TOP */
+.btn_block {
+    text-align: center;
+    margin-bottom: 120px;
+
+    .btn {
+        display: inline-block;
+        background-color: $dominant-color;
+        border: 1px solid $secondary-color;
+        color: $secondary-color;
+        padding: 0 67px 0 54px;
+    }
+    .btn:after {
+        border-top: 2px solid $secondary-color;
+        border-right: 2px solid $secondary-color;
+        right: 20px;
     }
 }
 @media screen and (max-width: 767px) {
