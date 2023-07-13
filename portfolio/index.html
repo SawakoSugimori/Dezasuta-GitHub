@@ -307,7 +307,7 @@
             // Change bg color smoothly when scrolling
             const target = document.querySelectorAll('.section_bg');
             const targetArray = Array.prototype.slice.call(target);
-
+            // console.log(target, targetArray)
             const options = {
                 root: null,
                 rootMargin: '0px 0px',
@@ -318,7 +318,7 @@
             targetArray.forEach((targets) => {
                 observer.observe(targets)
             });
-
+            // The callback parameter is a method that receives an array of entries, and the observer itself.
             function callback(active) {
                 active.forEach(function (entry, i) {
                     const target = entry.target;
