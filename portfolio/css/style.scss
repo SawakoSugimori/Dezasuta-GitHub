@@ -433,10 +433,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    /* Fix the loading section */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
     .text {
         color: $secondary-color;
         display: inline-block;
-        margin-left: 8px;
+        margin-left: 12px;
         font-size: 24px;
     }
     .bounceball {
@@ -444,6 +449,7 @@
         display: inline-block;
         height: 40px;
         width: $width;
+        margin-top: -30px;
         &:before {
             position: absolute;
             content: "";
