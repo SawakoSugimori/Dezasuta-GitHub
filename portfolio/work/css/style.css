@@ -110,4 +110,9 @@
   .wrapper .item {
     width: 100%;
   }
+  /* a button to go back to top page */
+  .btn_block .btn {
+    margin: 0 3%;
+    display: block;
+  }
 }/*# sourceMappingURL=style.css.map */
