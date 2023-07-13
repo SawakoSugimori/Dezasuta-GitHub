@@ -136,6 +136,9 @@ button::after,
         display: flex;
         justify-content: space-between;
         align-items: center;
+        a:hover {
+            opacity: 1;
+        }
     }
     /* nav left */
     .nav_left li {
@@ -145,12 +148,16 @@ button::after,
         margin-left: 5%;
     }
     .nav_left li:hover {
-        background-color: rgba($dominant-color, 0.6);
+        background-color: rgba($section-bg, 0.9);
         border-radius: 3px;
         transition: 0.2s;
     }
     .current_page {
         opacity: 0.5;
+    }
+    .current_page:hover,
+    .current_page a {
+        pointer-events: none;
     }
     /* nav right */
     .lang_switcher {

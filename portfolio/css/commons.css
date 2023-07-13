@@ -151,6 +151,11 @@ button::after,
   justify-content: space-between;
   align-items: center;
 }
+.global_nav .nav_left a:hover,
+.global_nav .nav_right a:hover,
+.global_nav .social_links a:hover {
+  opacity: 1;
+}
 .global_nav .nav_left li {
   padding: 8px 16px;
 }
@@ -158,12 +163,16 @@ button::after,
   margin-left: 5%;
 }
 .global_nav .nav_left li:hover {
-  background-color: rgba(250, 253, 248, 0.6);
+  background-color: rgba(234, 240, 240, 0.9);
   border-radius: 3px;
   transition: 0.2s;
 }
 .global_nav .current_page {
   opacity: 0.5;
+}
+.global_nav .current_page:hover,
+.global_nav .current_page a {
+  pointer-events: none;
 }
 .global_nav .lang_switcher {
   margin-right: 20px;
