@@ -6,7 +6,11 @@
   width: 100%;
 }
 .work_details .banner_mockup {
-  margin: 50px 3%;
+  padding: 0 3%;
+  max-width: 500px;
+  margin: 8% auto;
+}
+.work_details .banner_mockup img {
   box-shadow: 2px 3px 4px rgba(46, 58, 92, 0.3);
 }
 .work_details .text {
