@@ -25,6 +25,10 @@ li {
   font-feature-settings: "palt";
 }
 
+body {
+  background-color: #fafdf8;
+}
+
 /* section title and page title */
 h2,
 .page_title {

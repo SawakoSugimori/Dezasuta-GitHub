@@ -23,7 +23,9 @@ li {
     font-family: $roman-font, $japanese-font;
     font-feature-settings: "palt";
 }
-
+body {
+    background-color: $dominant-color;
+}
 /* section title and page title */
 h2,
 .page_title {
