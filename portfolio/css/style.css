@@ -412,39 +412,45 @@
     display: block;
   }
 }
-.loaded {
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 300ms;
-}
-
-#loading {
+.loading {
+  opacity: 1;
+  visibility: visible;
   background-color: #fafdf8;
   width: 100%;
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  transition: all 1s;
   /* Fix the loading section */
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 1000;
+  z-index: 9999;
 }
-#loading .text {
+.loading .loading-animation {
+  width: 100vw;
+  height: 100vh;
+  transition: all 1s;
+  background-color: #fafdf8;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+}
+.loading .text {
   color: #80d9d4;
   display: inline-block;
   margin-left: 12px;
   font-size: 24px;
 }
-#loading .bounceball {
+.loading .bounceball {
   position: relative;
   display: inline-block;
   height: 40px;
   width: 20px;
   margin-top: -30px;
 }
-#loading .bounceball:before {
+.loading .bounceball:before {
   position: absolute;
   content: "";
   display: block;
@@ -470,4 +476,14 @@
   100% {
     top: 0;
   }
+}
+
+.loading.hide {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.loading-animation.show {
+  opacity: 1;
+  visibility: visible;
 }/*# sourceMappingURL=style.css.map */

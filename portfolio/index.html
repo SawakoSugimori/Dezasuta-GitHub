@@ -21,9 +21,9 @@
 
 <body>
     <!-- Loading -->
-    <div id="loading">
-        <div class="wrap">
-            <div class="loading">
+    <div class="loading">
+        <div class="loading-animation">
+            <div class="wrap">
                 <div class="bounceball"></div>
                 <div class="text">NOW LOADING</div>
             </div>
@@ -301,12 +301,21 @@
     <script>
         $(function () {
             // loading screen
-            const loading = document.getElementById('loading');
-            window.addEventListener('load', () => {
-                setTimeout(function () {
-                    loading.classList.add('loaded');
-                }, 1000);
-            });
+            var webStorage = function () {
+                if (sessionStorage.getItem('access')) {
+                    // When the user visit the page more than twice
+                    $('.loading').addClass('hide');
+                } else {
+                    // The first time
+                    sessionStorage.setItem('access', 'true');
+                    $('.loading-animation').addClass('show');
+                    setTimeout(function () {
+                        $('.loading').addClass('hide');
+                        $('.loading-animation').removeClass('show');
+                    }, 2000);
+                }
+            }
+            webStorage();
             // hamburger menu
             $('.ham_btn').on('click', function () {
                 if ($('.sp_nav').hasClass('null')) {

@@ -427,23 +427,30 @@
 }
 
 // Loading page
-.loaded {
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity 300ms;
-}
-#loading {
+.loading {
+    opacity: 1;
+    visibility: visible;
     background-color: $dominant-color;
     width: 100%;
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    transition: all 1s;
     /* Fix the loading section */
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1000;
+    z-index: 9999;
+    .loading-animation {
+        width: 100vw;
+        height: 100vh;
+        transition: all 1s;
+        background-color: $dominant-color;
+        z-index: 9999;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        visibility: hidden;
+    }
     .text {
         color: $secondary-color;
         display: inline-block;
@@ -484,4 +491,12 @@
             }
         }
     }
+}
+.loading.hide {
+    opacity: 0;
+    visibility: hidden;
+}
+.loading-animation.show {
+    opacity: 1;
+    visibility: visible;
 }
