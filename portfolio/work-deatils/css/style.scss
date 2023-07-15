@@ -62,6 +62,9 @@
         margin: 0 auto;
         margin-bottom: 130px;
         padding: 6%;
+        img {
+            box-shadow: 2px 2px 3px rgba($text-main-color, $alpha: 0.3);
+        }
     }
     /* a button to go back to the TOP */
     .btn_block {
