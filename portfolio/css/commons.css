@@ -297,6 +297,9 @@ button::after,
     line-height: 52px;
     font-size: 20px;
   }
+  .sp_nav .nav_left li a {
+    display: block;
+  }
   .sp_nav .nav_line {
     border: none;
     margin-bottom: 25px;

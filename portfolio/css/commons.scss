@@ -280,6 +280,9 @@ button::after,
                 color: $dominant-color;
                 line-height: 52px;
                 font-size: 20px;
+                a {
+                    display: block;
+                }
             }
         }
         .nav_line {
