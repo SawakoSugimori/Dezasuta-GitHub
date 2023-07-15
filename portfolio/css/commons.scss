@@ -136,13 +136,13 @@ button::after,
         display: flex;
         justify-content: space-between;
         align-items: center;
-        a:hover {
-            opacity: 1;
-        }
     }
     /* nav left */
     .nav_left li {
         padding: 8px 16px;
+        a:hover {
+            opacity: 1;
+        }
     }
     .nav_left li + .nav_left li {
         margin-left: 5%;
