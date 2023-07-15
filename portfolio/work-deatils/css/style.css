@@ -1,4 +1,7 @@
 /* font color*/
+.work_details {
+  /* a button to go back to the TOP */
+}
 .work_details .mockup {
   margin-bottom: 50px;
 }
@@ -62,6 +65,22 @@
   margin-bottom: 130px;
   padding: 6%;
 }
+.work_details .btn_block {
+  text-align: center;
+  margin-bottom: 120px;
+}
+.work_details .btn_block .btn {
+  display: inline-block;
+  background-color: #fafdf8;
+  border: 1px solid #80d9d4;
+  color: #80d9d4;
+  padding: 0 67px 0 54px;
+}
+.work_details .btn_block .btn:after {
+  border-top: 2px solid #80d9d4;
+  border-right: 2px solid #80d9d4;
+  right: 20px;
+}
 
 @media screen and (max-width: 767px) {
   .work_details .title {
@@ -73,5 +92,10 @@
   }
   .work_details .title p {
     padding-bottom: 15px;
+  }
+  /* a button to go back to work page */
+  .btn_block .btn {
+    margin: 0 3%;
+    display: block;
   }
 }/*# sourceMappingURL=style.css.map */
