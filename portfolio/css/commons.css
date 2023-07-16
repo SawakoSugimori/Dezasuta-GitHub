@@ -97,6 +97,7 @@ button,
   color: #fafdf8;
   height: 44px;
   transition: transform 0.4s ease;
+  overflow: hidden;
 }
 
 .btn:active {
