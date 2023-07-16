@@ -127,15 +127,29 @@ button,
 }
 .pop.animate::before {
     top: -70%;
-    background-image: radial-gradient(circle, blue 20%, transparent 20%),
-        radial-gradient(circle, transparent 20%, blue 20%, transparent 30%),
-        radial-gradient(circle, blue 20%, transparent 20%),
-        radial-gradient(circle, transparent 10%, blue 15%, transparent 20%),
-        radial-gradient(circle, blue 20%, transparent 20%),
-        radial-gradient(circle, blue 20%, transparent 20%),
-        radial-gradient(circle, blue 20%, transparent 20%),
-        radial-gradient(circle, blue 20%, transparent 20%),
-        radial-gradient(circle, blue 20%, transparent 20%);
+    background-image: radial-gradient(
+            circle,
+            $secondary-color 20%,
+            transparent 20%
+        ),
+        radial-gradient(
+            circle,
+            transparent 20%,
+            $secondary-color 20%,
+            transparent 30%
+        ),
+        radial-gradient(circle, $secondary-color 20%, transparent 20%),
+        radial-gradient(
+            circle,
+            transparent 10%,
+            $secondary-color 15%,
+            transparent 20%
+        ),
+        radial-gradient(circle, $secondary-color 20%, transparent 20%),
+        radial-gradient(circle, $secondary-color 20%, transparent 20%),
+        radial-gradient(circle, $secondary-color 20%, transparent 20%),
+        radial-gradient(circle, $secondary-color 20%, transparent 20%),
+        radial-gradient(circle, $secondary-color 20%, transparent 20%);
     background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%,
         10% 10%, 18% 18%, 10% 10%;
     background-position: 10% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 40% 90%,
@@ -155,13 +169,22 @@ button,
 }
 .pop.animate::after {
     bottom: -70%;
-    background-image: radial-gradient(circle, blue 20%, transparent 20%),
-        radial-gradient(circle, transparent 10%, blue 15%, transparent 20%),
-        radial-gradient(circle, blue 20%, transparent 20%),
-        radial-gradient(circle, blue 20%, transparent 20%),
-        radial-gradient(circle, blue 20%, transparent 20%),
-        radial-gradient(circle, blue 20%, transparent 20%),
-        radial-gradient(circle, blue 20%, transparent 20%);
+    background-image: radial-gradient(
+            circle,
+            $secondary-color 20%,
+            transparent 20%
+        ),
+        radial-gradient(
+            circle,
+            transparent 10%,
+            $secondary-color 15%,
+            transparent 20%
+        ),
+        radial-gradient(circle, $secondary-color 20%, transparent 20%),
+        radial-gradient(circle, $secondary-color 20%, transparent 20%),
+        radial-gradient(circle, $secondary-color 20%, transparent 20%),
+        radial-gradient(circle, $secondary-color 20%, transparent 20%),
+        radial-gradient(circle, $secondary-color 20%, transparent 20%);
     background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 20% 20%,
         18% 18%;
     background-position: 10% 0%, 30% 10%, 55% 0%, 70% 0%, 85% 0%, 70% 0%, 70% 0%;
