@@ -337,7 +337,17 @@
                     $(".global_nav").removeClass('scroll-nav');
                 }
             });
+            // Button animation
+            const button = document.querySelector(".pop");
+            // console.log(button);
+            button.addEventListener('click', function (event) {
+                event.preventDefault();
+                $(".pop").addClass('animate');
 
+                setTimeout(() => {
+                    $('.pop').removeClass('animate');
+                }, 600)
+            });
             // Background Color: Change bg color smoothly when scrolling
             const target = document.querySelectorAll('.section_bg');
             const targetArray = Array.prototype.slice.call(target);
