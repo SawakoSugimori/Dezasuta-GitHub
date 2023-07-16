@@ -96,6 +96,11 @@ button,
   text-transform: uppercase;
   color: #fafdf8;
   height: 44px;
+  transition: transform 0.4s ease;
+}
+
+.btn:active {
+  transform: scale(0.96);
 }
 
 button::after,
