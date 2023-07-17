@@ -348,6 +348,7 @@ button,
     background-color: rgba(56, 68, 100, 0.95);
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
+    z-index: 999;
     /* hide nav */
     position: fixed;
     bottom: -450px;
