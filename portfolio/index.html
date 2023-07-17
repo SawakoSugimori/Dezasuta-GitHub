@@ -349,7 +349,11 @@
                     setTimeout(() => {
                         $('.pop').removeClass('animate');
                     }, 600)
-            });
+                    // ぺージ遷移
+                    // window.location = this.getAttribute('href');
+                });
+            }
+
             // Background Color: Change bg color smoothly when scrolling
             const target = document.querySelectorAll('.section_bg');
             const targetArray = Array.prototype.slice.call(target);
