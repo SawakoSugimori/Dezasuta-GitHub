@@ -161,20 +161,32 @@
                 }
             });
 
-            // Form Validation
+            /*！！！！！！ここの添削をお願いします
+            htmlタグにrequiredを追加したのですが、なぜかデフォルトのメッセージが表示されませんでした。
+            今回は、デフォルトのメッセージが表示されないことを利用し、１）JSで空欄の場合はメッセージを表示、２）デフォルトの機能を利用し、ページ遷移を止める、という方法になっていると思っています。
+            これで動いたのですが、これは適切なやり方か疑問に思っています。デフォルトのrequiredメッセージが表示された場合、これは上手くいかないのではないでしょうか？
+            */
+            // Form Validation 
             // Get values of the input field with id="required"
             let requireds = document.querySelectorAll('.required');
+            // エラーメッセージを表示するpタグを取得
             let errors = document.querySelectorAll('.error_text');
+            // 必須フィールドの数を取得
             let requiredLength = requireds.length;
+            // sunmitボタンを取得
             const submit = document.querySelector('.submit');
-            console.log(requireds);
-            var valid = false;
+            // var valid = false;
             submit.addEventListener('click', function (e) {
                 // Cancel default actions
                 for (let i = 0; i < requiredLength; i++) {
                     if (requireds[i].value == "") {
+                        // エラーメッセージを表示
                         errors[i].innerHTML = "このフィールドは必須です。";
                     }
+                    // 
+                    // else {
+                    //     valid = true;
+                    // }
                 }
             });
         });
