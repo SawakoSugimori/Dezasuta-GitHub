@@ -135,6 +135,12 @@ button,
 @media screen and (max-width: 767px) {
   .pop::before,
   .pop::after {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .pop::before,
+  .pop::after {
     width: 75%;
   }
 }
