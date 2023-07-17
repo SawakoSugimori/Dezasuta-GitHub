@@ -361,10 +361,20 @@
             const target = document.querySelectorAll('.section_bg');
             const targetArray = Array.prototype.slice.call(target);
             // console.log(target, targetArray)
-            const options = {
-                root: null,
-                rootMargin: '0px 0px',
-                threshold: .4
+            let options;
+
+            if (window.matchMedia('(max-width: 767px)').matches) {
+                options = {
+                    root: null,
+                    rootMargin: '0px 0px',
+                    threshold: .4
+                }
+            } else {
+                options = {
+                    root: null,
+                    rootMargin: '0px 0px',
+                    threshold: 0
+                }
             };
 
             const observer = new IntersectionObserver(callback, options)
