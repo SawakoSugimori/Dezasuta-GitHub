@@ -40,6 +40,8 @@ h2,
 h2 span,
 .page_title span {
   color: #f0e189;
+  font-family: "Ubuntu", sans-serif;
+  margin-left: 8px;
 }
 
 h2 {
