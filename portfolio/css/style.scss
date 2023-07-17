@@ -322,9 +322,13 @@
     }
     .left {
         width: 25%;
+        margin-top: -30px;
     }
     .right {
         width: 68%;
+        .card + .card {
+            margin-top: 70px;
+        }
     }
 }
 .service .content .left {
@@ -353,7 +357,6 @@
     }
 }
 .service .content .right .card {
-    margin-bottom: 70px;
     box-shadow: 2px 3px 5px rgba($text-main-color, $alpha: 0.1);
     .relative {
         position: relative;

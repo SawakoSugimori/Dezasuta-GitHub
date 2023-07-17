@@ -312,9 +312,13 @@
 }
 .service .content .left {
   width: 25%;
+  margin-top: -30px;
 }
 .service .content .right {
   width: 68%;
+}
+.service .content .right .card + .card {
+  margin-top: 70px;
 }
 
 .service .content .left .skills {
@@ -342,7 +346,6 @@
 }
 
 .service .content .right .card {
-  margin-bottom: 70px;
   box-shadow: 2px 3px 5px rgba(46, 58, 92, 0.1);
 }
 .service .content .right .card .relative {
