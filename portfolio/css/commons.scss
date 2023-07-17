@@ -35,6 +35,8 @@ h2,
     font-weight: normal;
     span {
         color: $accent-color;
+        font-family: $symbol-font;
+        margin-left: 8px;
     }
 }
 h2 {
