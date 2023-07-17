@@ -95,13 +95,21 @@
         <form
             action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfW3Gw83pX6i_pLZpG5GUARikziPbYqu8m0Eiq6oGSUUvM6Yw/formResponse"
             method="post" target="hidden_iframe" onsubmit="submitted=true">
+
             <label for="name">お名前</label>
-            <input id="name" type="text" placeholder="山田 太郎" name="entry.1982888611" required>
+            <input id="name" class="required" type="text" placeholder="山田 太郎" name="entry.1982888611">
+            <p class="error_text"></p>
+
             <label for="email">メールアドレス</label>
-            <input id="email" type="text" placeholder="example@mail.co.jp" name="entry.463273501" required>
+            <input id="email" class="required" type="text" placeholder="example@mail.co.jp" name="entry.463273501">
+            <p class="error_text"></p>
+
             <label for="msg">メッセージ</label>
-            <textarea id="msg" placeholder="お気軽にお問い合わせください。" name="entry.1729223197" required></textarea>
-            <button type="submit" name="button" value="送信">メッセージを送信する</button>
+            <textarea id="msg" class="required" placeholder="お気軽にお問い合わせください。" name="entry.1729223197"></textarea>
+            <p class="error_text"></p>
+
+            <p class="submit">submit</p>
+            <!-- <button class="submit" type="submit" name="button" value="送信">メッセージを送信する</button> -->
         </form>
     </section>
 
@@ -148,6 +156,26 @@
                 }
                 else {
                     $(".global_nav").removeClass('scroll-nav');
+                }
+            });
+
+            // Form Validation
+            // Get values of the input field with id="required"
+            let requireds = document.querySelectorAll('.required');
+            let errors = document.querySelectorAll('.error_text');
+            let requiredLength = requireds.length;
+            const submit = document.querySelector('.submit');
+            console.log(requireds);
+            submit.addEventListener('click', function (e) {
+                // Cancel default actions
+                e.preventDefault;
+                for (let i = 0; i < requiredLength; i++) {
+                    if (requireds[i].value == "") {
+                        e.preventDefault;
+                        errors[i].innerHTML = "このフィールドは必須です。";
+                    } else {
+                        from.submit();
+                    }
                 }
             });
         });
