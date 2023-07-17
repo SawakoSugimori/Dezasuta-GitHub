@@ -88,8 +88,6 @@ button,
     color: $dominant-color;
     height: 44px;
     transition: transform 0.4s ease;
-    // はみ出した画像の処理
-    overflow: hidden;
 }
 .btn:active {
     transform: scale(0.96);
@@ -103,6 +101,9 @@ button,
     border-top: 2px solid $dominant-color;
     border-right: 2px solid $dominant-color;
     transform: rotate(45deg);
+}
+.pop:hover {
+    opacity: 1;
 }
 // .btn::after {
 //     position: absolute;
@@ -122,10 +123,15 @@ button,
     left: 50%;
     transform: translateX(-50%);
     height: 100%;
-    width: 150%;
-    // border: 2px solid red;
+    width: 100%;
     background-repeat: no-repeat;
     z-index: -1;
+}
+@media screen and (max-width: 767px) {
+    .pop::before,
+    .pop::after {
+        width: 100%;
+    }
 }
 .pop.animate::before {
     top: -70%;

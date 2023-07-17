@@ -97,7 +97,6 @@ button,
   color: #fafdf8;
   height: 44px;
   transition: transform 0.4s ease;
-  overflow: hidden;
 }
 
 .btn:active {
@@ -115,6 +114,10 @@ button,
   transform: rotate(45deg);
 }
 
+.pop:hover {
+  opacity: 1;
+}
+
 .pop::before,
 .pop::after {
   position: absolute;
@@ -122,11 +125,17 @@ button,
   left: 50%;
   transform: translateX(-50%);
   height: 100%;
-  width: 150%;
+  width: 100%;
   background-repeat: no-repeat;
   z-index: -1;
 }
 
+@media screen and (max-width: 767px) {
+  .pop::before,
+  .pop::after {
+    width: 100%;
+  }
+}
 .pop.animate::before {
   top: -70%;
   background-image: radial-gradient(circle, #80d9d4 20%, transparent 20%), radial-gradient(circle, transparent 20%, #80d9d4 20%, transparent 30%), radial-gradient(circle, #80d9d4 20%, transparent 20%), radial-gradient(circle, transparent 10%, #80d9d4 15%, transparent 20%), radial-gradient(circle, #80d9d4 20%, transparent 20%), radial-gradient(circle, #80d9d4 20%, transparent 20%), radial-gradient(circle, #80d9d4 20%, transparent 20%), radial-gradient(circle, #80d9d4 20%, transparent 20%), radial-gradient(circle, #80d9d4 20%, transparent 20%);
