@@ -129,7 +129,7 @@
                         class="pc_only">人間の心理や生物の行動にとても興味があります。デザインを作成することも、人間の高度や思考について深く考えることができるので、とてもすきなひとときです。
                 </p>
                 <div id="work_bg" class="btn_block">
-                    <a href="./about/index.html" class="btn pop">learn more about me<span></span></a>
+                    <button href="./about/index.html" class="btn pop">learn more about me<span></span></button>
                 </div>
             </div>
         </div>
@@ -178,7 +178,7 @@
                 </li>
             </ul><!-- .works-->
             <div id="service_bg" class="btn_block">
-                <a href="./work/index.html" class="btn pop">View all work<span></span></a>
+                <button href="./work/index.html" class="btn pop">View all work<span></span></button>
             </div>
         </div><!-- .centered -->
     </section><!-- .works -->
@@ -346,14 +346,15 @@
             // console.log(button);
             for (let i = 0; i < buttons.length; i++) {
                 buttons[i].addEventListener('click', function (event) {
-                    event.preventDefault();
                     $(".pop").addClass('animate');
 
                     setTimeout(() => {
                         $('.pop').removeClass('animate');
                     }, 600)
                     // ぺージ遷移
-                    // window.location = this.getAttribute('href');
+                    setTimeout(() => {
+                        window.location = this.getAttribute('href');
+                    }, 600)
                 });
             }
 
