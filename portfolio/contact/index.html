@@ -97,19 +97,21 @@
             method="post" target="hidden_iframe" onsubmit="submitted=true">
 
             <label for="name">お名前</label>
-            <input id="name" class="required" type="text" placeholder="山田 太郎" name="entry.1982888611">
+            <input id="name" class="required" type="text" placeholder="山田 太郎" name="entry.1982888611" required>
             <p class="error_text"></p>
 
             <label for="email">メールアドレス</label>
-            <input id="email" class="required" type="text" placeholder="example@mail.co.jp" name="entry.463273501">
+            <input id="email" class="required" type="text" placeholder="example@mail.co.jp" name="entry.463273501"
+                required>
             <p class="error_text"></p>
 
             <label for="msg">メッセージ</label>
-            <textarea id="msg" class="required" placeholder="お気軽にお問い合わせください。" name="entry.1729223197"></textarea>
+            <textarea id="msg" class="required" placeholder="お気軽にお問い合わせください。" name="entry.1729223197"
+                required></textarea>
             <p class="error_text"></p>
 
-            <p class="submit">submit</p>
-            <!-- <button class="submit" type="submit" name="button" value="送信">メッセージを送信する</button> -->
+            <!-- <p class="submit">submit</p> -->
+            <button class="submit" type="submit" name="button" value="送信">メッセージを送信する</button>
         </form>
     </section>
 
@@ -166,21 +168,19 @@
             let requiredLength = requireds.length;
             const submit = document.querySelector('.submit');
             console.log(requireds);
+            var valid = false;
             submit.addEventListener('click', function (e) {
                 // Cancel default actions
-                e.preventDefault;
                 for (let i = 0; i < requiredLength; i++) {
                     if (requireds[i].value == "") {
-                        e.preventDefault;
                         errors[i].innerHTML = "このフィールドは必須です。";
-                    } else {
-                        from.submit();
                     }
                 }
             });
         });
 
     </script>
+    <!-- Render to the thank you page-->
     <iframe name="hidden_iframe" id="hidden_iframe" style="display: none;"
         onload="if(submitted) {window.location='thanks.html';}">
     </iframe>
