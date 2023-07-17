@@ -347,15 +347,16 @@
   position: absolute;
 }
 .service .content .right .card .relative .sub {
-  font-size: 12px;
-  text-align: center;
-  top: -37px;
+  font-size: 15px;
+  top: -36px;
   left: -12px;
+  font-family: "Kameron", serif;
 }
 .service .content .right .card .relative .num {
   font-size: 48px;
-  top: -42px;
+  top: -37px;
   left: -14px;
+  font-family: "Kameron", serif;
 }
 .service .content .right .card .center {
   background-color: #eaf0f0;

@@ -356,15 +356,16 @@
             position: absolute;
         }
         .sub {
-            font-size: 12px;
-            text-align: center;
-            top: -37px;
+            font-size: 15px;
+            top: -36px;
             left: -12px;
+            font-family: $serif;
         }
         .num {
             font-size: 48px;
-            top: -42px;
+            top: -37px;
             left: -14px;
+            font-family: $serif;
         }
     }
     .center {
