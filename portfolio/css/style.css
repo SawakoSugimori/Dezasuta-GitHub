@@ -306,6 +306,10 @@
   justify-content: space-between;
 }
 
+.service .content .sticky {
+  position: sticky;
+  top: 100px;
+}
 .service .content .left {
   width: 25%;
 }
@@ -338,7 +342,8 @@
 }
 
 .service .content .right .card {
-  margin-bottom: 50px;
+  margin-bottom: 70px;
+  box-shadow: 2px 3px 5px rgba(46, 58, 92, 0.1);
 }
 .service .content .right .card .relative {
   position: relative;

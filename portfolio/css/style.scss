@@ -316,6 +316,10 @@
     }
 }
 .service .content {
+    .sticky {
+        position: sticky;
+        top: 100px;
+    }
     .left {
         width: 25%;
     }
@@ -349,7 +353,8 @@
     }
 }
 .service .content .right .card {
-    margin-bottom: 50px;
+    margin-bottom: 70px;
+    box-shadow: 2px 3px 5px rgba($text-main-color, $alpha: 0.1);
     .relative {
         position: relative;
         p {
