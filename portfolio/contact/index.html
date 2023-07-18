@@ -175,18 +175,15 @@
             let requiredLength = requireds.length;
             // sunmitボタンを取得
             const submit = document.querySelector('.submit');
-            // var valid = false;
             submit.addEventListener('click', function (e) {
                 // Cancel default actions
                 for (let i = 0; i < requiredLength; i++) {
                     if (requireds[i].value == "") {
                         // エラーメッセージを表示
                         errors[i].innerHTML = "このフィールドは必須です。";
+                    } else {
+                        errors[i].innerHTML = "";
                     }
-                    // 
-                    // else {
-                    //     valid = true;
-                    // }
                 }
             });
         });
