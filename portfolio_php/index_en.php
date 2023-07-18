@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sawako Sugimori's Portfolio</title>
-    <meta name="description" content="Webデザイナー・Webディベロッパー、杉森佐和子のポートフォリオサイトです。 ">
+    <meta name="description" content="The portfolio site of Sawako Sugimori - Frontend engineer and Web designer.">
 
     <!-- CSS -->
     <link rel="stylesheet" href="./css/commons.css">
@@ -20,9 +20,9 @@
     <!-- php -->
     <?php
     $path = './'; // ファイルパスの変数
-    $is_top = true; // Current position
-    $is_ja = true; // Current language
-    $en_page = './index_en.php'; // To English page
+    $is_top = true; // 現在の位置
+    $is_en = true; // Current language
+    $ja_page = './index_.php'; // To English page
     ?>
 </head>
 
@@ -73,10 +73,8 @@
             </div>
             <div class="content">
                 <h2 class="pc_only">Hello<span>!</span></h2>
-                <p>
-                    はじめまして。杉森佐和子と申します。現在ニュージーランドに住んでいます。<br><br
-                        class="pc_only">人間の心理や生物の行動にとても興味があります。デザインを作成することも、人間の高度や思考について深く考えることができるので、とてもすきなひとときです。
-                </p>
+                <p>Nice to meet you, I'm Sawako from Japan. </p>
+                <p>I love creating a design  because creating designs also allows me to think deeply about human cognition and thinking. This is my favorite time of the day.</p>
                 <div id="work_bg" class="btn_block">
                     <button href="./about/index.php" class="btn pop">learn more about me<span></span></button>
                 </div>
@@ -91,36 +89,36 @@
             <ul class="works">
                 <!-- No.1 -->
                 <li class="item">
-                    <a class="hover_null" href="./work-deatils/work_salon.php">
+                    <a class="hover_null" href="./work-deatils/work_salon_en.php">
                         <div class="mask_area">
                             <div class="mask">
-                                <p class="caption">詳しく見る</p>
+                                <p class="caption">VIEW MORE</p>
                             </div>
-                            <img src="./work/images/salonsite-mockup-80-64acd82400f75.webp" alt="美容室サイトの写真">
+                            <img src="./work/images/salonsite-mockup-80-64acd82400f75.webp" alt="Salon Website">
                         </div>
                         <p class="role">Designer</p>
                     </a>
                 </li>
                 <!-- No.2 -->
                 <li class="item">
-                    <a class="hover_null" href="./work-deatils/work_cafe.php">
+                    <a class="hover_null" href="./work-deatils/work_cafe_en.php">
                         <div class="mask_area">
                             <div class="mask">
-                                <p class="caption">詳しく見る</p>
+                                <p class="caption">VIEW MORE</p>
                             </div>
-                            <img src="./work/images/cafesite-mockup-80-64acd81cec333.webp" alt="カフェサイトの写真">
+                            <img src="./work/images/cafesite-mockup-80-64acd81cec333.webp" alt="Cafe Website">
                         </div>
                         <p class="role">Frontend developer</p>
                     </a>
                 </li>
                 <!-- No.3 -->
                 <li class="item">
-                    <a class="hover_null" href="./work-deatils/work_ham01.php">
+                    <a class="hover_null" href="./work-deatils/work_ham01_en.php">
                         <div class="mask_area">
                             <div class="mask">
-                                <p class="caption">詳しく見る</p>
+                                <p class="caption">VIEW MORE</p>
                             </div>
-                            <img src="./work/images/banner-ham01-80-64acd75898935.webp" alt="ハンバーガーのバナー">
+                            <img src="./work/images/banner-ham01-80-64acd75898935.webp" alt="Hamburger Banner">
                         </div>
                         <p class="role">Designer</p>
                     </a>
@@ -140,7 +138,7 @@
                     <div class="sticky">
                         <div class="design">
                             <div>
-                                <img src="./images/design_1-min.png" alt="イラスト">
+                                <img src="./images/design_1-min.png" alt="Image">
                             </div>
                             <div class="text">
                                 <h3>DESIGN</h3>
@@ -154,7 +152,7 @@
                         </div>
                         <div class="coding">
                             <div>
-                                <img src="./images/coding_1-min.png" alt=" イラスト">
+                                <img src="./images/coding_1-min.png" alt="Image">
                             </div>
                             <div class="text">
                                 <h3>CODING</h3>
@@ -183,7 +181,7 @@
                         <div class="center">
                             <div class="text">
                                 <h3>Web Design</h3>
-                                <p>お客様の要望についてヒアリングをした上で、目的を実現する効果的なデザインを制作します。ユーザー目線からの使いやすさ・伝わりやすさも取り入れたデザインを提案いたします。
+                                <p>After conducting a thorough client consultation to understand your requirements, I will create a design that effectively achieves your objectives.   
                                 </p>
                             </div>
                         </div>
@@ -197,7 +195,7 @@
                         <div class="center">
                             <div class="text">
                                 <h3 class="">Graphic Design</h3>
-                                <p>ご依頼の趣旨に沿ったイラストを作成します。広告やウェブサイトへの挿絵を作成する際は、そのサービスの魅力を向上させるイラストを提案いたします。</p>
+                                <p>I will create illustrations in line with your desires. I will propose illustrations that enhance the appeal of the service when creating illustrations for graphics in a website .</p>
                             </div>
                         </div>
                     </li><!-- .card -->
@@ -209,8 +207,8 @@
                         </div><!-- .relative -->
                         <div class="center">
                             <div class="text">
-                                <h3>Coding</h3>
-                                <p>デザインの意図を把握し、デザインを生かす効果的な動きを取り入れたウェブサイトを作成します。画面サイズによってデザインを最適化する、レスポンシブ対応のデザインを行います。
+                                <h3>Web development</h3>
+                                <p>I will understand the intention of the design and integrate motion that enhance the design. I will implement a responsive design that optimizes the layout based on screen sizes.
                                 </p>
                             </div>
                         </div>
@@ -222,8 +220,8 @@
 
     <!-- Contact -->
     <section class="contact section_bg">
-        <h2>Contact</h2>
-        <p>ご依頼・ご質問等がありましたら、<br class="sp_only">お問い合わせページやSNSより、お気軽にお問い合わせください</p>
+        <h2>SAY HI<span>!</span></h2>
+        <p>Please feel free to contact me.  Let’ｓ create something together!</p>
         <ul class="social_links">
             <li class="social_icon"><a href="#"><img src="./images/icons/github-icon-min.png" alt="Github"></a></li>
             <li class="social_icon"><a href="#"><img src="./images/icons/ig-icon-min.png" alt="Instagram"></a></li>
