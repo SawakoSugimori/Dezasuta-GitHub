@@ -16,4 +16,5 @@
         </div>
     </div>
 </footer>
+<!-- Common js -->
 <script src="../js/script.js"></script>

@@ -229,8 +229,8 @@
         </ul>
     </section>
     <!-- Footer -->
-    <?php
-        $path.'inc/footer.php';
+    <?php include 
+    $path.'inc/footer.php';
     ?>
     <script>
         $(function () {
