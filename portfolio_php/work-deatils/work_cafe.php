@@ -72,7 +72,7 @@
             <img src="../work/images/whole-cafe-pc.png" alt="サイトの全体写真">
         </div>
         <div class="btn_block">
-            <a href="../work/index.html" class="btn">WORK一覧へ戻る</a>
+            <a href="../work/index.php" class="btn">WORK一覧へ戻る</a>
         </div>
     </section>
     <!-- Footer -->

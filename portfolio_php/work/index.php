@@ -41,7 +41,7 @@
         <ul class="wrapper">
             <!-- item 1 -->
             <li class="item" data-cat="web">
-                <a class="hover_null" href="../work-deatils/work_salon.html">
+                <a class="hover_null" href="../work-deatils/work_salon.php">
                     <div class="mask_area">
                         <div class="mask">
                             <p class="caption">詳しく見る</p>
@@ -53,7 +53,7 @@
             </li>
             <!-- item 2 -->
             <li class="item" data-cat="web">
-                <a class="hover_null" href="../work-deatils/work_cafe.html">
+                <a class="hover_null" href="../work-deatils/work_cafe.php">
                     <div class="mask_area">
                         <div class="mask">
                             <p class="caption">詳しく見る</p>
@@ -65,7 +65,7 @@
             </li>
             <!-- item 3 -->
             <li class="item" data-cat="ban">
-                <a class="hover_null" href="../work-deatils/work_ham01.html">
+                <a class="hover_null" href="../work-deatils/work_ham01.php">
                     <div class="mask_area">
                         <div class="mask">
                             <p class="caption">詳しく見る</p>
@@ -77,7 +77,7 @@
             </li>
             <!-- item 4-->
             <li class="item" data-cat="ban">
-                <a class="hover_null" href="../work-deatils/work_ham02.html">
+                <a class="hover_null" href="../work-deatils/work_ham02.php">
                     <div class="mask_area">
                         <div class="mask">
                             <p class="caption">詳しく見る</p>
@@ -89,7 +89,7 @@
             </li>
             <!-- item 5-->
             <li class="item" data-cat="ban">
-                <a class="hover_null" href="../work-deatils/work_ham02.html">
+                <a class="hover_null" href="../work-deatils/work_ham02.php">
                     <div class="mask_area">
                         <div class="mask">
                             <p class="caption">詳しく見る</p>
@@ -101,7 +101,7 @@
             </li>
             <!-- item 6 -->
             <li class="item" data-cat="web">
-                <a class="hover_null" href="../work-deatils/work_coworking.html">
+                <a class="hover_null" href="../work-deatils/work_coworking.php">
                     <div class="mask_area">
                         <div class="mask">
                             <p class="caption">詳しく見る</p>
@@ -113,7 +113,7 @@
             </li>
             <!-- item 7 -->
             <li class="item" data-cat="ban">
-                <a class="hover_null" href="../work-deatils/work_mobile.html">
+                <a class="hover_null" href="../work-deatils/work_mobile.php">
                     <div class="mask_area">
                         <div class="mask">
                             <p class="caption">詳しく見る</p>
@@ -125,7 +125,7 @@
             </li>
             <!-- item 8 -->
             <li class="item" data-cat="ban">
-                <a class="hover_null" href="../work-deatils/work_travel.html">
+                <a class="hover_null" href="../work-deatils/work_travel.php">
                     <div class="mask_area">
                         <div class="mask">
                             <p class="caption">詳しく見る</p>
@@ -139,7 +139,7 @@
         </ul>
         <!-- A button to go back to TOP page -->
         <div class="btn_block">
-            <a href="../index.html" class="btn">TOPへ戻る</a>
+            <a href="../index.php" class="btn">TOPへ戻る</a>
         </div>
 
     </section>

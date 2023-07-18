@@ -76,7 +76,7 @@
                         class="pc_only">人間の心理や生物の行動にとても興味があります。デザインを作成することも、人間の高度や思考について深く考えることができるので、とてもすきなひとときです。
                 </p>
                 <div id="work_bg" class="btn_block">
-                    <button href="./about/index.html" class="btn pop">learn more about me<span></span></button>
+                    <button href="./about/index.php" class="btn pop">learn more about me<span></span></button>
                 </div>
             </div>
         </div>
@@ -89,7 +89,7 @@
             <ul class="works">
                 <!-- No.1 -->
                 <li class="item">
-                    <a class="hover_null" href="./work-deatils/work_salon.html">
+                    <a class="hover_null" href="./work-deatils/work_salon.php">
                         <div class="mask_area">
                             <div class="mask">
                                 <p class="caption">詳しく見る</p>
@@ -101,7 +101,7 @@
                 </li>
                 <!-- No.2 -->
                 <li class="item">
-                    <a class="hover_null" href="./work-deatils/work_cafe.html">
+                    <a class="hover_null" href="./work-deatils/work_cafe.php">
                         <div class="mask_area">
                             <div class="mask">
                                 <p class="caption">詳しく見る</p>
@@ -113,7 +113,7 @@
                 </li>
                 <!-- No.3 -->
                 <li class="item">
-                    <a class="hover_null" href="./work-deatils/work_ham01.html">
+                    <a class="hover_null" href="./work-deatils/work_ham01.php">
                         <div class="mask_area">
                             <div class="mask">
                                 <p class="caption">詳しく見る</p>
@@ -125,7 +125,7 @@
                 </li>
             </ul><!-- .works-->
             <div id="service_bg" class="btn_block">
-                <button href="./work/index.html" class="btn pop">View all work<span></span></button>
+                <button href="./work/index.php" class="btn pop">View all work<span></span></button>
             </div>
         </div><!-- .centered -->
     </section><!-- .works -->
