@@ -72,51 +72,9 @@
         </div>
     </section>
     <!-- Footer -->
-    <footer>
-        <div class="footer_bg">
-            <a href="#header" class="footer_left">
-                <div class="arrow"></div>
-                <p>page top</p>
-            </a>
-            <div class="footer_right">
-                <ul class="footer_nav">
-                    <li><a href="../index.html">TOP</a></li>
-                    <li><a href="../work/index.html">WORK</a></li>
-                    <li><a href="../about/index.html">ABOUT</a></li>
-                    <li><a href="../contact/index.html">CONTACT</a></li>
-                </ul>
-                <!-- © 最初の発行年 著作権者の氏名 -->
-                <p>&copy; 2023 Sawako Sugimori</p>
-            </div>
-        </div>
-    </footer>
-    <!-- jQuery -->
-    <script>
-        $(function () {
-            // hamburger menu
-            $('.ham_btn').on('click', function () {
-                if ($('.sp_nav').hasClass('null')) {
-                    $('.sp_nav').removeClass('null');
-                    $('.sp_nav').animate({ 'bottom': '0' }).addClass('active');
-                }
-            });
-            $('.close_btn').on('click', function () {
-                $('.sp_nav').animate({ 'bottom': '-450px' });
-                $('.sp_nav').removeClass('active');
-                $('.sp_nav').addClass('null');
-            });
-            // Show background when scrolling
-            $(window).scroll(function () {
-                var scroll = $(window).scrollTop();
-                if (scroll > 100) {
-                    $(".global_nav").addClass('scroll-nav');
-                }
-                else {
-                    $(".global_nav").removeClass('scroll-nav');
-                }
-            });
-        });
-    </script>
+    <?php include 
+    $path.'inc/footer.php';
+    ?>
 </body>
 
 </html>
