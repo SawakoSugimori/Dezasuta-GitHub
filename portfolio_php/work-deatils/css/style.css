@@ -1,0 +1,104 @@
+/* font color*/
+.work_details {
+  /* a button to go back to the TOP */
+}
+.work_details .mockup {
+  margin-bottom: 50px;
+}
+.work_details .mockup img {
+  width: 100%;
+}
+.work_details .banner_mockup {
+  padding: 0 3%;
+  max-width: 500px;
+  margin: 8% auto;
+}
+.work_details .banner_mockup img {
+  box-shadow: 2px 3px 4px rgba(46, 58, 92, 0.3);
+}
+.work_details .text {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 4%;
+  box-sizing: border-box;
+}
+.work_details .title {
+  margin-bottom: 30px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid #f0e189;
+}
+.work_details .title h1 {
+  font-size: 48px;
+  margin-right: 20px;
+  font-weight: normal;
+  padding-bottom: 20px;
+}
+.work_details .details {
+  margin-bottom: 50px;
+}
+.work_details .details tr {
+  line-height: 1.8;
+}
+.work_details .details th {
+  font-weight: normal;
+  text-align: left;
+  padding-right: 20px;
+}
+.work_details .details td {
+  font-weight: bold;
+}
+.work_details .desc {
+  margin-bottom: 100px;
+}
+.work_details .desc h2 {
+  color: #2e3a5c;
+  font-size: 24px;
+  text-shadow: none;
+  margin-bottom: 20px;
+}
+.work_details .whole_pic {
+  max-width: 700px;
+  margin: 0 auto;
+  margin-bottom: 130px;
+  padding: 6%;
+}
+.work_details .whole_pic img {
+  box-shadow: 2px 2px 3px rgba(46, 58, 92, 0.3);
+}
+.work_details .btn_block {
+  text-align: center;
+  margin-bottom: 120px;
+}
+.work_details .btn_block .btn {
+  display: inline-block;
+  background-color: #fafdf8;
+  border: 1px solid #80d9d4;
+  color: #80d9d4;
+  padding: 0 67px 0 54px;
+}
+.work_details .btn_block .btn:after {
+  border-top: 2px solid #80d9d4;
+  border-right: 2px solid #80d9d4;
+  right: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .work_details .title {
+    display: block;
+  }
+  .work_details .title h1 {
+    padding-bottom: 10px;
+    font-size: 40px;
+  }
+  .work_details .title p {
+    padding-bottom: 15px;
+  }
+  /* a button to go back to work page */
+  .btn_block .btn {
+    margin: 0 3%;
+    display: block;
+  }
+}/*# sourceMappingURL=style.css.map */

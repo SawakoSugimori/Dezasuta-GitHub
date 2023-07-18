@@ -1,0 +1,108 @@
+@import "../../css/_var.scss";
+.work_details {
+    .mockup {
+        margin-bottom: 50px;
+        img {
+            width: 100%;
+        }
+    }
+    .banner_mockup {
+        padding: 0 3%;
+        max-width: 500px;
+        margin: 8% auto;
+        img {
+            box-shadow: 2px 3px 4px rgba($text-main-color, $alpha: 0.3);
+        }
+    }
+    .text {
+        max-width: 1000px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 4%;
+        box-sizing: border-box;
+    }
+    .title {
+        margin-bottom: 30px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 2px solid $accent-color;
+        h1 {
+            font-size: 48px;
+            margin-right: 20px;
+            font-weight: normal;
+            padding-bottom: 20px;
+        }
+    }
+    .details {
+        margin-bottom: 50px;
+        tr {
+            line-height: 1.8;
+        }
+        th {
+            font-weight: normal;
+            text-align: left;
+            padding-right: 20px;
+        }
+        td {
+            font-weight: bold;
+        }
+    }
+    .desc {
+        h2 {
+            color: $text-main-color;
+            font-size: 24px;
+            text-shadow: none;
+            margin-bottom: 20px;
+        }
+        margin-bottom: 100px;
+    }
+    .whole_pic {
+        max-width: 700px;
+        margin: 0 auto;
+        margin-bottom: 130px;
+        padding: 6%;
+        img {
+            box-shadow: 2px 2px 3px rgba($text-main-color, $alpha: 0.3);
+        }
+    }
+    /* a button to go back to the TOP */
+    .btn_block {
+        text-align: center;
+        margin-bottom: 120px;
+
+        .btn {
+            display: inline-block;
+            background-color: $dominant-color;
+            border: 1px solid $secondary-color;
+            color: $secondary-color;
+            padding: 0 67px 0 54px;
+        }
+        .btn:after {
+            border-top: 2px solid $secondary-color;
+            border-right: 2px solid $secondary-color;
+            right: 20px;
+        }
+    }
+}
+@media screen and (max-width: 767px) {
+    .work_details {
+        .title {
+            display: block;
+            h1 {
+                padding-bottom: 10px;
+                font-size: 40px;
+            }
+            p {
+                padding-bottom: 15px;
+            }
+        }
+    }
+    /* a button to go back to work page */
+    .btn_block {
+        .btn {
+            margin: 0 3%;
+            display: block;
+        }
+    }
+}

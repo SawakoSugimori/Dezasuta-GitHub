@@ -1,0 +1,134 @@
+/* font color*/
+.contact {
+  padding: 180px 3% 150px 3%;
+}
+.contact h1,
+.contact p,
+.contact li {
+  text-align: center;
+}
+.contact h1 {
+  margin-bottom: 5%;
+}
+.contact p {
+  margin-bottom: 3%;
+}
+.contact .social_links {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+.contact .social_links li {
+  width: 60px;
+}
+.contact .social_links li + li {
+  margin-left: 40px;
+}
+.contact form {
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.contact form label {
+  margin-bottom: 14px;
+}
+.contact form input,
+.contact form textarea {
+  border: 1px solid #2e3a5c;
+  border-radius: 5px;
+}
+.contact form input {
+  margin-bottom: 60px;
+  height: 50px;
+  padding-left: 18px;
+}
+.contact form textarea {
+  height: 380px;
+  padding: 18px;
+  margin-bottom: 60px;
+}
+.contact form .error_text {
+  text-align: left;
+  margin-top: -50px;
+  margin-bottom: 50px;
+  color: #bba006;
+}
+
+@media screen and (max-width: 767px) {
+  .contact {
+    padding-top: 60px;
+  }
+  .contact .social_links li {
+    width: 40px;
+  }
+}
+.thankyou {
+  display: flex;
+  align-items: center;
+  padding: 180px 0 150px 20px;
+}
+.thankyou .left {
+  width: 50%;
+  padding-left: 60px;
+  box-sizing: border-box;
+}
+.thankyou .left h1 {
+  font-size: clamp(2.25rem, 4vw + 1.75rem, 5.5rem);
+  text-transform: uppercase;
+  margin-bottom: 80px;
+}
+.thankyou .left p {
+  line-height: 2;
+  margin-bottom: 30px;
+}
+.thankyou .left .caution {
+  font-size: 14px;
+  margin-bottom: 70px;
+}
+.thankyou .left .btn_block {
+  display: flex;
+  justify-content: right;
+}
+.thankyou .left .btn {
+  background-color: #fafdf8;
+  color: #80d9d4;
+  border: 1px solid #80d9d4;
+}
+.thankyou .left .btn::after {
+  border-top: 2px solid #80d9d4;
+  border-right: 2px solid #80d9d4;
+}
+.thankyou .right {
+  width: 37%;
+  margin-left: 5%;
+  transform: rotate(-10deg);
+}
+
+@media screen and (max-width: 767px) {
+  .thankyou {
+    display: block;
+    padding: 60px 5% 150px 5%;
+  }
+  .thankyou .bouquet {
+    width: 66%;
+    margin: 0 auto;
+    transform: rotate(-10deg);
+  }
+  .thankyou .page_title {
+    width: 100%;
+    text-align: center;
+  }
+  .thankyou .left {
+    padding-left: 0;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .thankyou .left h1 {
+    margin: 40px 0;
+  }
+  .thankyou .left .btn_block {
+    display: block;
+    text-align: center;
+  }
+}/*# sourceMappingURL=style.css.map */

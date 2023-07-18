@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT :Sawako Sugimori's Portfolio</title>
+    <meta name="description" content="杉森佐和子の紹介ページです。">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/commons.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+    <!-- Google Fonts -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500&family=Poppins:wght@400;500&family=Ubuntu&display=swap');
+    </style>
+</head>
+
+<body>
+    <header id="header">
+        <div class="header_wrap">
+            <nav class="global_nav">
+                <ul class="nav_left">
+                    <li><a href="../index.html">TOP</a></li>
+                    <li><a href="../work/index.html">WORK</a></li>
+                    <li class="current_page"><a href="../about/index.html">ABOUT</a></li>
+                    <li><a href="../contact/index.html">CONTACT</a></li>
+                </ul>
+                <div class="nav_right">
+                    <div class="lang_switcher">
+                        <p class="lang"><a href="#">日本語</a></p>
+                        <span>/</span>
+                        <p class="lang"><a href="#">English</a></p>
+                    </div>
+                    <ul class="social_links">
+                        <li class="social_icon"><a href="#"><img src="../images/icons/github-icon-min.png" alt="
+                                    Github"></a>
+                        </li>
+                        <li class="social_icon"><a href="#"><img src="../images/icons/ig-icon-min.png" alt="
+                                    Instagram"></a>
+                        </li>
+                        <li class="social_icon"><a href="#"><img src="../images/icons/twitter-icon-min.png" alt="
+                                    Twitter"></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- hamburger menu-->
+            <div class="fixed">
+                <div class="ham_btn"><span></span><span></span></div>
+            </div>
+            <nav class="sp_nav null">
+                <div class="close_btn"><span></span><span></span></div>
+                <ul class="nav_left">
+                    <li><a href="../index.html">TOP</a></li>
+                    <li><a href="../work/index.html">WORK</a></li>
+                    <li class="current_page"><a href="../about/index.html">ABOUT</a></li>
+                    <li><a href="../contact/index.html">CONTACT</a></li>
+                </ul>
+                <div class="nav_right">
+                    <ul class="social_links">
+                        <li class="social_icon"><a href="#"><img src="../images/icons/github-white-64af4ba148b4e.webp"
+                                    alt="Github"></a>
+                        </li>
+                        <li class="social_icon"><a href="#"><img src="../images/icons/ig-white-64af4ba154069.webp"
+                                    alt="Instagram"></a>
+                        </li>
+                        <li class="social_icon"><a href="#"><img src="../images/icons/twitter-white-64af4ba3dc597.webp"
+                                    alt="Twitter"></a>
+                        </li>
+                    </ul>
+                    <div class="lang_switcher">
+                        <p class="lang"><a href="#">日本語</a></p>
+                        <span>/</span>
+                        <p class="lang"><a href="#">English</a></p>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="about">
+        <div class="intro">
+            <h1 class="page_title">ABOUT</h1>
+            <p>ここであなたと出会ったのも何かのご縁だと思います。<br>
+                少しでも私について知っていただければ嬉しいです。</p>
+        </div>
+
+        <div class="flex">
+            <div class="image">
+                <div class="sticky">
+                    <img src="./images/aboutme02-min.png" alt="イラスト">
+                </div><!-- sticky -->
+            </div><!-- image -->
+            <div class="text">
+                <ul>
+                    <li>
+                        <h3>「伝える、伝わる、つながる」を実現する。それが私の願いです。</h3>
+                        <p>ウェブサイトは、遠い距離にいる人々が出会うことができる、コミュニケーションの場だと考えています。お客様の魅力が伝わる形、ユーザーが受け取りやすい形を追求することによって、想いがつながることを実現する。そんなデザイナーを目指しています。
+                        </p>
+                    </li>
+                    <li>
+                        <h3>新しい考えや知識を得るのが好きです。</h3>
+                        <p>新しいことを知ることによって、自分の世界が広がる感覚を大切にしています。趣味の読書も、新たな観点からものを見ることができるようになる点が気に入っています。本は、月に10冊ほど読みます。人間の心理や歴史など、ノンフィクションが特に好きです。<br>また、違う文化背景がある人と話すことも、私にとってわくわくすることです。英語はより多くの人とのコミュニケーションを可能にしてくれるので、日々英語を勉強しています。
+                        </p>
+                    </li>
+                    <li>
+                        <h3>自分のアイディアを形にするのが好きです。</h3>
+                        <p>思い浮かんだことを文章や絵などで表現しています。ブックレビューを書くこと、絵を描くこと、料理をすることなど、アイディアを形にすることを楽しんでいます。<br>プログラミングを学び、ホームぺージ制作も、自分のアイディアを形にすることができると思い、学び始めました。
+                        </p>
+                    </li>
+                </ul>
+            </div><!-- text -->
+        </div><!-- flex -->
+        <div class="ccl">
+            <p class="title">Thank you for reading!</p>
+            <p class="ccl_intro">読んでいただきありがとうございます。noteにて読書記録を投稿しています。<br class="pc_only">
+                興味が湧いてきた方は、ぜひ一度訪れてみてください。</p>
+            <p class="note_sec">note記事</p>
+            <ul class="note">
+                <li><a href="">時間とは。『モモ』読書記録#38 </a></li>
+                <li><a href="">「死」によって生命は永遠になった 読書記録#37</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer_bg">
+            <a href="#header" class="footer_left">
+                <div class="arrow"></div>
+                <p>page top</p>
+            </a>
+            <div class="footer_right">
+                <ul class="footer_nav">
+                    <li><a href="../index.html">TOP</a></li>
+                    <li><a href="../work/index.html">WORK</a></li>
+                    <li><a href="../about/index.html">ABOUT</a></li>
+                    <li><a href="../contact/index.html">CONTACT</a></li>
+                </ul>
+                <!-- © 最初の発行年 著作権者の氏名 -->
+                <p>&copy; 2023 Sawako Sugimori</p>
+            </div>
+        </div>
+
+
+    </footer>
+    <!-- jQuery -->
+    <script>
+        $(function () {
+            // hamburger menu
+            $('.ham_btn').on('click', function () {
+                if ($('.sp_nav').hasClass('null')) {
+                    $('.sp_nav').removeClass('null');
+                    $('.sp_nav').animate({ 'bottom': '0' }).addClass('active');
+                }
+            });
+            $('.close_btn').on('click', function () {
+                $('.sp_nav').animate({ 'bottom': '-450px' });
+                $('.sp_nav').removeClass('active');
+                $('.sp_nav').addClass('null');
+            });
+            // Show background when scrolling
+            $(window).scroll(function () {
+                var scroll = $(window).scrollTop();
+                if (scroll > 100) {
+                    $(".global_nav").addClass('scroll-nav');
+                }
+                else {
+                    $(".global_nav").removeClass('scroll-nav');
+                }
+            });
+
+        });
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,520 @@
+@import "_var.scss";
+
+html {
+    scroll-behavior: smooth;
+}
+html,
+body,
+h1,
+h2,
+h3,
+p,
+dl,
+dt,
+dd,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    /*デフォルトの文字色、font-familyを予め当てておく*/
+    color: $text-main-color;
+    /*フォントをゴシック体にする*/
+    font-family: $roman-font, $japanese-font;
+    font-feature-settings: "palt";
+}
+body {
+    background-color: $dominant-color;
+}
+/* section title and page title */
+h2,
+.page_title {
+    color: $secondary-color;
+    text-shadow: 2px 2px 4px rgba($text-main-color, $alpha: 0.4);
+    font-size: clamp(4rem, 5vw + 2rem, 5.5rem);
+    font-weight: normal;
+    span {
+        color: $accent-color;
+        font-family: $symbol-font;
+        margin-left: 8px;
+    }
+}
+h2 {
+    font-size: clamp(3rem, 5vw + 2rem, 5.5rem);
+}
+a {
+    /*下線を消す*/
+    text-decoration: none;
+    /*色を消す。デフォルトでカラーが黒色なので、それを継承し、黒になる*/
+    color: inherit;
+    transition: 0.2s;
+}
+
+p {
+    line-height: 1.8;
+    text-align: justify;
+}
+a:hover {
+    opacity: 0.5;
+}
+.hover_null:hover {
+    opacity: 1;
+}
+ul {
+    /*左の「・」を消す*/
+    list-style: none;
+    box-sizing: border-box;
+}
+
+img {
+    /*スクリーンより大きいサイズにならない*/
+    max-width: 100%;
+    /*一番下のラインにあわせる*/
+    vertical-align: bottom;
+    /*イメージタグの枠線を消す*/
+    border: none;
+}
+
+/* Button style */
+button,
+.btn {
+    line-height: 44px;
+    display: block;
+    position: relative;
+    padding: 0 37px 0 24px;
+    border: none;
+    background-color: $secondary-color;
+    box-shadow: 1px 4px 4px rgba($secondary-color, $alpha: 0.3);
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: $dominant-color;
+    height: 44px;
+    transition: transform 0.4s ease;
+}
+.btn:active {
+    transform: scale(0.96);
+}
+// A small arrow on a button
+.btn span {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 16px;
+    width: 9px;
+    height: 9px;
+    border-top: 2px solid $dominant-color;
+    border-right: 2px solid $dominant-color;
+    transform: rotate(45deg);
+}
+.pop:hover {
+    opacity: 1;
+}
+// Button animation when it's clicked
+.pop::before,
+.pop::after {
+    position: absolute;
+    content: "";
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
+    width: 120%;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+@media screen and (max-width: 767px) {
+    .pop::before,
+    .pop::after {
+        width: 60%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .pop::before,
+    .pop::after {
+        width: 75%;
+    }
+}
+
+.pop.animate::before {
+    top: -70%;
+    // Click animation
+    background-image: radial-gradient(
+            circle,
+            $secondary-color 20%,
+            transparent 20%
+        ),
+        radial-gradient(
+            circle,
+            transparent 20%,
+            $secondary-color 20%,
+            transparent 30%
+        ),
+        radial-gradient(circle, $secondary-color 20%, transparent 20%),
+        radial-gradient(
+            circle,
+            transparent 10%,
+            $secondary-color 15%,
+            transparent 20%
+        ),
+        radial-gradient(circle, $secondary-color 20%, transparent 20%),
+        radial-gradient(circle, $secondary-color 20%, transparent 20%),
+        radial-gradient(circle, $secondary-color 20%, transparent 20%),
+        radial-gradient(circle, $secondary-color 20%, transparent 20%),
+        radial-gradient(circle, $secondary-color 20%, transparent 20%);
+    background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%,
+        10% 10%, 18% 18%, 10% 10%;
+    background-position: 10% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 40% 90%,
+        55% 90%, 70% 90%, 85% 90%;
+    animation: topBubbles 0.6s ease-in-out infinite;
+}
+@keyframes topBubbles {
+    50% {
+        background-position: 0% 90%, 0% 30%, 10% 50%, 25% 10%, 45% 45%, 22% 60%,
+            50% 60%, 90% 40%, 95% 50%;
+    }
+    100% {
+        background-position: 0% 80%, 0% 20%, 10% 40%, 25% 0%, 45% 35%, 22% 50%,
+            50% 50%, 90% 30%, 95% 40%;
+        background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+    }
+}
+.pop.animate::after {
+    bottom: -70%;
+    background-image: radial-gradient(
+            circle,
+            $secondary-color 20%,
+            transparent 20%
+        ),
+        radial-gradient(
+            circle,
+            transparent 10%,
+            $secondary-color 15%,
+            transparent 20%
+        ),
+        radial-gradient(circle, $secondary-color 20%, transparent 20%),
+        radial-gradient(circle, $secondary-color 20%, transparent 20%),
+        radial-gradient(circle, $secondary-color 20%, transparent 20%),
+        radial-gradient(circle, $secondary-color 20%, transparent 20%),
+        radial-gradient(circle, $secondary-color 20%, transparent 20%);
+    background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 20% 20%,
+        18% 18%;
+    background-position: 10% 0%, 30% 10%, 55% 0%, 70% 0%, 85% 0%, 70% 0%, 70% 0%;
+    animation: buttomBubbles 0.6s ease-in-out infinite;
+}
+@keyframes buttomBubbles {
+    50% {
+        background-position: 0% 80%, 20% 80%, 45% 60%, 60% 100%, 75% 75%,
+            95% 60%, 105% 0%;
+    }
+    100% {
+        background-position: 0% 90%, 20% 90%, 45% 70%, 60% 110%, 75% 80%,
+            95% 70%, 110% 10%;
+        background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+    }
+}
+.pc_only {
+    display: block;
+}
+.sp_only {
+    display: none;
+}
+@media screen and (max-width: 767px) {
+    .pc_only {
+        display: none;
+    }
+    .sp_only {
+        display: block;
+    }
+}
+
+/* Global nav */
+.global_nav {
+    height: 68px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3% 0 10%;
+    box-sizing: border-box;
+    /* Fix global_nav */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+
+    .nav_left,
+    .nav_right,
+    .social_links {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    /* nav left */
+    .nav_left li {
+        padding: 8px 16px;
+        a:hover {
+            opacity: 1;
+        }
+    }
+    .nav_left li + .nav_left li {
+        margin-left: 5%;
+    }
+    .nav_left li:hover {
+        background-color: rgba($section-bg, 0.9);
+        border-radius: 3px;
+        transition: 0.2s;
+    }
+    .current_page {
+        opacity: 0.5;
+    }
+    .current_page:hover,
+    .current_page a {
+        pointer-events: none;
+    }
+    /* nav right */
+    .lang_switcher {
+        margin-right: 20px;
+    }
+    .lang {
+        display: inline;
+    }
+    .social_icon {
+        width: 28px;
+        margin-left: 23px;
+    }
+}
+// Show background when scrolling
+.scroll-nav {
+    background-color: rgba($dominant-color, 0.9);
+    transition: 0.4s;
+}
+/* hamburger menu */
+.sp_nav,
+.ham_btn {
+    display: none;
+}
+@media screen and (max-width: 1100px) {
+    .current_page {
+        background-color: rgba($dominant-color, 0.6);
+    }
+    .global_nav {
+        display: none;
+    }
+    /* button */
+    .fixed {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        z-index: 999;
+    }
+    .ham_btn {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        width: 50px;
+        height: 50px;
+        border-radius: 3px;
+        background: $secondary-color;
+        box-shadow: 1px 1px 3px rgba($text-main-color, $alpha: 0.25);
+        cursor: pointer;
+    }
+    .ham_btn span {
+        display: inline-block;
+        position: absolute;
+        height: 3px;
+        width: 62%;
+        border-radius: 2px;
+        background-color: $dominant-color;
+        border-radius: 5px;
+        /* ボタンを押したときの変化速度 */
+        transition: 0.3s;
+    }
+    .ham_btn span:nth-of-type(1) {
+        top: 25px;
+    }
+
+    .ham_btn span:nth-of-type(2) {
+        top: 35px;
+    }
+    .ham_btn span:nth-of-type(1)::before {
+        content: "menu";
+        position: absolute;
+        bottom: 7px;
+        font-size: 11px;
+        color: $dominant-color;
+    }
+    /* The close button */
+    .close_btn {
+        margin: 10px 10px 30px auto;
+        color: $dominant-color;
+        position: relative;
+        width: 50px;
+        height: 50px;
+        border-radius: 3px;
+        z-index: 2;
+        cursor: pointer;
+    }
+    .close_btn span {
+        position: absolute;
+        left: 8px;
+        height: 3px;
+        width: 62%;
+        border-radius: 2px;
+        background-color: $dominant-color;
+        /* ボタンを押したときの変化速度 */
+        transition: 0.3s;
+    }
+    .close_btn span:nth-of-type(1) {
+        top: 28px;
+        transform: rotate(45deg);
+    }
+    .close_btn span:nth-of-type(2) {
+        bottom: 20px;
+        transform: rotate(-45deg);
+    }
+    .sp_nav {
+        display: block;
+        z-index: 1;
+        text-align: center;
+        height: 450px;
+        width: 100%;
+        background-color: rgba($color: #384464, $alpha: 0.95);
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        z-index: 999;
+        /* hide nav */
+        position: fixed;
+        bottom: -450px;
+        transition: 0.3s;
+        .nav_left {
+            border-bottom: 1px solid $dominant-color;
+            margin-bottom: 25px;
+            li {
+                color: $dominant-color;
+                line-height: 52px;
+                font-size: 20px;
+                a {
+                    display: block;
+                }
+            }
+        }
+        p {
+            text-align: center;
+            color: $dominant-color;
+        }
+        .lang {
+            display: inline;
+        }
+        .lang_switcher {
+            span {
+                color: $dominant-color;
+            }
+        }
+        .social_links {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 16px;
+        }
+        .social_icon {
+            width: 28px;
+        }
+        .social_icon + .social_icon {
+            margin-left: 23px;
+        }
+    }
+}
+/* Footer */
+footer {
+    button::after {
+        content: none;
+    }
+    .footer_bg {
+        padding: 20px 3% 10px 0;
+        background: linear-gradient(
+            90deg,
+            $accent-color 0%,
+            $accent-color 13%,
+            $secondary-color 13%,
+            $secondary-color 100%
+        );
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer_left {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 13%;
+        .circle {
+            width: 30px;
+            height: 30px;
+            border: 1px solid $dominant-color;
+            border-radius: 50%;
+        }
+        .arrow {
+            position: relative;
+            content: "";
+            width: 30px;
+            height: 30px;
+            border: 1px solid $dominant-color;
+            border-radius: 50%;
+        }
+        .arrow::after {
+            position: absolute;
+            top: 11px;
+            left: 8px;
+            content: "";
+            width: 12px;
+            height: 12px;
+            border-top: 2px solid #fafdf8;
+            border-left: 2px solid #fafdf8;
+            transform: rotate(45deg);
+        }
+        p {
+            color: $dominant-color;
+            text-shadow: 1px 1px 3px rgba($secondary-color, $alpha: 0.3);
+            text-align: center;
+        }
+    }
+    .footer_right {
+        margin-top: 3%;
+        p,
+        li {
+            color: $dominant-color;
+            font-size: 14px;
+        }
+        p {
+            text-align: right;
+            font-size: 12px;
+        }
+    }
+    .footer_nav {
+        display: flex;
+        margin-bottom: 30px;
+        li + li {
+            margin-left: 30px;
+        }
+    }
+}
+@media (max-width: 776px) {
+    footer {
+        .footer_bg {
+            background: linear-gradient(
+                90deg,
+                $accent-color 0%,
+                $accent-color 18%,
+                $secondary-color 18%,
+                $secondary-color 100%
+            );
+            .footer_left {
+                width: 18%;
+                font-size: 15px;
+            }
+        }
+        .footer_nav {
+            margin-bottom: 30px;
+            li + li {
+                margin-left: 15px;
+            }
+        }
+    }
+}
