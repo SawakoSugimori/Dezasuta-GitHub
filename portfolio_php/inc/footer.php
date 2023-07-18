@@ -17,4 +17,4 @@
     </div>
 </footer>
 <!-- Common js -->
-<script src="../js/script.js"></script>
+<script src="<?php echo $path;?>js/script.js"></script>
