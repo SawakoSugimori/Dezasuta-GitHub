@@ -15,6 +15,7 @@ $(function () {
         }
     }
     webStorage();
+
     // hamburger menu
     $('.ham_btn').on('click', function () {
         if ($('.sp_nav').hasClass('null')) {
@@ -27,7 +28,8 @@ $(function () {
         $('.sp_nav').removeClass('active');
         $('.sp_nav').addClass('null');
     });
-    // Show background when scrolling
+
+    // global nav: Show background when scrolling
     $(window).scroll(function () {
         var scroll = $(window).scrollTop();
         if (scroll > 100) {
@@ -37,6 +39,7 @@ $(function () {
             $(".global_nav").removeClass('scroll-nav');
         }
     });
+
     // Button animation
     // Get all animated buttons 
     let buttons = document.querySelectorAll(".pop");
@@ -74,7 +77,6 @@ $(function () {
             threshold: 0
         }
     };
-
     const observer = new IntersectionObserver(callback, options)
     targetArray.forEach((targets) => {
         observer.observe(targets)
