@@ -230,7 +230,7 @@
     </section>
     <!-- Footer -->
     <?php
-        $path.'inc/header.php';
+        $path.'inc/footer.php';
     ?>
     <script>
         $(function () {
