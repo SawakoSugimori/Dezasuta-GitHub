@@ -3,9 +3,9 @@
             <nav class="global_nav">
                 <ul class="nav_left">
                     <li <?php echo isset($is_top) ? 'class="current_page"': ''?>><a href="<?php echo $path;?>index.php">TOP</a></li>
-                    <li><a href="<?php echo $path;?>/work/index.php">WORK</a></li>
-                    <li><a href="<?php echo $path;?>/about/index.php">ABOUT</a></li>
-                    <li><a href="<?php echo $path;?>/contact/index.php">CONTACT</a></li>
+                    <li <?php echo isset($is_work) ? 'class="current_page"': ''?>><a href="<?php echo $path;?>/work/index.php">WORK</a></li>
+                    <li <?php echo isset($is_about) ? 'class="current_page"': ''?>><a href="<?php echo $path;?>/about/index.php">ABOUT</a></li>
+                    <li <?php echo isset($is_contact) ? 'class="current_page"': ''?>><a href="<?php echo $path;?>/contact/index.php">CONTACT</a></li>
                 </ul>
                 <div class="nav_right">
                     <div class="lang_switcher">
@@ -34,9 +34,9 @@
                 <div class="close_btn"><span></span><span></span></div>
                 <ul class="nav_left">
                     <li <?php echo isset($is_top) ? 'class="current_page"': ''?>><a href="<?php echo $path;?>index.php">TOP</a></li>
-                    <li><a href="<?php echo $path;?>/work/index.php">WORK</a></li>
-                    <li><a href="<?php echo $path;?>/about/index.php">ABOUT</a></li>
-                    <li><a href="<?php echo $path;?>/contact/index.php">CONTACT</a></li>
+                    <li <?php echo isset($is_work) ? 'class="current_page"': ''?>><a href="<?php echo $path;?>/work/index.php">WORK</a></li>
+                    <li <?php echo isset($is_about) ? 'class="current_page"': ''?>><a href="<?php echo $path;?>/about/index.php">ABOUT</a></li>
+                    <li <?php echo isset($is_contact) ? 'class="current_page"': ''?>><a href="<?php echo $path;?>/contact/index.php">CONTACT</a></li>
                 </ul>
                 <div class="nav_right">
                     <ul class="social_links">
