@@ -29,7 +29,8 @@
             </div>
         </div>
     </div>
-
+    <?php include 'inc/header.php';?>
+    <!--
     <header id="header">
         <div class="header_wrap">
             <nav class="global_nav">
@@ -57,8 +58,9 @@
                         </li>
                     </ul>
                 </div>
-            </nav><!-- global_nav -->
-            <!-- hamburger menu-->
+            </nav>
+        --><!-- global_nav 
+             hamburger menu
             <div class="fixed">
                 <div class="ham_btn"><span></span><span></span></div>
             </div>
@@ -91,6 +93,7 @@
             </nav>
         </div>
     </header>
+-->
     <!-- top_wrapper -->
     <section class="top_wrapper">
         <div class="top_bg">
@@ -300,7 +303,7 @@
             </div>
         </div>
     </footer>
+    <script src="./js/script.js"></script>
 </body>
-<script src="./js/script.js"></script>
 
 </html>
