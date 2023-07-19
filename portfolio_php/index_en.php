@@ -76,7 +76,7 @@
                 <p>Nice to meet you, I'm Sawako from Japan. </p>
                 <p>I love creating a design  because creating designs also allows me to think deeply about human cognition and thinking. This is my favorite time of the day.</p>
                 <div id="work_bg" class="btn_block">
-                    <button href="./about/index.php" class="btn pop">learn more about me<span></span></button>
+                    <button href="./about/index_en.php" class="btn pop">learn more about me<span></span></button>
                 </div>
             </div>
         </div>
@@ -125,7 +125,7 @@
                 </li>
             </ul><!-- .works-->
             <div id="service_bg" class="btn_block">
-                <button href="./work/index.php" class="btn pop">View all work<span></span></button>
+                <button href="./work/index_en.php" class="btn pop">View all work<span></span></button>
             </div>
         </div><!-- .centered -->
     </section><!-- .works -->
