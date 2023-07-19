@@ -19,6 +19,8 @@
     <!-- php -->
     <?php
     $path = '../'; // ファイルパスの変数
+    $is_en = true; // Current language
+    $ja_page = './work_salon.php'; // To JP page
     ?>
 
 </head>
