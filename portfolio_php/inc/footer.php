@@ -16,5 +16,11 @@
         </div>
     </div>
 </footer>
+<!-- contact button -->
+<div class="to_contact">
+    <button class="pop" href="<?php echo $path;?>/contact/index<?php echo isset($is_en)? '_en': ''?>.html">
+        <img src="<?php echo $path;?>/images/contact-button.png" alt="CONTACT">
+    </button>
+ </div>
 <!-- Common js -->
 <script src="<?php echo $path;?>js/script.js"></script>
