@@ -19,6 +19,8 @@
     <!-- php -->
     <?php
     $path = '../'; // ファイルパスの変数
+    $is_ja = true; // Current language
+    $en_page = './work_coworking_en.php'; // To English page
     ?>
 
 </head>
@@ -35,7 +37,7 @@
         <div class="text">
             <div class="title">
                 <h1>Website Design</h1>
-                <p>美容室のデモサイト</p>
+                <p>コワーキングスペースのデモサイト</p>
             </div>
             <div class="details">
                 <table>
