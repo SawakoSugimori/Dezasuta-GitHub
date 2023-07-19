@@ -33,7 +33,7 @@
     <section class="thankyou">
         <div class="left">
             <div class="bouquet sp_only">
-                <img src="./image/thanks_2-min.png" alt="イラスト">
+                <img src="./image/thanks_2-min.png" alt="Image">
             </div>
             <h1 class="page_title">thank you<span>!</span></h1>
             <div class="text">
@@ -41,7 +41,7 @@
                     I will reach you out immediately.</p>
             </div>
             <div class="btn_block">
-                <a class="btn" href="../index.php">BACK TO TOP</a>
+                <a class="btn" href="../index_en.php">BACK TO TOP</a>
             </div>
         </div>
         <div class="right pc_only">

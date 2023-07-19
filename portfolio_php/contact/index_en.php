@@ -62,7 +62,7 @@
             <p class="error_text"></p>
 
             <!-- <p class="submit">submit</p> -->
-            <button class="submit" type="submit" name="button" value="送信">SEND A MESSAGE</button>
+            <button class="submit" type="submit" name="button" value="送信">Send a Message</button>
         </form>
     </section>
 
