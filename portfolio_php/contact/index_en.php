@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CONTACT :Sawako Sugimori's Portfolio</title>
-    <meta name="description" content="杉森佐和子へのお問い合わせページです。">
+    <meta name="description" content="You can contact me through here.">
     <!-- CSS -->
     <link rel="stylesheet" href="../css/commons.css">
     <link rel="stylesheet" href="./css/style.css">
@@ -20,6 +20,8 @@
     <?php
     $path = '../'; // ファイルパスの変数
     $is_contact = true; // 現在の位置
+    $is_en = true; // Current language
+    $ja_page = './index.php'; // To JP page
     ?>
 </head>
 
