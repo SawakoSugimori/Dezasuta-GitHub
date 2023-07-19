@@ -76,7 +76,6 @@ img {
 }
 
 /* Button style */
-button,
 .btn {
     line-height: 44px;
     display: block;
@@ -227,10 +226,13 @@ button,
 /* Button to go to contact page */
 .to_contact {
     position: fixed;
-    right: 40px;
+    right: 80px;
     bottom: 40px;
     width: 125px;
     transition: transform 0.4s ease;
+    img {
+        box-shadow: 1px 4px 5px rgba($secondary-color, $alpha: 0.2);
+    }
 }
 .to_contact:active {
     transform: scale(0.96);
