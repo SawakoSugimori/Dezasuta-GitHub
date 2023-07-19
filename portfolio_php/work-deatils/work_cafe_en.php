@@ -32,30 +32,30 @@
     ?>
     <section class="work_details">
         <div class="mockup">
-            <img src="../work/images/mockup-cafe-at-2x-80-64acd76eb3071.webp" alt="カフェサイトの写真">
+            <img src="../work/images/mockup-cafe-at-2x-80-64acd76eb3071.webp" alt="Cafesite Image">
         </div>
         <div class="text">
             <div class="title">
                 <h1>Website Design</h1>
-                <p>カフェのデモサイト</p>
+                <p>Cafe Demosite<p>
             </div>
             <div class="details">
                 <table>
                     <tr>
-                        <th class="name">制作人数</th>
-                        <td class="value">個人</td>
+                        <th class="name">Context</th>
+                        <td class="value">Presonal Project</td>
                     </tr>
                     <tr>
-                        <th class="name">担当</th>
-                        <td class="value">コーディング</td>
+                        <th class="name">Role</th>
+                        <td class="value">Web development</td>
                     </tr>
                     <tr>
-                        <th class="name">ツール</th>
+                        <th class="name">Tool</th>
                         <td class="value">HTML / CSS / jQuery</td>
                     </tr>
                     <tr>
-                        <th class="name">制作期間</th>
-                        <td class="value">1週間</td>
+                        <th class="name">Period</th>
+                        <td class="value">1 week</td>
                     </tr>
                 </table>
             </div>

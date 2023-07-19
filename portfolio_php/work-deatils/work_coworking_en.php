@@ -32,7 +32,7 @@
     ?>
     <section class="work_details">
         <div class="mockup">
-            <img src="../work/images/mockup-workspace-at-2x-80-64acd76ea8bd8.webp" alt="サイトの写真">
+            <img src="../work/images/mockup-workspace-at-2x-80-64acd76ea8bd8.webp" alt="Website Image">
         </div>
         <div class="text">
             <div class="title">
@@ -42,7 +42,7 @@
             <div class="details">
                 <table>
                     <tr>
-                        <th class="name">Contex</th>
+                        <th class="name">Context</th>
                         <td class="value">Personal Project</td>
                     </tr>
                     <tr>

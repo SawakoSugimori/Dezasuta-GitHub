@@ -32,30 +32,30 @@
     ?>
     <section class="work_details">
         <div class="banner_mockup">
-            <img src="../work/images/banner-travel-80-64acd75b8212e.webp" alt="バナーの写真">
+            <img src="../work/images/banner-travel-80-64acd75b8212e.webp" alt="Banner Image">
         </div>
         <div class="text">
             <div class="title">
                 <h1>Banner Design</h1>
-                <p>WEB用広告のバナー模写</p>
+                <p>Travel App Banner</p>
             </div>
             <div class="details">
                 <table>
                     <tr>
-                        <th class="name">制作人数</th>
-                        <td class="value">個人</td>
+                        <th class="name">Context</th>
+                        <td class="value">Personal Project</td>
                     </tr>
                     <tr>
-                        <th class="name">担当</th>
+                        <th class="name">Role</th>
                         <td class="value">Design</td>
                     </tr>
                     <tr>
-                        <th class="name">ツール</th>
+                        <th class="name">Tool</th>
                         <td class="value">Illustrator / Photoshop</td>
                     </tr>
                     <tr>
-                        <th class="name">制作期間</th>
-                        <td class="value">3日間</td>
+                        <th class="name">Period</th>
+                        <td class="value">1 week</td>
                     </tr>
                 </table>
             </div>
