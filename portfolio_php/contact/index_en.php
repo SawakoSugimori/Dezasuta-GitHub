@@ -99,7 +99,7 @@
     </script>
     <!-- Render to the thank you page-->
     <iframe name="hidden_iframe" id="hidden_iframe" style="display: none;"
-        onload="if(submitted) {window.location='thanks.php';}">
+        onload="if(submitted) {window.location='thanks_en.php';}">
     </iframe>
 </body>
 
