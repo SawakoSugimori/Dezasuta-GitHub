@@ -37,40 +37,40 @@
         <div class="text">
             <div class="title">
                 <h1>Website Design</h1>
-                <p>美容室のデモサイト</p>
+                <p>Coworking Space Demosite</p>
             </div>
             <div class="details">
                 <table>
                     <tr>
-                        <th class="name">制作人数</th>
-                        <td class="value">個人</td>
+                        <th class="name">Contex</th>
+                        <td class="value">Personal Project</td>
                     </tr>
                     <tr>
-                        <th class="name">担当</th>
+                        <th class="name">Role</th>
                         <td class="value">UI Design</td>
                     </tr>
                     <tr>
-                        <th class="name">ツール</th>
+                        <th class="name">Tool</th>
                         <td class="value">Illustrator / Photoshop</td>
                     </tr>
                     <tr>
-                        <th class="name">制作期間</th>
-                        <td class="value">1週間</td>
+                        <th class="name">Period</th>
+                        <td class="value">1 week</td>
                     </tr>
                 </table>
             </div>
-            <div class="desc">
+            <!-- <div class="desc">
                 <h2>デザインについて</h2>
                 <p>
                     ウェブサイトデザインの模写をしました。Illustratorで作成されたデザインカンプに基づき、パソコンとスマホのデザインを作成しました。
                 </p>
-            </div>
+            </div> -->
         </div>
         <div class="whole_pic">
             <img src="../work/images/whole-workspace-pc.webp" alt="サイトの全体写真">
         </div>
         <div class="btn_block">
-            <a href="../work/index.php" class="btn">WORK一覧へ戻る</a>
+            <a href="../work/index.php" class="btn">Back to WORK Page</a>
         </div>
     </section>
     <!-- Footer -->
