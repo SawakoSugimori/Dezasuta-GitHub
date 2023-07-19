@@ -18,7 +18,7 @@
 </footer>
 <!-- contact button -->
 <div class="to_contact">
-    <button class="contact_pop" href="<?php echo $path;?>contact/index<?php echo isset($is_en)? '_en': ''?>.html">
+    <button class="contact_pop" href="<?php echo $path;?>contact/index<?php echo isset($is_en)? '_en': ''?>.php">
         <img src="<?php echo $path;?>images/contact-button.png" alt="CONTACT">
     </button>
  </div>
