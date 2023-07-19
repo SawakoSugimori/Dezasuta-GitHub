@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banner :Sawako Sugimori's Portfolio</title>
-    <meta name="description" content="制作実績の紹介ページです。">
+    <meta name="description" content="I created a web banner.">
     <!-- CSS -->
     <link rel="stylesheet" href="../css/commons.css">
     <link rel="stylesheet" href="./css/style.css">

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coworking Space Website :Sawako Sugimori's Portfolio</title>
-    <meta name="description" content="I desgin the website for a coworking space.">
+    <meta name="description" content="I designed the website for a coworking space.">
     <!-- CSS -->
     <link rel="stylesheet" href="../css/commons.css">
     <link rel="stylesheet" href="./css/style.css">

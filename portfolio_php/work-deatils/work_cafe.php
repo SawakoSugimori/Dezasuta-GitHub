@@ -19,6 +19,8 @@
     <!-- php -->
     <?php
     $path = '../'; // ファイルパスの変数
+    $is_en = true; // Current language
+    $ja_page = './index.php'; // To JP page
     ?>
 
 </head>
@@ -35,7 +37,7 @@
         <div class="text">
             <div class="title">
                 <h1>Website Design</h1>
-                <p>カフェのデモサイト</p>
+                <p>Cafe Demosite</p>
             </div>
             <div class="details">
                 <table>
