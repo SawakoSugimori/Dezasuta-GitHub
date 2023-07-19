@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thank you for reaching out to me! :Sawako Sugimori's Portfolio</title>
-    <meta name="description" content="杉森佐和子へのお問い合わせページです。">
+    <meta name="description" content="お問い合わせありがとうございます。">
     <!-- CSS -->
     <link rel="stylesheet" href="../css/commons.css">
     <link rel="stylesheet" href="./css/style.css">
@@ -19,6 +19,8 @@
     <!-- php -->
     <?php
     $path = '../'; // ファイルパスの変数
+    $is_ja = true; // Current language
+    $en_page = './index_en.php'; // To English page
     ?>
 </head>
 

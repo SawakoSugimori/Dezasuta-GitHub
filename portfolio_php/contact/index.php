@@ -27,6 +27,8 @@
     <!-- Include header.php -->
     <?php include 
     $path.'inc/header.php';
+    $is_ja = true; // Current language
+    $en_page = './index_en.php'; // To English page
     ?>
 
     <section class="contact">
