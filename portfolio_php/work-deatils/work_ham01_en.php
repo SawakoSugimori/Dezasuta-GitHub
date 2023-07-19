@@ -60,10 +60,9 @@
                 </table>
             </div>
             <div class="desc">
-                <h2>デザインについて</h2>
+                <h2>About The Project</h2>
                 <p>
-                    ハンバーガーのWEB広告用バナーをデザインし制作しました。学校帰りの学生をターゲットに、ボリューム感が感じられるPOPなデザインにしました。写真と文字を大きくし、インパクトを出しています。背景色は、ハンバーガーとコントラストになる暗めの色でかつ、食欲をそそる色として、暗めの赤色を合わせました。
-                </p>
+                I have designed and created a web banner for a hamburger advertisement. The target audience is students returning from school, so I aimed for a visually appealing design that showcases the volume of the burger. I made the photos and text larger to create impact. For the background color, I chose a dark shade of red that contrasts with the hamburger and also stimulates appetite.                </p>
             </div>
         </div>
         <!-- <div class="whole_pic">

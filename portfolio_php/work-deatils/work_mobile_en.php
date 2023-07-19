@@ -60,7 +60,7 @@
                 </table>
             </div>
             <div class="desc">
-                <h2>デザインについて</h2>
+                <h2>About The Project</h2>
                 <p>
                     WEB広告用のバナーデザインの模写をしました。手とスマホの画像はPhotoshopで切り抜き、バナーはIllustratorで作成しました。背景は、Illustratorの描画モードを使用し、和紙のテクスチャを加えています。
                 </p>
