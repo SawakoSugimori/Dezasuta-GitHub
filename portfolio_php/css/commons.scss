@@ -224,6 +224,22 @@ button,
         display: block;
     }
 }
+/* Button to go to contact page */
+.to_contact {
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    width: 125px;
+    transition: transform 0.4s ease;
+}
+.to_contact:active {
+    transform: scale(0.96);
+}
+@media screen and (max-width: 767px) {
+    .to_contact {
+        display: none;
+    }
+}
 
 /* Global nav */
 .global_nav {
