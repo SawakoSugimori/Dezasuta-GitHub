@@ -1,4 +1,8 @@
 /* font color*/
+.to_contact {
+  display: none;
+}
+
 .contact {
   padding: 180px 3% 150px 3%;
 }
