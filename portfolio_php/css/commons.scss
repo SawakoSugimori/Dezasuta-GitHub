@@ -104,12 +104,15 @@ img {
     border-right: 2px solid $dominant-color;
     transform: rotate(45deg);
 }
-.pop:hover {
+.pop:hover,
+.contact_pop:hover {
     opacity: 1;
 }
 // Button animation when it's clicked
 .pop::before,
-.pop::after {
+.pop::after,
+.contact_pop::before,
+.contact_pop::after {
     position: absolute;
     content: "";
     left: 50%;
@@ -132,7 +135,8 @@ img {
     }
 }
 
-.pop.animate::before {
+.pop.animate::before,
+.contact_pop.animate::before {
     top: -70%;
     // Click animation
     background-image: radial-gradient(
@@ -175,7 +179,8 @@ img {
         background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
     }
 }
-.pop.animate::after {
+.pop.animate::after,
+.contact_pop.animate::after {
     bottom: -70%;
     background-image: radial-gradient(
             circle,
@@ -224,7 +229,7 @@ img {
     }
 }
 /* Button to go to contact page */
-.to_contact {
+div.to_contact {
     position: fixed;
     right: 80px;
     bottom: 40px;
@@ -234,7 +239,7 @@ img {
         box-shadow: 1px 4px 5px rgba($secondary-color, $alpha: 0.2);
     }
 }
-.to_contact:active {
+div.to_contact:active {
     transform: scale(0.96);
 }
 @media screen and (max-width: 767px) {

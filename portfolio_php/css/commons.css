@@ -115,12 +115,15 @@ img {
   transform: rotate(45deg);
 }
 
-.pop:hover {
+.pop:hover,
+.contact_pop:hover {
   opacity: 1;
 }
 
 .pop::before,
-.pop::after {
+.pop::after,
+.contact_pop::before,
+.contact_pop::after {
   position: absolute;
   content: "";
   left: 50%;
@@ -143,7 +146,8 @@ img {
     width: 75%;
   }
 }
-.pop.animate::before {
+.pop.animate::before,
+.contact_pop.animate::before {
   top: -70%;
   background-image: radial-gradient(circle, #80d9d4 20%, transparent 20%), radial-gradient(circle, transparent 20%, #80d9d4 20%, transparent 30%), radial-gradient(circle, #80d9d4 20%, transparent 20%), radial-gradient(circle, transparent 10%, #80d9d4 15%, transparent 20%), radial-gradient(circle, #80d9d4 20%, transparent 20%), radial-gradient(circle, #80d9d4 20%, transparent 20%), radial-gradient(circle, #80d9d4 20%, transparent 20%), radial-gradient(circle, #80d9d4 20%, transparent 20%), radial-gradient(circle, #80d9d4 20%, transparent 20%);
   background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 10% 10%, 18% 18%, 10% 10%;
@@ -160,7 +164,8 @@ img {
     background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
   }
 }
-.pop.animate::after {
+.pop.animate::after,
+.contact_pop.animate::after {
   bottom: -70%;
   background-image: radial-gradient(circle, #80d9d4 20%, transparent 20%), radial-gradient(circle, transparent 10%, #80d9d4 15%, transparent 20%), radial-gradient(circle, #80d9d4 20%, transparent 20%), radial-gradient(circle, #80d9d4 20%, transparent 20%), radial-gradient(circle, #80d9d4 20%, transparent 20%), radial-gradient(circle, #80d9d4 20%, transparent 20%), radial-gradient(circle, #80d9d4 20%, transparent 20%);
   background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 20% 20%, 18% 18%;
@@ -194,18 +199,18 @@ img {
   }
 }
 /* Button to go to contact page */
-.to_contact {
+div.to_contact {
   position: fixed;
   right: 80px;
   bottom: 40px;
   width: 125px;
   transition: transform 0.4s ease;
 }
-.to_contact img {
+div.to_contact img {
   box-shadow: 1px 4px 5px rgba(128, 217, 212, 0.2);
 }
 
-.to_contact:active {
+div.to_contact:active {
   transform: scale(0.96);
 }
 
