@@ -62,8 +62,7 @@
             <div class="desc">
                 <h2>About The Project</h2>
                 <p>
-                    WEB広告用のバナーデザインの模写をしました。手とスマホの画像はPhotoshopで切り抜き、バナーはIllustratorで作成しました。背景は、Illustratorの描画モードを使用し、和紙のテクスチャを加えています。
-                </p>
+                I recreated a banner design for web advertising. I used Photoshop to extract and cut out the images of the hand and smartphone, and I created the banner itself in Illustrator. For the background, I utilized Illustrator's drawing mode and added a Japanese paper texture.                </p>
             </div>
         </div>
         <!-- <div class="whole_pic">

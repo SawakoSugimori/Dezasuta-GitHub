@@ -62,8 +62,7 @@
             <div class="desc">
                 <h2>About The Project</h2>
                 <p>
-                    WEB広告用のバナーデザインの模写をしました。旅行のさまざまなコンテンツを紹介するメディアのアプリ版リリースの広告です。手とタブレットの画像はPhotoshopで切り抜き、バナーはIllustratorで作成しました。タブレットの中の写真は、Illustratorのクリッピングマスクの機能を使用し合成しています。
-                </p>
+                I have recreated a banner design for web advertising. It is an advertisement for the app version release of a media platform that showcases various travel content. I used Photoshop to extract and cut out the images of the hand and tablet, and I created the banner itself in Illustrator. The photos within the tablet were composited using Illustrator's clipping mask feature.                </p>
             </div>
         </div>
         <!-- <div class="whole_pic">

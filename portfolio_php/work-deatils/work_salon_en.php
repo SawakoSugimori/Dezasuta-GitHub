@@ -61,9 +61,10 @@
             </div>
             <div class="desc">
                 <h2>About The Project</h2>
-                <p>このランディングページでは、20代～50代の女性をターゲットに、美容室の認知向上、予約の獲得、SNSのフォロワーの獲得を目的としています。20代～50代の女性がターゲットということで、コーポレートカラーのピンクを基調に、明るい雰囲気に仕上げました。欧文フォントは、女性らしさや落ち着いた雰囲気を出すために、セリフ体を使用しています。また、美容室内や人物の写真を積極的にしようすることにより、
-                    お店の雰囲気や人が感じられるようなウェブサイトにしました。
-                    予約ボタンと各SNSのボタンは、右サイドに追従するようにデザインし、予約の獲得とSNSのフォロワーの獲得につながりやすくするという意図があります。
+                <p>
+                    In this landing page, we are targeting women in their 20s to 50s with the aim of increasing awareness of a beauty salon, acquiring reservations, and gaining followers on social media. Considering the target audience of women in their 20s to 50s, we have used a corporate color scheme with pink as the main color to create a bright and inviting atmosphere. For the typography, we have used a serif font to convey femininity and a calm ambiance. Additionally, by incorporating photos of the salon interior and people, we have created a website that conveys the ambiance and presence of the establishment.
+                    <br>
+                    The reservation button and social media buttons have been designed to follow the user on the right side of the page, intending to facilitate easy access to reservations and encourage social media following.                
                 </p>
             </div>
         </div>

@@ -62,8 +62,7 @@
             <div class="desc">
             <h2>About The Project</h2>
                 <p>
-                    ハンバーガーのWEB広告用バナーをデザインし制作しました。20代の男性をターゲットに、休日のランチや夕食にハンバーガーを食べることを想定しました。高級感を第一に、シンプルなデザインを目指しました。そのために、背景に黒い光沢のあるグラデーションを適用し、ハンバーガーにスポットライトが当たっているような加工をしました。文字は、明朝体にし、文字間隔や各要素の余白を大きくとりまいした。
-                </p>
+                I have designed and created a web banner for a hamburger advertisement. The target audience is men in their 20s, with the assumption that they would enjoy having hamburgers for weekend lunches or dinners. I prioritized a sense of luxury and aimed for a simple design. To achieve this, I applied a glossy black gradient to the background and added an effect that gives the impression of a spotlight shining on the hamburger. I used a serif font for the text and increased the spacing between characters and the whitespace around each element.                </p>
             </div>
         </div>
         <!-- <div class="whole_pic">

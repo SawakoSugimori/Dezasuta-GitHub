@@ -62,12 +62,9 @@
             <div class="desc">
                 <h2>About The Project</h2>
                 <p>
-                    カフェのデモサイトのコーディングをしました。 Illustratorのデザインカンプから、値を取得し、デザインを忠実に再現しています。具体的な機能は、トップへボタンの実装、Google
-                    Mapsの地図の表示、画像スライダー等があります。トップへボタンに加え、グローバルメニューの各項目についても、ページ内リンクを設置しました。また、ファーストビューと、ギャラリーセクションでは、JavaScriptによって画像スライダーを設置しました。
-                    ギャラリーセクションでは、画像をクリックすると、拡大した画像が表示されるモーダルウィンドウを実装しています。
+                    I have coded a demo site for a café. I extracted values from the design mockup in Illustrator and faithfully reproduced the design. The specific functionalities include a back-to-top button, displaying a Google Maps map, and an image slider. In addition to the back-to-top button, I have also added page links for each item in the global menu. Moreover, I implemented image sliders using JavaScript for the first view and gallery section. In the gallery section, when you click on an image, it opens a modal window displaying the enlarged image.                    
                     <br>
-                    さらに、ユーザーがサイトを使いやすくできるよう、パソコンとスマートフォンの画面サイズにレイアウトを最適化する、レスポンシブ対応をしています。
-                </p>
+                    Furthermore, to enhance user-friendliness, the layout has been optimized to be responsive, adapting to the screen sizes of both desktop and smartphone devices.                </p>
             </div>
         </div>
         <div class="whole_pic">
