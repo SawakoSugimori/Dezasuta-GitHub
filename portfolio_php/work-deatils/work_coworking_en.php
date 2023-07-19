@@ -37,7 +37,7 @@
         <div class="text">
             <div class="title">
                 <h1>Website Design</h1>
-                <p>Coworking Space Demosite</p>
+                <p>Coworking Space Demo site</p>
             </div>
             <div class="details">
                 <table>
@@ -67,7 +67,7 @@
             </div> -->
         </div>
         <div class="whole_pic">
-            <img src="../work/images/whole-workspace-pc.webp" alt="サイトの全体写真">
+            <img src="../work/images/whole-workspace-pc.webp" alt="Whole image of the website">
         </div>
         <div class="btn_block">
             <a href="../work/index.php" class="btn">Back to WORK Page</a>

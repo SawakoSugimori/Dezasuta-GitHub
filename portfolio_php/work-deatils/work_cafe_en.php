@@ -37,7 +37,7 @@
         <div class="text">
             <div class="title">
                 <h1>Website Design</h1>
-                <p>Cafe Demosite<p>
+                <p>Cafe Demo site<p>
             </div>
             <div class="details">
                 <table>
@@ -68,7 +68,7 @@
             </div>
         </div>
         <div class="whole_pic">
-            <img src="../work/images/whole-cafe-pc.png" alt="サイトの全体写真">
+            <img src="../work/images/whole-cafe-pc.png" alt="Whole image of the website">
         </div>
         <div class="btn_block">
             <a href="../work/index.php" class="btn">WORK一覧へ戻る</a>

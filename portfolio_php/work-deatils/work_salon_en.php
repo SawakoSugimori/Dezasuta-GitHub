@@ -37,7 +37,7 @@
         <div class="text">
             <div class="title">
                 <h1>Website Design</h1>
-                <p>Hair Salon Demosite</p>
+                <p>Hair Salon Demo site</p>
             </div>
             <div class="details">
                 <table>
@@ -69,7 +69,7 @@
             </div>
         </div>
         <div class="whole_pic">
-            <img src="../work/images/whole-salon-64acd84d55638.webp" alt="美容室のサイトの全体写真">
+            <img src="../work/images/whole-salon-64acd84d55638.webp" alt="Whole image of the website">
         </div>
         <div class="btn_block">
             <a href="../work/index.php" class="btn">WORK一覧へ戻る</a>
