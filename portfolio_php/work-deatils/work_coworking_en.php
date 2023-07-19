@@ -70,7 +70,7 @@
             <img src="../work/images/whole-workspace-pc.webp" alt="Whole image of the website">
         </div>
         <div class="btn_block">
-            <a href="../work/index.php" class="btn">Back to WORK Page</a>
+            <a href="../work/index_en.php" class="btn">Back to WORK Page</a>
         </div>
     </section>
     <!-- Footer -->

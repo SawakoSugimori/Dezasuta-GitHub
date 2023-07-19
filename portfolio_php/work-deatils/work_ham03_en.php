@@ -62,14 +62,15 @@
             <div class="desc">
             <h2>About The Project</h2>
                 <p>
-                I have designed and created a web banner for a hamburger advertisement. The target audience is men in their 20s, with the assumption that they would enjoy having hamburgers for weekend lunches or dinners. I prioritized a sense of luxury and aimed for a simple design. To achieve this, I applied a glossy black gradient to the background and added an effect that gives the impression of a spotlight shining on the hamburger. I used a serif font for the text and increased the spacing between characters and the whitespace around each element.                </p>
+                I have designed and created a web banner for a hamburger advertisement. The target audience is men in their 20s, with the assumption that they would enjoy having hamburgers for weekend lunches or dinners. I prioritized a sense of luxury and aimed for a simple design. To achieve this, I applied a glossy black gradient to the background and added an effect that gives the impression of a spotlight shining on the hamburger. I used a serif font for the text and increased the spacing between characters and the whitespace around each element.                
+            </p>
             </div>
         </div>
         <!-- <div class="whole_pic">
             <img src="../work/images/whole-salon-64acd84d55638.webp" alt="美容室のサイトの全体写真">
         </div> -->
         <div class="btn_block">
-            <a href="../work/index.php" class="btn">WORK一覧へ戻る</a>
+            <a href="../work/index_en.php" class="btn">Back to WORK Page</a>
         </div>
     </section>
     <!-- Footer -->

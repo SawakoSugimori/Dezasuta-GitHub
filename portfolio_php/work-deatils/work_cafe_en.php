@@ -64,14 +64,15 @@
                 <p>
                     I have coded a demo site for a café. I extracted values from the design mockup in Illustrator and faithfully reproduced the design. The specific functionalities include a back-to-top button, displaying a Google Maps map, and an image slider. In addition to the back-to-top button, I have also added page links for each item in the global menu. Moreover, I implemented image sliders using JavaScript for the first view and gallery section. In the gallery section, when you click on an image, it opens a modal window displaying the enlarged image.                    
                     <br>
-                    Furthermore, to enhance user-friendliness, the layout has been optimized to be responsive, adapting to the screen sizes of both desktop and smartphone devices.                </p>
+                    Furthermore, to enhance user-friendliness, the layout has been optimized to be responsive, adapting to the screen sizes of both desktop and smartphone devices.                
+                </p>
             </div>
         </div>
         <div class="whole_pic">
             <img src="../work/images/whole-cafe-pc.png" alt="Whole image of the website">
         </div>
         <div class="btn_block">
-            <a href="../work/index.php" class="btn">WORK一覧へ戻る</a>
+            <a href="../work/index_en.php" class="btn">Back to WORK Page</a>
         </div>
     </section>
     <!-- Footer -->
