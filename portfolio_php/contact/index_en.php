@@ -33,7 +33,7 @@
 
     <section class="contact">
         <h1 class="page_title">CONTACT</h1>
-        <p>ご依頼・ご質問等がありましたら、お問い合わせフォームやSNSより、お気軽にお問い合わせください。</p>
+        <p>Please feel free to contact me.  Let’ｓ create something together!</p>
         <ul class="social_links">
             <li class="social_icon"><a href="#"><img src="../images/icons/ig-icon-min.png" alt="
                 Instagram"></a>
@@ -47,22 +47,22 @@
             action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfW3Gw83pX6i_pLZpG5GUARikziPbYqu8m0Eiq6oGSUUvM6Yw/formResponse"
             method="post" target="hidden_iframe" onsubmit="submitted=true">
 
-            <label for="name">お名前</label>
-            <input id="name" class="required" type="text" placeholder="山田 太郎" name="entry.1982888611" required>
+            <label for="name">NAME</label>
+            <input id="name" class="required" type="text" placeholder="" name="entry.1982888611" required>
             <p class="error_text"></p>
 
-            <label for="email">メールアドレス</label>
+            <label for="email">EMAIL ADDRESS</label>
             <input id="email" class="required" type="text" placeholder="example@mail.co.jp" name="entry.463273501"
                 required>
             <p class="error_text"></p>
 
-            <label for="msg">メッセージ</label>
-            <textarea id="msg" class="required" placeholder="お気軽にお問い合わせください。" name="entry.1729223197"
+            <label for="msg">MESSAGE</label>
+            <textarea id="msg" class="required" placeholder="" name="entry.1729223197"
                 required></textarea>
             <p class="error_text"></p>
 
             <!-- <p class="submit">submit</p> -->
-            <button class="submit" type="submit" name="button" value="送信">メッセージを送信する</button>
+            <button class="submit" type="submit" name="button" value="送信">SEND A MESSAGE</button>
         </form>
     </section>
 
@@ -88,7 +88,7 @@
                 for (let i = 0; i < requiredLength; i++) {
                     if (requireds[i].value == "") {
                         // エラーメッセージを表示
-                        errors[i].innerHTML = "このフィールドは必須です。";
+                        errors[i].innerHTML = "Please fill this field.";
                     } else {
                         errors[i].innerHTML = "";
                     }

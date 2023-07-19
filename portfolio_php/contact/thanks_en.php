@@ -37,17 +37,15 @@
             </div>
             <h1 class="page_title">thank you<span>!</span></h1>
             <div class="text">
-                <p>お問い合わせありがとうございます！お送り頂きました内容を確認の上、3日以内に折り返しご連絡させて頂きます。</p>
-                <p class="caution">
-                    *3日が過ぎてもメールが届かない場合は、入力頂いたメールアドレスが間違っているか、迷惑メールフォルダに振り分けられている可能性がございます。また、ドメイン指定をされている場合は、「sawakosugimori@gmail.com」からのメールが受信できるようあらかじめ設定をお願いいたします。
-                </p>
+                <p>Thank you for contacting me.<br>
+                    I will reach you out immediately.</p>
             </div>
             <div class="btn_block">
-                <a class="btn" href="../index.php">トップページに戻る</a>
+                <a class="btn" href="../index.php">BACK TO TOP</a>
             </div>
         </div>
         <div class="right pc_only">
-            <img src="./image/thanks_2-min.png" alt="イラスト">
+            <img src="./image/thanks_2-min.png" alt="Image">
         </div>
     </section>
 
