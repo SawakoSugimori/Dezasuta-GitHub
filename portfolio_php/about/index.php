@@ -20,6 +20,8 @@
     <?php
     $path = '../'; // ファイルパスの変数
     $is_about = true; // 現在の位置
+    $is_ja = true; // Current language
+    $en_page = './index_en.php'; // To English page
     ?>
 </head>
 

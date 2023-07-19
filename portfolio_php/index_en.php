@@ -22,7 +22,7 @@
     $path = './'; // ファイルパスの変数
     $is_top = true; // 現在の位置
     $is_en = true; // Current language
-    $ja_page = './index_.php'; // To English page
+    $ja_page = './index.php'; // To JP page
     ?>
 </head>
 
