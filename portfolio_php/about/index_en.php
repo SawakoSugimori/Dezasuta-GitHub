@@ -32,8 +32,8 @@
     <section class="about">
         <div class="intro">
             <h1 class="page_title">ABOUT</h1>
-            <p>ここであなたと出会ったのも何かのご縁だと思います。<br>
-                少しでも私について知っていただければ嬉しいです。</p>
+            <p>I’m a web designer and developer from Japan.<br>
+                I love learning and creating which allows me to stay inspired.</p>
         </div>
 
         <div class="flex">
@@ -45,18 +45,19 @@
             <div class="text">
                 <ul>
                     <li>
-                        <h3>「伝える、伝わる、つながる」を実現する。それが私の願いです。</h3>
-                        <p>ウェブサイトは、遠い距離にいる人々が出会うことができる、コミュニケーションの場だと考えています。お客様の魅力が伝わる形、ユーザーが受け取りやすい形を追求することによって、想いがつながることを実現する。そんなデザイナーを目指しています。
+                        <h3>My dream is connecting people through design.</h3>
+                        <p>I believe connecting people through design is a powerful way to foster communication, understanding, and collaboration among individuals. I also believe design has the ability to bridge gaps, break barriers, and create inclusive experiences that bring people together. By leveraging the principles of user-centered design, empathy, and effective communication, I would like to create meaningful connections and make a positive impact on people's lives. 
                         </p>
                     </li>
                     <li>
-                        <h3>新しい考えや知識を得るのが好きです。</h3>
-                        <p>新しいことを知ることによって、自分の世界が広がる感覚を大切にしています。趣味の読書も、新たな観点からものを見ることができるようになる点が気に入っています。本は、月に10冊ほど読みます。人間の心理や歴史など、ノンフィクションが特に好きです。<br>また、違う文化背景がある人と話すことも、私にとってわくわくすることです。英語はより多くの人とのコミュニケーションを可能にしてくれるので、日々英語を勉強しています。
+                        <h3>I like learning something new.</h3>
+                        <p>I value the learning new things because it lets me to broaden my horizon.  I especially enjoy reading books which allows me to change my perspective.  I read about 10 books per month, with a strong preference for non-fiction genres such as human psychology and history.Furthermore, I find it exciting to communicate with people from different cultural backgrounds.  English, in particular, enables me to communicate with a various people, so I study it daily.<br>また、違う文化背景がある人と話すことも、私にとってわくわくすることです。英語はより多くの人とのコミュニケーションを可能にしてくれるので、日々英語を勉強しています。
                         </p>
                     </li>
                     <li>
-                        <h3>自分のアイディアを形にするのが好きです。</h3>
-                        <p>思い浮かんだことを文章や絵などで表現しています。ブックレビューを書くこと、絵を描くこと、料理をすることなど、アイディアを形にすることを楽しんでいます。<br>プログラミングを学び、ホームぺージ制作も、自分のアイディアを形にすることができると思い、学び始めました。
+                        <h3>I like to be creative.</h3>
+                        <p>I express my thoughts and ideas through writing, drawing, and other forms of artistic expression. I enjoy writing book reviews, creating artwork, and cooking as a way to give shape to my ideas.<br>
+                            I started learning programming and web development because I believe it allows me to bring my own ideas to life.
                         </p>
                     </li>
                 </ul>
@@ -64,13 +65,8 @@
         </div><!-- flex -->
         <div class="ccl">
             <p class="title">Thank you for reading!</p>
-            <p class="ccl_intro">読んでいただきありがとうございます。noteにて読書記録を投稿しています。<br class="pc_only">
-                興味が湧いてきた方は、ぜひ一度訪れてみてください。</p>
-            <p class="note_sec">note記事</p>
-            <ul class="note">
-                <li><a href="">時間とは。『モモ』読書記録#38 </a></li>
-                <li><a href="">「死」によって生命は永遠になった 読書記録#37</a></li>
-            </ul>
+            <p class="ccl_intro">I'm happy that you're interested in me.<br class="pc_only">
+            Please feel free to get in touch with me.  Let’s create something together!</p>
         </div>
     </section>
 
