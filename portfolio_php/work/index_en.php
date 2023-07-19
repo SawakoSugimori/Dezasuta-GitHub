@@ -43,96 +43,96 @@
         <ul class="wrapper">
             <!-- item 1 -->
             <li class="item" data-cat="web">
-                <a class="hover_null" href="../work-deatils/work_salon.php">
+                <a class="hover_null" href="../work-deatils/work_salon_en.php">
                     <div class="mask_area">
                         <div class="mask">
-                            <p class="caption">詳しく見る</p>
+                            <p class="caption">VIEW MORE</p>
                         </div>
-                        <img src="./images/salonsite-mockup-80-64acd82400f75.webp" alt="美容室サイトの写真">
+                        <img src="./images/salonsite-mockup-80-64acd82400f75.webp" alt="Hair Salon Website">
                     </div>
                     <p class="role">Designer</p>
                 </a>
             </li>
             <!-- item 2 -->
             <li class="item" data-cat="web">
-                <a class="hover_null" href="../work-deatils/work_cafe.php">
+                <a class="hover_null" href="../work-deatils/work_cafe_en.php">
                     <div class="mask_area">
                         <div class="mask">
-                            <p class="caption">詳しく見る</p>
+                            <p class="caption">VIEW MORE</p>
                         </div>
-                        <img src="./images/cafesite-mockup-80-64acd81cec333.webp" alt="カフェサイトの写真">
+                        <img src="./images/cafesite-mockup-80-64acd81cec333.webp" alt="Cafe Website">
                     </div>
                     <p class="role">Frontend developer</p>
                 </a>
             </li>
             <!-- item 3 -->
             <li class="item" data-cat="ban">
-                <a class="hover_null" href="../work-deatils/work_ham01.php">
+                <a class="hover_null" href="../work-deatils/work_ham01_en.php">
                     <div class="mask_area">
                         <div class="mask">
-                            <p class="caption">詳しく見る</p>
+                            <p class="caption">VIEW MORE</p>
                         </div>
-                        <img src="./images/banner-ham01-80-64acd75898935.webp" alt="ハンバーガーのバナー">
+                        <img src="./images/banner-ham01-80-64acd75898935.webp" alt="Hamburger Banner">
                     </div>
                     <p class="role">Designer</p>
                 </a>
             </li>
             <!-- item 4-->
             <li class="item" data-cat="ban">
-                <a class="hover_null" href="../work-deatils/work_ham02.php">
+                <a class="hover_null" href="../work-deatils/work_ham02_en.php">
                     <div class="mask_area">
                         <div class="mask">
-                            <p class="caption">詳しく見る</p>
+                            <p class="caption">VIEW MORE</p>
                         </div>
-                        <img src="./images/banner-ham02-80-64acd7586348d.webp" alt="バナー">
+                        <img src="./images/banner-ham02-80-64acd7586348d.webp" alt="Hamburger Banner">
                     </div>
                     <p class="role">Designer</p>
                 </a>
             </li>
             <!-- item 5-->
             <li class="item" data-cat="ban">
-                <a class="hover_null" href="../work-deatils/work_ham02.php">
+                <a class="hover_null" href="../work-deatils/work_ham02_en.php">
                     <div class="mask_area">
                         <div class="mask">
-                            <p class="caption">詳しく見る</p>
+                            <p class="caption">VIEW MORE</p>
                         </div>
-                        <img src="./images/banner-ham03-80-64acd7632d333.webp" alt="バナー">
+                        <img src="./images/banner-ham03-80-64acd7632d333.webp" alt="Hamburger Banner">
                     </div>
                     <p class="role">Designer</p>
                 </a>
             </li>
             <!-- item 6 -->
             <li class="item" data-cat="web">
-                <a class="hover_null" href="../work-deatils/work_coworking.php">
+                <a class="hover_null" href="../work-deatils/work_coworking_en.php">
                     <div class="mask_area">
                         <div class="mask">
-                            <p class="caption">詳しく見る</p>
+                            <p class="caption">VIEW MORE</p>
                         </div>
-                        <img src="./images/coworkingsite-mockup-80-64acd820229e2.webp" alt="コワーキングスペースのサイト">
+                        <img src="./images/coworkingsite-mockup-80-64acd820229e2.webp" alt="Website">
                     </div>
                     <p class="role">Designer</p>
                 </a>
             </li>
             <!-- item 7 -->
             <li class="item" data-cat="ban">
-                <a class="hover_null" href="../work-deatils/work_mobile.php">
+                <a class="hover_null" href="../work-deatils/work_mobile_en.php">
                     <div class="mask_area">
                         <div class="mask">
-                            <p class="caption">詳しく見る</p>
+                            <p class="caption">VIEW MORE</p>
                         </div>
-                        <img src="./images/banner-mobile-80-64acd75b13165.webp" alt="バナーの写真">
+                        <img src="./images/banner-mobile-80-64acd75b13165.webp" alt="Banner">
                     </div>
                     <p class="role">Designer</p>
                 </a>
             </li>
             <!-- item 8 -->
             <li class="item" data-cat="ban">
-                <a class="hover_null" href="../work-deatils/work_travel.php">
+                <a class="hover_null" href="../work-deatils/work_travel_en.php">
                     <div class="mask_area">
                         <div class="mask">
-                            <p class="caption">詳しく見る</p>
+                            <p class="caption">VIEW MORE</p>
                         </div>
-                        <img src="./images/banner-travel-80-64acd75b8212e.webp" alt="バナーの写真">
+                        <img src="./images/banner-travel-80-64acd75b8212e.webp" alt="Banner">
                     </div>
                     <p class="role">Designer</p>
                 </a>
@@ -141,7 +141,7 @@
         </ul>
         <!-- A button to go back to TOP page -->
         <div class="btn_block">
-            <a href="../index.php" class="btn">TOPへ戻る</a>
+            <a href="../index.php" class="btn">BACK TO TOP</a>
         </div>
 
     </section>
