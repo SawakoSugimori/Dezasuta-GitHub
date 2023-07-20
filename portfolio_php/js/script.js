@@ -50,11 +50,11 @@ $(function () {
 
             setTimeout(() => {
                 $('.pop').removeClass('animate');
-            }, 600)
+            }, 700)
             // ぺージ遷移
             setTimeout(() => {
                 window.location = this.getAttribute('href');
-            }, 600)
+            }, 700)
         });
     }
 });

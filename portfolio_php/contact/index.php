@@ -62,7 +62,7 @@
             <p class="error_text"></p>
 
             <!-- <p class="submit">submit</p> -->
-            <button class="submit" type="submit" name="button" value="送信">メッセージを送信する</button>
+            <button class="submit btn pop" type="submit" name="button" value="送信">メッセージを送信する</button>
         </form>
     </section>
 
