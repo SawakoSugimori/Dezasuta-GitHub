@@ -43,7 +43,7 @@
                 </p>
             </div>
             <div class="btn_block">
-                <a class="btn" href="../index.php">トップページに戻る</a>
+                <button class="btn" href="../index.php">トップページに戻る<span></span></button>
             </div>
         </div>
         <div class="right pc_only">

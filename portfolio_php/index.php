@@ -78,7 +78,7 @@
                         class="pc_only">人間の心理や生物の行動にとても興味があります。デザインを作成することも、人間の高度や思考について深く考えることができるので、とてもすきなひとときです。
                 </p>
                 <div id="work_bg" class="btn_block">
-                    <button href="./about/index.php" class="btn pop">learn more about me<span></span></button>
+                    <button href="./about/index.php" class="btn pop">Learn more about me<span></span></button>
                 </div>
             </div>
         </div>

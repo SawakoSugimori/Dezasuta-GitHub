@@ -141,7 +141,7 @@
         </ul>
         <!-- A button to go back to TOP page -->
         <div class="btn_block">
-            <a href="../index.php" class="btn pop">TOPへ戻る</a>
+            <button href="../index.php" class="btn pop">TOPへ戻る<span></span></button>
         </div>
 
     </section>
