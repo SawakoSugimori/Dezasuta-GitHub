@@ -73,8 +73,7 @@
             </div>
             <div class="content">
                 <h2 class="pc_only">Hello<span>!</span></h2>
-                <p>Nice to meet you, I'm Sawako from Japan. </p>
-                <p>I love creating a design  because creating designs also allows me to think deeply about human cognition and thinking. This is my favorite time of the day.</p>
+                <p>Nice to meet you, I'm Sawako from Japan.<br>I love creating a design  because creating designs also allows me to think deeply about human cognition and thinking. This is my favorite time of the day.</p>
                 <div id="work_bg" class="btn_block">
                     <button href="./about/index_en.php" class="btn pop">learn more about me<span></span></button>
                 </div>
