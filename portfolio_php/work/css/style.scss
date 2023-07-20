@@ -94,11 +94,6 @@
         color: $secondary-color;
         padding: 0 67px 0 54px;
     }
-    .btn:after {
-        border-top: 2px solid $secondary-color;
-        border-right: 2px solid $secondary-color;
-        right: 20px;
-    }
 }
 @media screen and (max-width: 767px) {
     .page_title {
