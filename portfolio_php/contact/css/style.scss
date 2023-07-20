@@ -98,8 +98,10 @@
         .btn {
             background-color: $dominant-color;
             color: $secondary-color;
-            border-top: 2px solid $secondary-color;
-            border-right: 2px solid $secondary-color;
+            span {
+                border-top: 2px solid $secondary-color;
+                border-right: 2px solid $secondary-color;
+            }
         }
     }
     .right {

@@ -98,6 +98,8 @@
 .thankyou .left .btn {
   background-color: #fafdf8;
   color: #80d9d4;
+}
+.thankyou .left .btn span {
   border-top: 2px solid #80d9d4;
   border-right: 2px solid #80d9d4;
 }
