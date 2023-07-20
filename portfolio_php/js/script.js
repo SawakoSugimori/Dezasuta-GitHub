@@ -28,7 +28,7 @@ $(function () {
         } else {
             $('.ham_btn').removeClass('is_hidden');
         }
-    }, 200);
+    });
     // global nav: Show background when scrolling
     $(window).scroll(function () {
         var scroll = $(window).scrollTop();
