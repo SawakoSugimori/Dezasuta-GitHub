@@ -289,6 +289,8 @@
 }
 @media (max-width: 776px) {
     .work {
+        padding-left: 4%;
+        padding-right: 4%;
         .works {
             flex-direction: column;
             .item {
@@ -297,9 +299,9 @@
             }
         }
         .btn_block {
-            display: block;
             .btn {
                 text-align: center;
+                width: 100%;
             }
         }
     }

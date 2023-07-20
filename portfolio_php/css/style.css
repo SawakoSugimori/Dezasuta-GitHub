@@ -278,6 +278,10 @@
 }
 
 @media (max-width: 776px) {
+  .work {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
   .work .works {
     flex-direction: column;
   }
@@ -285,11 +289,9 @@
     width: 100%;
     margin-bottom: 30px;
   }
-  .work .btn_block {
-    display: block;
-  }
   .work .btn_block .btn {
     text-align: center;
+    width: 100%;
   }
 }
 /* SECTION: What I do? */
