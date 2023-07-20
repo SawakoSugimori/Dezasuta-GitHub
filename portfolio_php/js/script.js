@@ -24,9 +24,10 @@ $(function () {
         console.log(point, docHeight - windowHeight - footerHeight);
         // A+B >= C+D
         if (point >= docHeight - windowHeight - footerHeight) {
-            $('.ham_btn').addClass('is_hidden');
+
+            $('.fixed').addClass('is_hidden');
         } else {
-            $('.ham_btn').removeClass('is_hidden');
+            $('.fixed').removeClass('is_hidden');
         }
     });
     // global nav: Show background when scrolling
