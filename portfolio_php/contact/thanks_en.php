@@ -41,7 +41,7 @@
                     I will reach you out immediately.</p>
             </div>
             <div class="btn_block">
-                <button class="btn" href="../index_en.php">BACK TO TOP<span></span></button>
+                <a class="btn" href="../index_en.php">BACK TO TOP</a>
             </div>
         </div>
         <div class="right pc_only">

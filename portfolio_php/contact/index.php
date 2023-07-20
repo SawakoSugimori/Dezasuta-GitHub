@@ -62,7 +62,7 @@
             <p class="error_text"></p>
 
             <!-- <p class="submit">submit</p> -->
-            <button class="submit btn pop" type="submit" name="button" value="送信">メッセージを送信する</button>
+            <button class="submit btn" type="submit" name="button" value="送信">メッセージを送信する</button>
         </form>
     </section>
 
@@ -99,7 +99,7 @@
     </script>
     <!-- Render to the thank you page-->
     <iframe name="hidden_iframe" id="hidden_iframe" style="display: none;"
-        onload="if(submitted) {window.location='thanks.php';}">
+        onload="if(submitted) {window.location='./thanks.php';}">
     </iframe>
 </body>
 
