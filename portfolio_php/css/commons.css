@@ -249,6 +249,9 @@ img {
 .global_nav .lang {
   display: inline;
 }
+.global_nav .current_page {
+  opacity: 0.5;
+}
 .global_nav .social_icon {
   width: 28px;
   margin-left: 23px;

@@ -9,9 +9,9 @@
             </ul>
             <div class="nav_right">
                 <div class="lang_switcher">
-                    <p class="lang <?php echo isset($is_ja) ? 'current_page': ''?>"><a href="<?php echo isset($is_ja)? '': $ja_page;?>">日本語</a></p>
+                    <p class="lang <?php echo isset($is_ja) ? 'current_lang': ''?>"><a href="<?php echo isset($is_ja)? '': $ja_page;?>">日本語</a></p>
                     <span>/</span>
-                    <p class="lang <?php echo isset($is_en) ? 'current_page': ''?>"><a href="<?php echo isset($is_en)? '': $en_page;?>">English</a></p>
+                    <p class="lang <?php echo isset($is_en) ? 'current_lang': ''?>"><a href="<?php echo isset($is_en)? '': $en_page;?>">English</a></p>
                 </div>
                 <ul class="social_links">
                     <li class="social_icon"><a href="#"><img src="<?php echo $path;?>images/icons/github-icon-min.png"
@@ -51,9 +51,9 @@
                     </li>
                 </ul>
                 <div class="lang_switcher">
-                    <p class="lang <?php echo isset($is_ja) ? 'current_page': ''?>"><a href="<?php echo isset($is_ja)? '': $ja_page;?>">日本語</a></p>
+                    <p class="lang <?php echo isset($is_ja) ? 'current_lang': ''?>"><a href="<?php echo isset($is_ja)? '': $ja_page;?>">日本語</a></p>
                     <span>/</span>
-                    <p class="lang <?php echo isset($is_en) ? 'current_page': ''?>"><a href="<?php echo isset($is_en)? '': $en_page;?>">English</a></p>
+                    <p class="lang <?php echo isset($is_en) ? 'current_lang': ''?>"><a href="<?php echo isset($is_en)? '': $en_page;?>">English</a></p>
                 </div>
             </div>
         </nav>
