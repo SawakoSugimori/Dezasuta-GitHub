@@ -21,7 +21,6 @@ $(function () {
         let docHeight = $(document).height();
         // D: フッターの高さ
         let footerHeight = $('footer').innerHeight();
-        console.log(point, docHeight - windowHeight - footerHeight);
         // A+B >= C+D
         if (point >= docHeight - windowHeight - footerHeight) {
 
