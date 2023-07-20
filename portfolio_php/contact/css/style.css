@@ -41,6 +41,7 @@
 .contact form textarea {
   border: 1px solid #2e3a5c;
   border-radius: 5px;
+  background: #fafdf8;
 }
 .contact form input {
   margin-bottom: 60px;
