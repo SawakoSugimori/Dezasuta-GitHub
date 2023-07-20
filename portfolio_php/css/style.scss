@@ -208,10 +208,13 @@
                 left: 28px;
             }
         }
-        .content .btn_block {
-            display: block;
-            .btn {
-                text-align: center;
+        .content {
+            .btn_block {
+                justify-content: center;
+                .btn {
+                    width: 100%;
+                    text-align: center;
+                }
             }
         }
     }

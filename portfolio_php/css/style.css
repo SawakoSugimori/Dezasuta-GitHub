@@ -122,8 +122,8 @@
 .about {
   max-width: 900px;
   margin: 120px auto 100px;
-  padding-left: 3%;
-  padding-right: 3%;
+  padding-left: 4%;
+  padding-right: 4%;
 }
 .about .flex {
   display: flex;
@@ -202,9 +202,10 @@
     left: 28px;
   }
   .about .content .btn_block {
-    display: block;
+    justify-content: center;
   }
   .about .content .btn_block .btn {
+    width: 100%;
     text-align: center;
   }
 }
