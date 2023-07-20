@@ -115,5 +115,9 @@
             margin: 0 3%;
             display: block;
         }
+        span {
+            border-top: 2px solid $secondary-color;
+            border-right: 2px solid $secondary-color;
+        }
     }
 }
