@@ -220,7 +220,7 @@
     <!-- Contact -->
     <section class="contact section_bg">
         <h2>SAY HI<span>!</span></h2>
-        <p>Please feel free to contact me through <a class="to_contact" href="./contact/index.php">the contact page</a> or social medias. Let’ｓ create something together!</p>
+        <p>Please feel free to contact me through <a class="to_contact" href="./contact/index.php">the contact page</a> or social medias. <br class="sp_only">Let’ｓ create something together!</p>
         <ul class="social_links">
             <li class="social_icon"><a href="#"><img src="./images/icons/github-icon-min.png" alt="Github"></a></li>
             <li class="social_icon"><a href="#"><img src="./images/icons/ig-icon-min.png" alt="Instagram"></a></li>
