@@ -249,7 +249,7 @@ img {
 .global_nav .lang {
   display: inline;
 }
-.global_nav .current_lang {
+.global_nav .lang.current_lang {
   opacity: 0.5;
 }
 .global_nav .social_icon {
