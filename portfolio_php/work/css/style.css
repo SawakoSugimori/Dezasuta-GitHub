@@ -93,10 +93,13 @@
 .btn_block .btn {
   display: inline-block;
   background-color: #fafdf8;
-  border-top: 2px solid #80d9d4;
-  border-right: 2px solid #80d9d4;
+  border: 1px solid #80d9d4;
   color: #80d9d4;
   padding: 0 67px 0 54px;
+}
+.btn_block .btn span {
+  border-top: 2px solid #80d9d4;
+  border-right: 2px solid #80d9d4;
 }
 
 @media screen and (max-width: 767px) {
