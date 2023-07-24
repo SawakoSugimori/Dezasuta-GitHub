@@ -200,7 +200,7 @@ img {
 }
 /* Global nav */
 .global_nav {
-  height: 68px;
+  height: 64px;
   display: flex;
   justify-content: space-between;
   align-items: center;
