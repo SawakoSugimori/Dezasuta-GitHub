@@ -44,7 +44,6 @@
 
 .ccl {
   margin: 0 2%;
-  /* a button to go back to the TOP */
 }
 .ccl .title {
   font-weight: bold;
@@ -67,18 +66,21 @@
 .ccl .note li:hover {
   color: #80d9d4;
 }
-.ccl .btn_block {
+
+/* a button to go back to the TOP */
+.btn_block {
   text-align: center;
+  margin-top: 50px;
   margin-bottom: 120px;
 }
-.ccl .btn_block .btn {
+.btn_block .btn {
   display: inline-block;
   background-color: #fafdf8;
   border: 1px solid #80d9d4;
   color: #80d9d4;
   padding: 0 67px 0 54px;
 }
-.ccl .btn_block .btn span {
+.btn_block .btn span {
   border-top: 2px solid #80d9d4;
   border-right: 2px solid #80d9d4;
 }
