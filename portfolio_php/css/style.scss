@@ -49,7 +49,7 @@
             /* Circular text effect */
             .circular {
                 animation: circular 35s linear infinite;
-                width: 82%;
+                width: 100%;
                 border-radius: 50%;
             }
             @keyframes circular {
@@ -102,12 +102,11 @@
     }
     @media (max-width: 776px) {
         .layout {
-            // height: 80vh;
             width: 83%;
             display: block;
             .top_circle {
                 max-width: 500px;
-                width: 100%;
+                width: 85%;
                 margin: 50px auto;
             }
             .copy {

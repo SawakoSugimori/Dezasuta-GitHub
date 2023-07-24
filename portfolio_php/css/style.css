@@ -48,7 +48,7 @@
 }
 .top_wrapper .layout .top_circle .circular {
   animation: circular 35s linear infinite;
-  width: 82%;
+  width: 100%;
   border-radius: 50%;
 }
 @keyframes circular {
@@ -102,7 +102,7 @@
   }
   .top_wrapper .layout .top_circle {
     max-width: 500px;
-    width: 100%;
+    width: 85%;
     margin: 50px auto;
   }
   .top_wrapper .layout .copy {
