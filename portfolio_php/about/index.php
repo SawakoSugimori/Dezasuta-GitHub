@@ -74,6 +74,10 @@
                 <li><a href="">「死」によって生命は永遠になった 読書記録#37</a></li>
             </ul>
         </div>
+        <!-- A button to go back to TOP page -->
+        <div class="btn_block">
+            <button href="../index.php" class="btn pop">TOPへ戻る<span></span></button>
+        </div>
     </section>
 
     <!-- Footer -->

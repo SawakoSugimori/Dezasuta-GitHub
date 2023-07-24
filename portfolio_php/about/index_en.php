@@ -70,6 +70,10 @@
             <p class="ccl_intro">I'm happy that you're interested in me.<br class="pc_only">
             Please feel free to get in touch with me.  Let’s create something together!</p>
         </div>
+        <!-- A button to go back to TOP page -->
+        <div class="btn_block">
+            <button href="../index_en.php" class="btn pop">BACK TO TOP<span></span></button>
+        </div>
     </section>
 
     <!-- Footer -->
