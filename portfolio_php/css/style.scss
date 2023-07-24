@@ -49,7 +49,7 @@
             /* Circular text effect */
             .circular {
                 animation: circular 35s linear infinite;
-                width: 100%;
+                width: 82%;
                 border-radius: 50%;
             }
             @keyframes circular {
@@ -190,7 +190,7 @@
 }
 @media (max-width: 776px) {
     .about {
-        margin-top: 90px;
+        margin-top: 60px;
         .flex {
             display: block;
         }
@@ -227,7 +227,7 @@
     display: flex;
     justify-content: center;
     h2 {
-        margin-bottom: 70px;
+        margin-bottom: 60px;
         text-align: center;
     }
     .works {
@@ -289,8 +289,8 @@
 }
 @media (max-width: 776px) {
     .work {
-        padding-left: 4%;
-        padding-right: 4%;
+        padding-left: 6%;
+        padding-right: 6%;
         .works {
             flex-direction: column;
             .item {
@@ -313,7 +313,7 @@
     max-width: 1000px;
     margin: 0 auto;
     h2 {
-        margin-bottom: 80px;
+        margin-bottom: 70px;
         text-align: center;
     }
     .content {
@@ -397,10 +397,13 @@
 }
 @media (max-width: 776px) {
     .service {
+        h2 {
+            margin-bottom: 40px;
+        }
         .content {
             display: block;
             .left {
-                width: 80%;
+                width: 70%;
                 margin: 0 auto;
                 margin-bottom: 80px;
             }

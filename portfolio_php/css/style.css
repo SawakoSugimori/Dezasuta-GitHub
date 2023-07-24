@@ -48,7 +48,7 @@
 }
 .top_wrapper .layout .top_circle .circular {
   animation: circular 35s linear infinite;
-  width: 100%;
+  width: 82%;
   border-radius: 50%;
 }
 @keyframes circular {
@@ -184,7 +184,7 @@
 
 @media (max-width: 776px) {
   .about {
-    margin-top: 90px;
+    margin-top: 60px;
   }
   .about .flex {
     display: block;
@@ -216,7 +216,7 @@
   justify-content: center;
 }
 .work h2 {
-  margin-bottom: 70px;
+  margin-bottom: 60px;
   text-align: center;
 }
 .work .works {
@@ -279,8 +279,8 @@
 
 @media (max-width: 776px) {
   .work {
-    padding-left: 4%;
-    padding-right: 4%;
+    padding-left: 6%;
+    padding-right: 6%;
   }
   .work .works {
     flex-direction: column;
@@ -301,7 +301,7 @@
   margin: 0 auto;
 }
 .service h2 {
-  margin-bottom: 80px;
+  margin-bottom: 70px;
   text-align: center;
 }
 .service .content {
@@ -383,11 +383,14 @@
 }
 
 @media (max-width: 776px) {
+  .service h2 {
+    margin-bottom: 40px;
+  }
   .service .content {
     display: block;
   }
   .service .content .left {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     margin-bottom: 80px;
   }
