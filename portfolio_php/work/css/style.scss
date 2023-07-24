@@ -10,7 +10,7 @@
     display: flex;
     justify-content: center;
     height: 44px;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
     li + li {
         margin-left: 5px;
     }
@@ -31,7 +31,7 @@
 .wrapper {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 1%;
+    padding: 0 2%;
     margin-bottom: 130px;
     .item {
         position: relative;
@@ -104,6 +104,7 @@
         margin: 60px 2%;
     }
     .wrapper {
+        padding: 0px 5%;
         .item {
             width: 100%;
         }
