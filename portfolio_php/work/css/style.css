@@ -111,8 +111,8 @@
   }
   /* a button to go back to top page */
   .btn_block .btn {
-    margin: 0 3%;
-    display: block;
+    margin: 0 6%;
+    width: 90%;
   }
   .btn_block span {
     border-top: 2px solid #80d9d4;
