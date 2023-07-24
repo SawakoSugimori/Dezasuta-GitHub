@@ -67,6 +67,23 @@
             color: $secondary-color;
         }
     }
+    /* a button to go back to the TOP */
+    .btn_block {
+        text-align: center;
+        margin-bottom: 120px;
+
+        .btn {
+            display: inline-block;
+            background-color: $dominant-color;
+            border: 1px solid $secondary-color;
+            color: $secondary-color;
+            padding: 0 67px 0 54px;
+            span {
+                border-top: 2px solid $secondary-color;
+                border-right: 2px solid $secondary-color;
+            }
+        }
+    }
 }
 @media screen and (max-width: 767px) {
     .about .intro {
@@ -87,6 +104,17 @@
             width: 66%;
             margin: 0 auto;
             margin-bottom: 70px;
+        }
+    }
+    /* a button to go back to top page */
+    .btn_block {
+        .btn {
+            margin: 0 6%;
+            width: 90%;
+        }
+        span {
+            border-top: 2px solid $secondary-color;
+            border-right: 2px solid $secondary-color;
         }
     }
 }

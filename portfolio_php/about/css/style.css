@@ -44,6 +44,7 @@
 
 .ccl {
   margin: 0 2%;
+  /* a button to go back to the TOP */
 }
 .ccl .title {
   font-weight: bold;
@@ -66,6 +67,21 @@
 .ccl .note li:hover {
   color: #80d9d4;
 }
+.ccl .btn_block {
+  text-align: center;
+  margin-bottom: 120px;
+}
+.ccl .btn_block .btn {
+  display: inline-block;
+  background-color: #fafdf8;
+  border: 1px solid #80d9d4;
+  color: #80d9d4;
+  padding: 0 67px 0 54px;
+}
+.ccl .btn_block .btn span {
+  border-top: 2px solid #80d9d4;
+  border-right: 2px solid #80d9d4;
+}
 
 @media screen and (max-width: 767px) {
   .about .intro {
@@ -87,5 +103,14 @@
     width: 66%;
     margin: 0 auto;
     margin-bottom: 70px;
+  }
+  /* a button to go back to top page */
+  .btn_block .btn {
+    margin: 0 6%;
+    width: 90%;
+  }
+  .btn_block span {
+    border-top: 2px solid #80d9d4;
+    border-right: 2px solid #80d9d4;
   }
 }/*# sourceMappingURL=style.css.map */
