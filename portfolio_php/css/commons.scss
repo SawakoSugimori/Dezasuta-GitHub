@@ -93,6 +93,9 @@ img {
 .btn:active {
     transform: scale(0.96);
 }
+.btn:hover {
+    transform: translateY(-5px);
+}
 // A small arrow on a button
 .btn span {
     position: absolute;

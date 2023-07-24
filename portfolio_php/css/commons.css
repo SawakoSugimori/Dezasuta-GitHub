@@ -104,6 +104,10 @@ img {
   transform: scale(0.96);
 }
 
+.btn:hover {
+  transform: translateY(-5px);
+}
+
 .btn span {
   position: absolute;
   margin-left: 10px;
