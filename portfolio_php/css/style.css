@@ -311,10 +311,10 @@
 
 .service .content .sticky {
   position: sticky;
-  top: 100px;
+  top: 80px;
 }
 .service .content .left {
-  width: 25%;
+  width: 24%;
   margin-top: -30px;
 }
 .service .content .right {
