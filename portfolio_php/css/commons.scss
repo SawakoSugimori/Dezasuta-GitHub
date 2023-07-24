@@ -256,19 +256,35 @@ img {
     }
     /* nav left */
     .nav_left li {
+        position: relative;
         padding: 8px 16px;
         a:hover {
             opacity: 1;
+        }
+        a::after {
+            position: absolute;
+            left: 0;
+            content: "";
+            width: 100%;
+            height: 2px;
+            background: $text-main-color;
+            bottom: -1px;
+            transform: scale(0, 1);
+            transform-origin: center top;
+            transition: transform 0.2s;
+        }
+        a:hover::after {
+            transform: scale(1, 1);
         }
     }
     .nav_left li + .nav_left li {
         margin-left: 5%;
     }
-    .nav_left li:hover {
-        background-color: rgba($section-bg, 0.9);
-        border-radius: 3px;
-        transition: 0.2s;
-    }
+    // .nav_left li:hover {
+    //     background-color: rgba($section-bg, 0.9);
+    //     border-radius: 3px;
+    //     transition: 0.2s;
+    // }
     .current_page {
         opacity: 0.5;
     }
