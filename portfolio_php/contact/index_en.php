@@ -39,10 +39,10 @@
         <h1 class="page_title">CONTACT</h1>
         <p>Please feel free to contact me.  Let’ｓ create something together!</p>
         <ul class="social_links">
-            <li class="social_icon"><a href="https://instagram.com/sawako.atelier?igshid=MzNlNGNkZWQ4Mg=="><img src="../images/icons/ig-icon-min.png" alt="
+            <li class="social_icon"><a href="https://instagram.com/sawako.atelier?igshid=MzNlNGNkZWQ4Mg==" target="_blank"><img src="../images/icons/ig-icon-min.png" alt="
                 Instagram"></a>
             </li>
-            <li class="social_icon"><a href="#"><img src="../images/icons/twitter-icon-min.png" alt="
+            <li class="social_icon"><a href="#" target="_blank"><img src="../images/icons/twitter-icon-min.png" alt="
                 Twitter"></a>
             </li>
 

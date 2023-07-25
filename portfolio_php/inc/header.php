@@ -14,13 +14,13 @@
                     <p class="lang <?php echo isset($is_en) ? 'current_lang': ''?>"><a href="<?php echo isset($is_en)? '': $en_page;?>">English</a></p>
                 </div>
                 <ul class="social_links">
-                    <li class="social_icon"><a href="https://github.com/SawakoSugimori"><img src="<?php echo $path;?>images/icons/github-icon-min.png"
+                    <li class="social_icon"><a href="https://github.com/SawakoSugimori" target="_blank"><img src="<?php echo $path;?>images/icons/github-icon-min.png"
                                 alt="Github"></a>
                     </li>
-                    <li class="social_icon"><a href="https://instagram.com/sawako.atelier?igshid=MzNlNGNkZWQ4Mg=="><img src="<?php echo $path;?>images/icons/ig-icon-min.png"
+                    <li class="social_icon"><a href="https://instagram.com/sawako.atelier?igshid=MzNlNGNkZWQ4Mg==" target="_blank"><img src="<?php echo $path;?>images/icons/ig-icon-min.png"
                                 alt="Instagram"></a>
                     </li>
-                    <li class="social_icon"><a href="#"><img src="<?php echo $path;?>images/icons/twitter-icon-min.png"
+                    <li class="social_icon"><a href="#" target="_blank"><img src="<?php echo $path;?>images/icons/twitter-icon-min.png"
                                 alt="Twitter"></a>
                     </li>
                 </ul>
@@ -40,14 +40,14 @@
             </ul>
             <div class="nav_right">
                 <ul class="social_links">
-                    <li class="social_icon"><a href="https://github.com/SawakoSugimori"><img src="<?php echo $path;?>images/icons/github-white-64af4ba148b4e.webp"
+                    <li class="social_icon"><a href="https://github.com/SawakoSugimori" target="_blank"><img src="<?php echo $path;?>images/icons/github-white-64af4ba148b4e.webp"
                                 alt="Github"></a>
                     </li>
-                    <li class="social_icon"><a href="https://instagram.com/sawako.atelier?igshid=MzNlNGNkZWQ4Mg=="><img src="<?php echo $path;?>images/icons/ig-white-64af4ba154069.webp"
+                    <li class="social_icon"><a href="https://instagram.com/sawako.atelier?igshid=MzNlNGNkZWQ4Mg==" target="_blank"><img src="<?php echo $path;?>images/icons/ig-white-64af4ba154069.webp"
                                 alt="Instagram"></a>
                     </li>
                     <li class="social_icon"><a href="#"><img src="<?php echo $path;?>images/icons/twitter-white-64af4ba3dc597.webp"
-                                alt="Twitter"></a>
+                                alt="Twitter" target="_blank"></a>
                     </li>
                 </ul>
                 <div class="lang_switcher">
