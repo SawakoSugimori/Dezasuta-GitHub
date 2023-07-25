@@ -20,7 +20,10 @@
     <?php
     $path = '../'; // ファイルパスの変数
     ?>
-
+    <!-- Include head.php -->
+    <?php include 
+    $path.'inc/head.php';
+    ?>
 </head>
 
 <body>
