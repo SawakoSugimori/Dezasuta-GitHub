@@ -22,6 +22,10 @@
     $is_en = true; // Current language
     $ja_page = './index.php'; // To JP page
     ?>
+    <!-- Include head.php -->
+    <?php include 
+    $path.'inc/head.php';
+    ?>
 </head>
 
 <body>
