@@ -229,8 +229,8 @@
         <h2>Contact</h2>
         <p>ご依頼・ご質問等がありましたら、<br class="sp_only"><a class="to_contact" href="./contact/index.php">お問い合わせページ</a>やSNSより、お気軽にお問い合わせください</p>
         <ul class="social_links">
-            <li class="social_icon"><a href="#"><img src="./images/icons/github-icon-min.png" alt="Github"></a></li>
-            <li class="social_icon"><a href="#"><img src="./images/icons/ig-icon-min.png" alt="Instagram"></a></li>
+            <li class="social_icon"><a href="https://github.com/SawakoSugimori" target="_blank"><img src="./images/icons/github-icon-min.png" alt="Github"></a></li>
+            <li class="social_icon"><a href="https://instagram.com/sawako.atelier?igshid=MzNlNGNkZWQ4Mg==" target="_blank"><img src="./images/icons/ig-icon-min.png" alt="Instagram"></a></li>
             <li class="social_icon"><a href="#"><img src="./images/icons/twitter-icon-min.png" alt="Twitter"></a></li>
         </ul>
     </section>
