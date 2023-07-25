@@ -43,7 +43,7 @@
                     <li class="social_icon"><a href="#"><img src="<?php echo $path;?>images/icons/github-white-64af4ba148b4e.webp"
                                 alt="Github"></a>
                     </li>
-                    <li class="social_icon"><a href="#"><img src="<?php echo $path;?>images/icons/ig-white-64af4ba154069.webp"
+                    <li class="social_icon"><a href="https://instagram.com/sawako.atelier?igshid=MzNlNGNkZWQ4Mg=="><img src="<?php echo $path;?>images/icons/ig-white-64af4ba154069.webp"
                                 alt="Instagram"></a>
                     </li>
                     <li class="social_icon"><a href="#"><img src="<?php echo $path;?>images/icons/twitter-white-64af4ba3dc597.webp"
