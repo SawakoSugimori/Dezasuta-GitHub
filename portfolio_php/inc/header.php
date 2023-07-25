@@ -14,10 +14,10 @@
                     <p class="lang <?php echo isset($is_en) ? 'current_lang': ''?>"><a href="<?php echo isset($is_en)? '': $en_page;?>">English</a></p>
                 </div>
                 <ul class="social_links">
-                    <li class="social_icon"><a href="#"><img src="<?php echo $path;?>images/icons/github-icon-min.png"
+                    <li class="social_icon"><a href="https://github.com/SawakoSugimori"><img src="<?php echo $path;?>images/icons/github-icon-min.png"
                                 alt="Github"></a>
                     </li>
-                    <li class="social_icon"><a href="#"><img src="<?php echo $path;?>images/icons/ig-icon-min.png"
+                    <li class="social_icon"><a href="https://instagram.com/sawako.atelier?igshid=MzNlNGNkZWQ4Mg=="><img src="<?php echo $path;?>images/icons/ig-icon-min.png"
                                 alt="Instagram"></a>
                     </li>
                     <li class="social_icon"><a href="#"><img src="<?php echo $path;?>images/icons/twitter-icon-min.png"
