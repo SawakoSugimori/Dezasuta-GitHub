@@ -428,9 +428,6 @@ img {
                     display: block;
                 }
             }
-            .current_lang {
-                opacity: 0.5;
-            }
         }
         p {
             text-align: center;
@@ -442,6 +439,9 @@ img {
         .lang_switcher {
             span {
                 color: $dominant-color;
+            }
+            .current_lang {
+                opacity: 0.5;
             }
         }
         .social_links {
