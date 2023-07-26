@@ -56,6 +56,10 @@ a {
   transition: 0.2s;
 }
 
+a:visited {
+  color: inherit;
+}
+
 p {
   line-height: 1.8;
   text-align: justify;
@@ -399,7 +403,7 @@ img {
   .sp_nav .nav_left li a {
     display: block;
   }
-  .sp_nav .nav_left .current_lang {
+  .sp_nav .nav_left p.lang.current_lang {
     opacity: 0.5;
   }
   .sp_nav p {
