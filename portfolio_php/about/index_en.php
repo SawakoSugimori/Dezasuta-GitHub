@@ -57,7 +57,7 @@
                     </li>
                     <li>
                         <h3>I like learning something new.</h3>
-                        <p>I value the learning new things because it lets me to broaden my horizon.  I especially enjoy reading books which allows me to change my perspective.  I read about 10 books per month, with a strong preference for non-fiction genres such as human psychology and history.Furthermore, I find it exciting to communicate with people from different cultural backgrounds.  English, in particular, enables me to communicate with a various people, so I study it daily.
+                        <p>I value the learning new things because it lets me to broaden my horizon.  I especially enjoy reading books which allows me to change my perspective.  I read about 10 books per month, with a strong preference for non-fiction genres such as human psychology and history.  Furthermore, I find it exciting to communicate with people from different cultural backgrounds.  English, in particular, enables me to communicate with a various people, so I study it daily.
                         </p>
                     </li>
                     <li>
