@@ -53,7 +53,7 @@
                     <p>I’m a web designer and developer from Japan.</p>
                 </div>
                 <div class="top_circle">
-                    <div><img class="circular" src="./images/top_circle_letter-min.png" alt="sawa design"></div>
+                    <div><img class="circular" src="./images/top-circle-letter-at-3x.webp" alt="sawa design"></div>
                     <div class="absolute"><img src="./images/logo-dark-thin-min.png" alt="TOP IMAGE"></div>
                 </div>
             </div><!-- layout -->
