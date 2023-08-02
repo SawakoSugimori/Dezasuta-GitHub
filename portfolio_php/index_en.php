@@ -69,7 +69,7 @@
                     <div class="inner"><!-- ここにもposition: absoluteを使用-->
                         <div class="circle"></div>
                         <div class="my_pic">
-                            <img src="./images/profilepic-min.png" alt="Profile Picture">
+                            <img src="./images/profile_round@2x.webp" alt="Profile Picture">
                         </div>
                         <h2 class="sp_only">Hello<span>!</span></h2>
                     </div>
